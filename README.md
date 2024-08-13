@@ -1,54 +1,58 @@
-# Astro Starter Kit: Basics
+# Sendit
 
-```sh
-npm create astro@latest -- --template basics
+Sendit is a polished, marketing website template for Astro.
+
+![Sendit template screenshot](public/images/_screenshot.png)
+
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-astro-template)
+
+## Features
+
+- Pre-built pages
+- Pre-styled components
+- Blog with pagination and category pages
+- Configurable navigation and footer
+- Multiple hero options
+- Configurable theme colors
+- Optimised for editing in [CloudCannon](https://cloudcannon.com/)
+- Live, visual editing powered by [Bookshop](https://github.com/CloudCannon/bookshop)
+
+## Setup
+
+1. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/)
+   or Astro locally).
+
+## Develop
+
+Sendit is built with [Astro](https://astro.build/).
+
+```bash
+$ npm install
+$ npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Editing
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Sendit is set up for adding, updating and removing pages, components, posts, portfolio items, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### Posts
 
-## 🚀 Project Structure
+- Add, update or remove a post in the _Posts_ collection.
+- The **Staff Author** field links to members in the **Staff** collection.
+- Change the defaults when new posts are created in `content/posts/_defaults.md`.
 
-Inside of your Astro project, you'll see the following folders and files:
+### Company details
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Reused around the site to save multiple editing locations.
+- Set in the _Data_ / _Company_ section.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Nav/footer details
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- Reused around the site to save multiple editing locations.
+- Set in the _Data_ section with respective names
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Theme colors
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Theme colors can be set in _Data_ / _Theme_
+- The main colors are set and variants of them are computed
+- The colors will update on the next build
