@@ -1,0 +1,47 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Support
+  description: Support Description
+  icon: "cottage"
+  tags: ["support"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: We Support and Collaborate with Stable Medical Homes
+  description: >-
+    Our partner health centers provide reliable comprehensive, quality primary
+    care within their communities, effectively serving as medical homes. You can
+    think of a medical home like a healthcare supermarket where patients and
+    their families can go—close to their work and home lives—to get the care
+    and  services they need to sustain better health.
+
+
+    This centralized care is the most critical component of a healthcare safety
+    net and demands expertise, reach, and resources that private physician
+    offices and smaller medical practices cannot supply on their own. Healthcare
+    LA, IPA works on multiple fronts to help by:
+  description2: >-
+    Together with our partner health centers, we've built a sustainable medical
+    home model that ensures all of our members in Los Angeles County have access
+    to stable, compassionate, and effective care.
+  points:
+    - image:
+        src: /images/shake-hand-icon.svg
+        alt: shake-hand-icon
+        width: 71
+        height: 65
+      description: >-
+        Building partnerships with local specialists, hospitals, and community
+        resources, enabling our medical homes to coordinate comprehensive
+        whole-person care.
+    - image:
+        src: /images/icon grants.svg
+        alt: icon grants
+        width: 79
+        height: 79
+      description: >-
+        Leveraging grants and additional funding streams to support program,
+        technological, and operational innovations that improve care access,
+        quality, and efficiency.

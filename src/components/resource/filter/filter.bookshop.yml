@@ -1,0 +1,26 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Resource Provider Filter
+  description: Resource Provider Filter Description
+  icon: "cottage"
+  tags: ["filter"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  select_category_description: Select Categories to find and download Resources
+  select_category_title_1: Select a category
+  select_category_title_2: Select Categories
+  select_category_confirm_btn: Confirm
+  select_category_reset_btn: Reset
+  select_resource_clear_selected: Clear Selected
+  select_resource_download: Download Selected Resources
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

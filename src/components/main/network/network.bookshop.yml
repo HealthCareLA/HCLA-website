@@ -1,0 +1,45 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Network
+  description: Network Description
+  icon: "cottage"
+  tags: ["newtwork"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  image:
+    src: /images/photo-benefits-2-490x580-2x.png
+    alt: image
+    width: 474
+    height: 465
+  yellowCircleImage:
+    src: /images/yellow-circle.svg
+    alt: yellow-circle
+    width: 200
+    height: 200
+  title: Network Benefits
+  description: >-
+    HCLA IPA guides and supports our network of health centers to deliver
+    quality, accessible health care by:
+  description2: >-
+    This approach greatly expands access, ensures care equity, and advances
+    health and wellness for underserved, at-risk, and vulnerable patient
+    populations.
+  buttonText: Learn More
+  points:
+    - >-
+      Coordinating care and expanding access to specialized programs to improve
+      health and wellbeing.
+    - >-
+      Removing barriers to care by addressing complex social determinants that
+      impact community health.
+    - >-
+      Focusing on whole-person care, not just each patient's current medical
+      condition.
+    - >-
+      Reinvesting in our health center partners by providing new income streams
+      and grants and mobilizing  community resources.
+
+      

@@ -1,0 +1,30 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Health Plan
+  description: Health Plan Description
+  icon: "cottage"
+  tags: ["health_plan"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  image:
+    src: /images/photo-la-450x450-2x.png
+    alt: health-plan-img
+    width: 474
+    height: 465
+  yellowCircleImage:
+    src: /images/yellow-circle.svg
+    alt: yellow-circle
+    width: 200
+    height: 200
+  description: >-
+    HCLA IPA contracts with most major health plans under HMO product lines,
+    including:
+  buttonText: View Accepted Health Plans
+  points:
+    - Medi-Cal Managed Care
+    - Medicare Advantage
+    - Covered California
+    - Commercial Insurance

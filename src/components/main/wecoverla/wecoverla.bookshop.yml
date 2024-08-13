@@ -1,0 +1,45 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: We Cover LA County
+  description: We cover LA County Description
+  icon: "cottage"
+  tags: ["wecoverla"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: We Cover LA County
+  description: >-
+    Health Care LA, IPA (HCLA IPA) is a not-for-profit network of Federally
+    Qualified Health Centers (FQHCs) and Community Health Centers (CHCs). For
+    more than 30 years, we have been a stable, respected force guiding health
+    centers to better care delivery and patients to better health.
+
+    Our priority is to drive quality, whole-patient, value-based health care in
+    a way that ensures care access and equity within our diverse, underserved
+    communities.  
+  learnMoreText: Learn more about our unique approach to community care access and equity
+  priorities:
+    - backgroundColor: "#039CD5"
+      image:
+        src: /images/icon-1.svg
+        alt: icon
+      description: >-
+        We address not only members' medical needs but also social determinants
+        like housing, transportation, and resource and food insecurity that
+        impede them from accessing care.
+    - backgroundColor: "#34C565"
+      image:
+        src: /images/icon-2.svg
+        alt: icon
+      description: >-
+        We work with a wide variety of health insurers to encompass coverage for
+        all patient demographics within LA County.
+    - backgroundColor: "#00C4D1"
+      image:
+        src: /images/icon-3.svg
+        alt: icon
+      description: >-
+        We care for more Medi-Cal beneficiaries than any other Independent
+        Physician Association in the entire state of California.  

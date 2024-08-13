@@ -1,0 +1,19 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Quick Link
+  description: Quick Link section
+  icon: "cottage"
+  tags: ["quicklink"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Quick Links
+  button1Text: Community Impact
+  button2Text: For Patients
+  button3Text: View Discussions
+  description: Quick Links description
+  mobileNumber:
+    text: (818) 702-0100
+  timings: M – F, 9:00 a.m. – 5:00 p.m. PST

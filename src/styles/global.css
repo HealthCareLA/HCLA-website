@@ -1,0 +1,123 @@
+* {
+    font-family: "Jost", sans-serif;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.max-container {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.font-outfit {
+    font-family: "Outfit", sans-serif;
+}
+
+.footer-input::placeholder {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #3ed973 !important;
+}
+
+h1 {
+    @apply text-[40px] md:text-[64px] leading-[52px] md:leading-[80px];
+}
+
+h2 {
+    @apply text-[32px] md:text-[52px];
+}
+
+h3 {
+    @apply text-[28px] md:text-[42px] leading-[38px] md:leading-[54px];
+}
+
+.p1 {
+    @apply text-[16px] md:text-[20px] leading-[24px] md:leading-[32px];
+}
+
+.p2 {
+    @apply text-[18px] md:text-[20px];
+}
+
+.p3 {
+    @apply text-[16px] md:text-[18px];
+}
+
+.p4 {
+    @apply text-[20px] md:text-[24px];
+}
+
+.btn1 {
+    @apply rounded-[4px] h-[40px] md:h-[50px] py-[7px] md:py-[14px] px-[15px] md:px-[24px] flex items-center justify-center font-[500];
+}
+
+.btn2 {
+    @apply h-[60px] md:h-[70px] min-w-[250px] md:min-w-[306px] rounded-[8px] md:rounded-[10px] bg-blue hover:bg-med-blue text-white text-[18px] md:text-[22px] font-[500] leading-[24px] md:leading-[28px] flex items-center justify-center gap-[7px];
+}
+
+@media screen and (min-width: 1600px) {
+    .quick-links-shape {
+        top: -60%;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1599px) {
+    .quick-links-shape {
+        top: -55%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1499px) {
+    .quick-links-shape {
+        top: -45%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1399px) {
+    .quick-links-shape {
+        top: -32%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+    .quick-links-shape {
+        top: -29%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .quick-links-shape {
+        top: -21%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .max-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .max-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

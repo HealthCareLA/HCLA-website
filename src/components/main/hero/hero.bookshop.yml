@@ -1,0 +1,34 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Main Hero
+  description: Main Hero section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: A Beacon of Health
+  description: >-
+    Health Care LA, IPA brings access to quality care to Los Angeles County
+    residents who need it most.
+  button: Learn More
+  image:
+    src: /images/photo-here-520x520-2x.png
+    alt: banner-image
+    width: 550
+    height: 550
+  yellowCircleImage:
+    src: /images/yellow-circle.svg
+    alt: yellow-circle
+    width: 280
+    height: 280
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

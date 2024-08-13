@@ -1,0 +1,61 @@
+{
+  "topBar":{
+    "mobileNumber": {
+      "text": "(818) 702-0100"
+    },
+    "links": [
+      {
+        "link": "#",
+        "text": "Provider Login"
+      },
+      {
+        "link": "#",
+        "text": "MedPOINT"
+      },
+      {
+        "link": "#",
+        "text": "Contact Us"
+      }
+    ]
+  },
+  "navBar": {
+    "logo": {
+      "src": "/images/logo white.svg",
+      "alt": "logo",
+      "width": "212",
+      "height": "40"
+    },
+    "logo2": {
+      "src": "/images/logo color.svg",
+      "alt": "logo",
+      "width": "212",
+      "height": "40"
+    },
+    "links": [
+      {
+        "link": "#",
+        "text": "Providers"
+      },
+      {
+        "link": "#",
+        "text": "Members/Patient"
+      },
+      {
+        "link": "#",
+        "text": "Find Care"
+      },
+      {
+        "link": "#",
+        "text": "Resource Library"
+      },
+      {
+        "link": "#",
+        "text": "News & Events"
+      },
+      {
+        "link": "#",
+        "text": "About"
+      }
+    ]
+  }
+}

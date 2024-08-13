@@ -1,0 +1,74 @@
+{
+  "logo": {
+    "src": "/images/logo white.svg",
+    "alt": "logo",
+    "width": 212,
+    "height": 40
+  },
+  "sitemapTitle": "Sitemap",
+  "sitemaplinks": [
+    {
+      "text": "About Us",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "For Providers",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "For Patients",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Expectant Mothers",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Provider Login",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Contact Us",
+      "link": "#",
+      "target": "_self"
+    }
+  ],
+  "quicklinksTitle": "Quick Links",
+  "quicklinks":[
+    {
+      "text": "Find a Clinic",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Urgent Care",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Hospital Directory",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Nurse Advice Lines",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Find Resources",
+      "link": "#",
+      "target": "_self"
+    },
+    {
+      "text": "Find Health Plans",
+      "link": "#",
+      "target": "_self"
+    }
+  ]
+}
