@@ -22,12 +22,12 @@ const HealthFilter = (block) => {
       try {
         let window_href = window.location.href;
 
-        if (window_href.indexOf("app.cloudcannon.com") > -1 || window_href.indexOf("127.0.0.1") > -1 || window.location.href.indexOf('editor=visual') > -1) {
+        // if (window_href.indexOf("app.cloudcannon.com") > -1 || window_href.indexOf("127.0.0.1") > -1 || window.location.href.indexOf('editor=visual') > -1) {
           // Sample data for local or cloudcannon
           setItems([
             {
               "id": 3688,
-              "title": "ADVENTIST HEALTH URGENT CARE - GLENDALE",
+              "title": "HEALTH CARE - 1",
               "fax": "(818) 241-3627",
               "tel": "(818) 241-4331",
               "street_address": "544 N GLENDALE AVE # A",
@@ -86,7 +86,7 @@ const HealthFilter = (block) => {
             },
             {
               "id": 3689,
-              "title": "ADVENTIST HEALTH URGENT CARE - MONTROSE",
+              "title": "HEALTH CARE - 2",
               "fax": "(818) 249-9420",
               "tel": "(818) 249-9454",
               "street_address": "1975 VERDUGO BLVD # A",
@@ -145,7 +145,7 @@ const HealthFilter = (block) => {
             },
             {
               "id": 3690,
-              "title": "ADVENTIST HEALTH URGENT CARE - MOORPARK",
+              "title": "HEALTH CARE - 3",
               "fax": "(805) 955-7001",
               "tel": "(805) 955-7000",
               "street_address": "301 SCIENCE DR # 150",
@@ -204,7 +204,7 @@ const HealthFilter = (block) => {
             },
             {
               "id": 3691,
-              "title": "ADVENTIST HEALTH URGENT CARE - SANTA PAULA",
+              "title": "HEALTH CARE - 2",
               "fax": "(805) 933-1138",
               "tel": "(805) 933-1122",
               "street_address": "250 W HARVARD BLVD # A",
@@ -262,11 +262,11 @@ const HealthFilter = (block) => {
               }
             }
           ]);
-        } else {
-          //
-          const response = await axios.get('https://mpm-strapi.onrender.com/api/urgent-care-items?filters[clients][id][$in]=10');
-          setItems(response.data.data || response.data); // Adjust based on API response structure
-        }
+        // } else {
+        //   //
+        //   const response = await axios.get('https://mpm-strapi.onrender.com/api/urgent-care-items?filters[clients][id][$in]=10');
+        //   setItems(response.data.data || response.data); // Adjust based on API response structure
+        // }
         setLoading(false);
       } catch (error) {
         setError('Failed to fetch items');
