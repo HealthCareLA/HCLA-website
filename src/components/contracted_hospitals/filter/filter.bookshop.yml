@@ -1,0 +1,44 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Our Contracted Hospitals Filter
+  description: Our Contracted Hospitals Filter Description
+  icon: "cottage"
+  tags: ["filter"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  titleNote: "* Full Risk Partners for Medi-Cal members"
+  items:
+    - hospitalName: Alta Hospitals
+      image:
+        src: /images/alta-hospitals.png
+        alt: Alta Hospitals
+        width: 160
+        height: 160
+      hospitals:
+        - name: Hollywood Community Hospital
+          linkText: View website
+          link: "#"
+          target: "_blank"
+        - name: Brotman Medical Center
+          linkText: View website
+          link: "#"
+          target: "_blank"
+        - name: Brotman Medical Center
+          linkText: View website
+          link: "#"
+          target: "_blank"
+        - name: Norwalk Community Hospital
+          linkText: View website
+          link: "#"
+          target: "_blank"
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
