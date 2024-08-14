@@ -204,7 +204,7 @@ const HealthFilter = (block) => {
             },
             {
               "id": 3691,
-              "title": "HEALTH CARE - 2",
+              "title": "HEALTH CARE - 4",
               "fax": "(805) 933-1138",
               "tel": "(805) 933-1122",
               "street_address": "250 W HARVARD BLVD # A",
