@@ -48,7 +48,7 @@ const UrgentFilter = (block) => {
                 {
                   "id": 24725,
                   "day": "Monday",
-                  "time": "09:00 AM - 08:00 PM",
+                  "time": null,
                   "closed_message": "closed"
                 },
                 {
@@ -676,6 +676,7 @@ const UrgentFilter = (block) => {
     },
     centerItemHoursTime: {
       width: '250px',
+      textTransform: 'capitalize'
     },
     centerItemHoursDayBold: {
       width: '150px',
@@ -803,7 +804,7 @@ const UrgentFilter = (block) => {
                             (
                               <div key={'hours_' + day.id} className="center_item_day_list" style={styles.centerItemDayList}>
                                 <div className={"center_item_day"} style={(formatHourState(day) == 1 ? styles.centerItemHoursDayBold : styles.centerItemHoursDay)}>{day.day}</div>
-                                <div className={"center_item_time"} style={formatHourState(day) == 1 ? styles.centerItemHoursTimeBold : styles.centerItemHoursTime}>{day.time}</div>
+                                <div className={"center_item_time"} style={formatHourState(day) == 1 ? styles.centerItemHoursTimeBold : styles.centerItemHoursTime}>{ day.closed_message ? day.closed_message: day.time }</div>
                                 <div className="center_item_state" style={styles.centerItemHoursState}>
                                   {
                                     (formatHourState(day) == 1) &&
