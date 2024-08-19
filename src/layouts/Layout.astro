@@ -17,23 +17,22 @@ export interface SEOProps {
 
 export interface Props {
   title: string;
+  n_type: string;
   seo?: SEOProps;
 }
-
 const { seo } = Astro.props;
 const baseUrl = Astro.site;
 const title = Astro.props.title
   ? `${Astro.props.title} | ${site.site_title}`
   : site.site_title;
+const n_type = Astro.props.n_type ? Astro.props.n_type : 1;
 const description = seo?.page_description || site.description;
 const image = seo?.featured_image || site.image;
 const image_alt = seo?.featured_image_alt || site.image_alt;
 const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
-
 ---
 
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -84,7 +83,7 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
     />
   </head>
   <body>
-    <Navigation client:load pageUrl={canonicalURL}/>
+    <Navigation client:load n_type={n_type} />
     <slot />
     <Footer />
 

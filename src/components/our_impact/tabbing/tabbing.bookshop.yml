@@ -1,0 +1,75 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Our Impact Ways We Serve
+  description: Our Impact Ways We Serve section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: A Model of Strength and Stability
+  tabs:
+    - label: MedPoint Management
+      content: >-
+        We have worked closely with the same management services organization,
+        MedPoint Management (MPM), for more than three decades. MPM is the
+        operational backbone of our IPA, providing vital administrative and
+        clinical infrastructure, including:
+      content2: >-
+        Having access to these resources frees our partner health centers to
+        focus their time and energy on delivering quality patient care and
+        service.
+      image:
+        src: /images/photo-medpoint.png
+        alt: MedPoint Management Image
+        width: 380
+        height: 380
+      points:
+        - State-of-the-art information technology
+        - Compliance guidance
+        - Utilization management
+        - Data analytics
+        - Fiscal services
+        - Network development
+        - Claims processing
+        - Customer service
+        - Care management
+    - label: Optimal Health Plan Contracts
+      image:
+        src: /images/photo-optimal.png
+        alt: optimal Image
+        width: 380
+        height: 380
+      content: >-
+        HCLA IPA contracts with most major managed care health plans, including
+        Medi-Cal, Medicare Advantage, Covered California, and commercial plans.
+      content2: >-
+        Our history of trust and support coupled with our large network uniquely
+        positions us to negotiate favorable plan contracts, ensuring the
+        financial health and sustainability of our network.
+    - label: Legacy and Longevity
+      image:
+        src: /images/photo-legacy.png
+        alt: legacy Image
+        width: 380
+        height: 380
+      content: >-
+        For more than 30 years, HCLA IPA has been a stable, respected force
+        guiding health centers to better care delivery and patients to better
+        health. Industry leaders, providers, and members alike have recognized
+        us for our dedication to sustaining a quality, health care safety net
+        for those who need it most.
+      content2: >-
+        As the managed care landscape continues to transform, HCLA IPA has the
+        experience and agility to pivot along with it, ensuring that we will be
+        here to meet the needs of our health centers and patient members—not
+        just now but for the long term.
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

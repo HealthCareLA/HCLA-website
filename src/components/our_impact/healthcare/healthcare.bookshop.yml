@@ -1,0 +1,57 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Our Impact Hero
+  description: Our Impact Hero section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  image:
+    src: /images/healthcare-changed.png
+    alt: image
+    width: 474
+    height: 465
+  greenCircleImage:
+    src: /images/green-circle.svg
+    alt: yellow-circle
+    width: 200
+    height: 200
+  title: Healthcare Has Changed
+  description: >-
+    The healthcare landscape has gotten more complex in the past decade under
+    managed care with the introduction of new value-based care (VBC) models
+    with:
+  description2: >-
+    This leaves health centers administratively and financially overburdened,
+    struggling to maintain quality patient care, meet community needs, and
+    remain solvent.
+  points:
+    - >-
+      Increasingly intricate requirements, including regulatory, technological,
+      and administrative.
+    - More restrictive reporting and reimbursement structures.
+    - >-
+      More stringent focus on patient health status, particularly those with
+      chronic conditions like diabetes, COPD, heart or kidney disease, and
+      cancer
+  icondescriptions:
+    image:
+      src: /images/icon-partnering.svg
+      alt: icon
+      width: 85
+      height: 86
+    description: >-
+      Partnering with Health Care LA, IPA gives health centers the strategic
+      support, collaboration, expertise, and resources they need to not only
+      survive but succeed under complex VBC models.
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

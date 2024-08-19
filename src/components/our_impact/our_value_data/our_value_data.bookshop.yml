@@ -1,0 +1,114 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Our Impact Ways We Serve
+  description: Our Impact Ways We Serve section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Our Value-Added Differentiators
+  points:
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Enhanced care management</strong> combines resources to help
+        meet patients where they are in life, addressing social determinants
+        like <strong>housing, food, transportation, and mental health</strong>
+        to deliver whole-person care.
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Inpatient and transition of care programs</strong> including
+        <strong>telephonic case managers</strong> and a <strong>hospitalist
+        network</strong> to coordinate care for patients during hospital stays
+        and Care Transition and <a href="#" class="text-green"><strong>Post
+        Discharge Clinic</strong></a> programs that help discharged patients
+        recover safely at home and avoid unnecessary readmission.
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Advanced, interconnected healthcare technology</strong> provided
+        to our health centers at no additional cost helps them leverage tools
+        and data to improve population health, collect and report quality
+        metrics, better focus resources, and improve patient outcomes.
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Patient Wellness Navigators</strong> guide patients through the
+        care continuum, educate them on available wellness programs and
+        community resources, and motivate them to actively participate in their
+        own health and well-being.  
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Annual wellness and immunization visit promotions</strong> draw
+        patients into their health centers for preventive screenings and care.
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Medication reconciliation appointment coordination</strong> to
+        ensure review of all medications and supplements to identify possibly
+        missed contraindications or duplications
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Awareness-raising campaigns</strong> including educational
+        materials, outreach initiatives, and incentive programs encourage
+        proactive health behaviors in our patient population.
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Quarterly educational seminars</strong> for providers and staff
+        to improve care and practice administration.
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Continual advocacy</strong> with local, state, and national
+        legislators on behalf of our health centers to help shape beneficial
+        healthcare policy and drive sustainable change.
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

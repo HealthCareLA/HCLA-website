@@ -40,6 +40,23 @@
     color: #003041;
 }
 
+.fixed-impact-link {
+    position: fixed;
+    z-index: 100;
+}
+
+.tab-button.active {
+    background-color: rgb(225, 249, 255);
+}
+
+.tab-content .tab-panel {
+    display: none;
+}
+
+.tab-content .tab-panel.active {
+    display: block;
+}
+
 h1 {
     @apply text-[40px] lg:text-[52px] xl:text-[64px] leading-[52px] lg:leading-[60px] xl:leading-[80px];
 }

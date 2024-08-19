@@ -1,0 +1,44 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Our Impact Ways We Serve
+  description: Our Impact Ways We Serve section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  image:
+    src: /images/community.png
+    alt: community image
+    width: 495
+    height: 705
+  title: Engaging Grants and Community Partnerships for the Greater Good
+  isLargeTitle: true
+  description: >-
+    We leverage grant funding and build collaborative programs with like-minded
+    healthcare organizations and community partners to better support our
+    network of health centers and patient members.  Supplemental resources from
+    these initiatives help on multiple fronts:
+  description2: >-
+    Working together, HCLA IPA and our grant and community partners expand
+    outreach and improve health and wellness within the diverse Los Angeles
+    County communities that we serve.
+  learnMoreText: Contact Us for Collaboration Opportunities
+  points:
+    - >-
+      Engaging additional staff to guide practice improvements and advocate for
+      patient wellness.
+    - Funding existing and new preventive health and care coordination programs.
+    - >-
+      Providing street-level support to our most at-risk and vulnerable
+      populations.
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

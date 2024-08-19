@@ -1,0 +1,52 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Our Impact Ways We Serve
+  description: Our Impact Ways We Serve section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Collaborate with HCLA IPA
+  subtitle: >-
+    Health Care LA, IPA is actively seeking collaborators to help expand our
+    impact.
+  button:
+    buttontext: Contact Us
+    link: '#'
+    target: _self
+  descriptionData:
+    - icon:
+        src: /images/icon-grants.svg
+        alt: grants icon
+        width: 55
+        height: 55
+      description: >-
+        Grants and philanthropic support to fund new programs and interventions
+        to better serve our communities.
+    - icon:
+        src: /images/icon-build.svg
+        alt: build icon
+        width: 55
+        height: 55
+      description: >-
+        Partnerships with healthcare organizations and providers aligned with
+        our mission and goals.
+    - icon:
+        src: /images/icon-advocacy.svg
+        alt: advocacy icon
+        width: 55
+        height: 55
+      description: >-
+        Legislative advocacy and policy change to enhance care access, advance
+        health equity, and create lasting improvements in community health.
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

@@ -5,6 +5,7 @@ import Layout, { SEOProps } from "./Layout.astro";
 type Props = {
   frontmatter: {
     title: string;
+    n_type: string;
     content_blocks: Array<Record<string, any>>;
     seo?: SEOProps;
   };

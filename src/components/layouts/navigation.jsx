@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 
-export default function Navigation({ pageUrl }) {
+export default function Navigation({ n_type }) {
 
   const topBarData = navigation?.topBar;
   const navBarData = navigation?.navBar;
@@ -60,19 +60,37 @@ export default function Navigation({ pageUrl }) {
       });
     };
 
-    const updateNavbarBackground = () => {
-      if (window.scrollY > 100) {
-        invokeFunctionOnScrollDown();
-      } else {
-        invokeFunctionOnScrollTop();
-      }
-    };
+    if(n_type == '1'){
+      const updateNavbarBackground = () => {
+        if (window.scrollY > 100) {
+          invokeFunctionOnScrollDown();
+        } else {
+          invokeFunctionOnScrollTop();
+        }
+      };
+  
+      window.addEventListener("scroll", updateNavbarBackground);
+      return () => {
+        window.removeEventListener("scroll", updateNavbarBackground);
+      };
+    }else if( n_type == '2' ){
+      const updateNavbarBackground = () => {
+        if (window.scrollY > 100) {
+          invokeFunctionOnScrollDown();
+        } else {
+          invokeFunctionOnScrollDown();
+        }
+      };
 
-    window.addEventListener("scroll", updateNavbarBackground);
+      invokeFunctionOnScrollDown();
 
-    return () => {
-      window.removeEventListener("scroll", updateNavbarBackground);
-    };
+      window.addEventListener("scroll", updateNavbarBackground);
+
+      return () => {
+        window.removeEventListener("scroll", updateNavbarBackground);
+      };
+    }
+
   }, [navBarData]);
   
   return (

@@ -1,0 +1,38 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Our Impact Hero
+  description: Our Impact Hero section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  - number: '30'
+    label: Health Centers
+    sign: +
+  - number: '163'
+    label: Practice Locations
+  - number: '1000'
+    label: Primary Care Physicians
+  - number: 3,000
+    label: Specialty Care Providers
+    sign: +
+  - number: '25'
+    label: Urgent Cares
+    sign: +
+  - number: '24'
+    label: Contracted Hospital Locations
+    sign: +
+  - number: '600'
+    label: Members
+    signLetter: K+
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
