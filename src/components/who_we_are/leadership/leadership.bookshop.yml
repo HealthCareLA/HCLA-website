@@ -1,0 +1,103 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Leadership
+  description: Leadership section
+  icon: "cottage"
+  tags: ["leadership"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Led by Health Centers
+  description: >
+    Health Care LA, IPA is a health-center-controlled Independent Physician
+    Association (IPA) whose governing board is comprised of 15 c-suite leaders
+    from our Federally Qualified Health Centers. This ensures that our
+    leadership represents the varied and wonderful diversity of the communities
+    we serve and promotes greater equity in quality care access.
+
+
+    This structure also informs a culture of inclusivity that encourages and
+    strengthens cooperation within our provider network.
+  keyPoints:
+    - icon:
+        src: /images/icon-board-members.svg
+        alt: image
+        height: 70
+        width: 70
+      text: >-
+        Board members are included in determining the composition of our
+        network.
+    - icon:
+        src: /images/icon-best-practices.svg
+        alt: image
+        height: 70
+        width: 70
+      text: >-
+        Our health centers share best practices and use data-driven quality
+        improvement methods.
+    - icon:
+        src: /images/icon-quality-healthcare.svg
+        alt: image
+        height: 70
+        width: 70
+      text: >-
+        We align with quality healthcare facilities that align with our
+        dedication to providing better care and outcomes.
+  - title: Dedicated Support
+    description: We’re committed to helping our health centers thrive for the long-term. By providing management resources, information on best practice opportunities, and quality metrics tools and programs, we help our health centers provide quality care and patient experiences while building healthier communities.
+    link:
+      text: Contacted Provider Login
+      href: "#"
+    image:
+      src: /images/dedicated-support.png
+      alt: Dedicated Support
+      isSquare: false
+      isRound: true
+    shapIcon: 
+      src: /images/blue-circle.png
+      alt: blue circle icon
+      height: 200
+      width: 200
+  - title: Value-Based Care Resources
+    description: Our provider resource library provides easy access to helpful information, forms, plan updates, and health education materials.
+    link:
+      text: Provider Resource Library
+      href: "#"
+    image:
+      src: /images/value-based.png
+      alt: Value-Based Care Resources
+      isSquare: true
+      isRound: false
+    shapIcon: 
+      src: /images/yellow-circle.svg
+      alt: blue circle icon
+      height: 200
+      width: 200
+  - title: Health Plans
+    description: We offer contracts under most government and commercial plans and products, and work diligently to expand our plan offerings in order to provide the most competitive opportunities to physicians and patients alike.
+    pointsTitle: >-
+      Our HMO Product Lines Include:
+    points:
+      - >-
+        Medi-Cal Managed Care
+      - >-
+        Medicare Advantage
+      - >-
+        Covered California
+      - >-
+        Commercial Healthplans
+    link:
+      text: See Our Health Plans
+      href: "#"
+    image:
+      src: /images/health-plans.png
+      alt: Health Plans
+      isSquare: false
+      isRound: true
+    shapIcon: 
+      src: /images/green-circle.svg
+      alt: blue circle icon
+      height: 200
+      width: 200

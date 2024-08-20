@@ -1,0 +1,54 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Leadership
+  description: Leadership section
+  icon: "cottage"
+  tags: ["leadership"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Meet Our Board of Directors
+  description: >-
+    Our board guides and supports HCLA IPA, meeting regularly to help ensure
+    that we stay on track with our operational and strategic goals.  Most
+    importantly, they serve to ensure that we remain true to our core mission of
+    providing efficient, compassionate, quality care to those who need it most.
+  sections:
+    - title: Board Executives
+      members:
+        - name: Alicia Mardini
+          title: President, East Valley Community Health Center
+        - name: Eloisa Perard
+          title: CEO, QueensCare Health Centers
+        - name: Craig Thompson
+          title: CEO, APLA Health & Wellness Center
+        - name: Al Ballestros
+          title: Treasurer, JWCH Institute Inc.
+    - title: Board Members
+      members:
+        - name: Genevieve Filmardirossian
+          title: South Central Family Health Center
+        - name: Jim Mangia
+          title: St. John’s Well Child and Family Center
+        - name: Monica McCarthy
+          title: Eisner Health
+        - name: Muriel Nouwezem
+          title: Saban Community Clinic
+        - name: Erin Pak
+          title: KHEIR Community Clinic
+        - name: Mitesh Popat
+          title: Venice Family Clinic
+        - name: Kazue Shibata
+          title: Asian Pacific Health Care Venture, Inc.
+        - name: Adel Syed
+          title: UMMA Community Clinic
+        - name: Cesar Vazquez
+          title: The Children’s Clinic
+        - name: Paula Wilson
+          title: Valley Community Healthcare
+        - name: Kim Wyard
+          title: Northeast Valley Health Corp.
+        - name: Anita Zamora
+          title: Valley Community Healthcare

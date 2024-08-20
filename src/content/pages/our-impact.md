@@ -1,7 +1,6 @@
 ---
 _schema: default
-_schema2: default 2
-title: Our Impact 1
+title: Our Impact
 n_type: "2"
 seo:
   page_description:

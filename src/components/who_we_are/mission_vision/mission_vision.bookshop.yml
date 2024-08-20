@@ -1,0 +1,36 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Leadership
+  description: Leadership section
+  icon: "cottage"
+  tags: ["leadership"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  sections:
+    - icon:
+        src: /images/mission-icon.svg
+        alt: Mission Icon
+        width: 80
+        height: 70
+      title: Our Mission
+      description: >-
+        To provide community-based providers in Los Angeles County with a
+        managed, integrated healthcare delivery system to serve their
+        communities in an organized, efficient, compassionate and financially
+        responsible manner.
+      backgroundColor: '#0183B3'
+    - icon:
+        src: /images/vision-icon.svg
+        alt: Vision Icon
+        width: 80
+        height: 70
+      title: Our Vision
+      description: >-
+        To make HCLA the recognized system of care for providing high-quality
+        health services through our health center network while remaining true
+        to our collaborative/inclusive organizational structure and philosophy.
+      backgroundColor: '#34C565'
+   

@@ -2,7 +2,7 @@ import MarkdownIt from "markdown-it";
 const md = new MarkdownIt({ html: true });
 const isMatch = true;
 
-export default function OurImpactWaysServe({
+export default function WhoWeAreWaysServe({
   title,
   description,
   points,
@@ -14,11 +14,11 @@ export default function OurImpactWaysServe({
     <section className="" suppressHydrationWarning
       id="Ways_We_Serve">
       <div
-        className="bg-trans-blue relative py-[50px] pb-[50px] lg:pb-[80px] xl:pb-[100px] xxl:pb-[200px]"
+        className="bg-white relative py-[50px] pb-[50px] lg:pb-[80px] xl:pb-[100px] xxl:pb-[200px]"
       >
         <img
           className="hidden lg:block"
-          src="/images/circle-shape-top.svg"
+          src="/images/circle-shape-top-2.svg"
           alt="circle-shape"
           // className="absolute left-1/2 -translate-x-1/2 w-full z-[0] top-[-80px] hidden lg:block"
           style={{
