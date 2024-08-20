@@ -33,4 +33,12 @@ blueprint:
         health services through our health center network while remaining true
         to our collaborative/inclusive organizational structure and philosophy.
       backgroundColor: '#34C565'
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
+
    

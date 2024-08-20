@@ -2,7 +2,7 @@ import MarkdownIt from "markdown-it";
 import { useEffect, useState } from "react";
 const md = new MarkdownIt({ html: true });
 
-export default function WhoWeAreLeadership(block) {
+export default function WhoWeAreBoard(block) {
 
     return (
         <>
