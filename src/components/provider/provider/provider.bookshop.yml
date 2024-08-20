@@ -1,0 +1,69 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Provider
+  description: Provider section
+  icon: "cottage"
+  tags: ["quicklink"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Programs and Resources for Participating Health Center Providers
+  sections:
+    - title: Dedicated Support
+      description: We’re committed to helping our health centers thrive for the long-term. By providing management resources, information on best practice opportunities, and quality metrics tools and programs, we help our health centers provide quality care and patient experiences while building healthier communities.
+      link:
+        text: Contacted Provider Login
+        href: "#"
+      image:
+        src: /images/dedicated-support.png
+        alt: Dedicated Support
+        isSquare: false
+        isRound: true
+      shapIcon: 
+        src: /images/blue-circle.png
+        alt: blue circle icon
+        height: 200
+        width: 200
+    - title: Value-Based Care Resources
+      description: Our provider resource library provides easy access to helpful information, forms, plan updates, and health education materials.
+      link:
+        text: Provider Resource Library
+        href: "#"
+      image:
+        src: /images/value-based.png
+        alt: Value-Based Care Resources
+        isSquare: true
+        isRound: false
+      shapIcon: 
+        src: /images/yellow-circle.svg
+        alt: blue circle icon
+        height: 200
+        width: 200
+    - title: Health Plans
+      description: We offer contracts under most government and commercial plans and products, and work diligently to expand our plan offerings in order to provide the most competitive opportunities to physicians and patients alike.
+      pointsTitle: >-
+        Our HMO Product Lines Include:
+      points:
+        - >-
+          Medi-Cal Managed Care
+        - >-
+          Medicare Advantage
+        - >-
+          Covered California
+        - >-
+          Commercial Healthplans
+      link:
+        text: See Our Health Plans
+        href: "#"
+      image:
+        src: /images/health-plans.png
+        alt: Health Plans
+        isSquare: false
+        isRound: true
+      shapIcon: 
+        src: /images/green-circle.svg
+        alt: blue circle icon
+        height: 200
+        width: 200
