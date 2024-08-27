@@ -9,8 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-    description: >-
-      An emergency medical condition can consist of one or more of the following symptoms:
+    title: An emergency medical condition can consist of one or more of the following symptoms
     detailSection1:
       description: >-
         Call 911 if your condition is Life threatening.

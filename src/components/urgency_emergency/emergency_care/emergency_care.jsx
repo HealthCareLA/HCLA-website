@@ -6,13 +6,10 @@ export default function UrgencyEmergencyCare(block) {
         <div className="bg-white relative py-[50px] md:py-[120px] lg:pt-0">
 
             <div className="max-container text-center relative z-[1]">
-                <h3 className="font-[500] font-outfit text-blue">
-                    {block?.title}
-                </h3>
                 <p
                     className="p1 text-dark-blue my-[22px] text-left md:text-center whitespace-pre-line"
                 >
-                    {block?.description}
+                    {block?.title}:
                 </p>
                 <div className="flex flex-wrap text-left gap-[10px] md:gap-0">
                     {

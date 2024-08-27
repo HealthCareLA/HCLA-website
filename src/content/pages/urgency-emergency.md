@@ -46,8 +46,7 @@ content_blocks:
       When you need care right away but can’t see your regular doctor, urgent care can be a good option. Urgent cares usually have shorter wait times and lower out of pocket costs than emergency rooms. Many urgent care centers are open evenings and weekends and you don’t need an appointment.
     buttonText: FIND URGENT CARE
   - _bookshop_name: urgency_emergency/emergency_care
-    description: >-
-      An emergency medical condition can consist of one or more of the following symptoms:
+    title: An emergency medical condition can consist of one or more of the following symptoms
     detailSection1:
       description: >-
         Call 911 if your condition is Life threatening.
