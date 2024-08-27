@@ -17,7 +17,7 @@ content_blocks:
       residents who need it most.
     button:
     image:
-      src: /images/hero-providers.png
+      src: /images/urgency-emergency/urgency-hero.jpg
       alt: banner-image
       width: 550
       height: 550
