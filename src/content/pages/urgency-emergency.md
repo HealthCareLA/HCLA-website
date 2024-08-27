@@ -28,9 +28,9 @@ content_blocks:
       width: 280
       height: 280
     content2: Find immediate care when and where you need it.
-  - _bookshop_name: who_we_are/healthcare
+  - _bookshop_name: urgency_emergency/urgentcare
     image:
-      src: /images/photo-who-we-are.png
+      src: /images/urgency-emergency/urgency-2.jpg
       alt: Who we are image
       width: 480
       height: 480
@@ -41,48 +41,49 @@ content_blocks:
       width: 200
       height: 200
       isRound: true
-    title: Who We Are
+    title: Urgent Care
     description: >-
-      Health Care LA, IPA (HCLA IPA) is a not-for-profit network of Federally
-      Qualified Health Centers (FQHCs) and Community Health Centers (CHCs) serving
-      Los Angeles County. Together, our network represents a significant segment
-      of the community's healthcare delivery safety net.
-    icondescriptions:
-      image:
-        src: /images/icon-founded.svg
-        alt: founded icon
-        width: 85
-        height: 86
-      description: >-
-        Founded in 1991, HCLA IPA remains a trusted resource providing quality
-        care, illness prevention, and health promotion services to those most in
-        need.
-  - _bookshop_name: main/clinical
-    title: Curated Clinical Resources
+      When you need care right away but can’t see your regular doctor, urgent care can be a good option. Urgent cares usually have shorter wait times and lower out of pocket costs than emergency rooms. Many urgent care centers are open evenings and weekends and you don’t need an appointment.
+    buttonText: FIND URGENT CARE
+  - _bookshop_name: urgency_emergency/emergency_care
     description: >-
-      Our partner health centers consistently rank HCLA, IPA above the
-      competition for our white-glove approach to pulling together the optimal
-      mix of informational, educational, technological, and operational
-      resources needed to excel within a value-based healthcare system,
-      including:
+      An emergency medical condition can consist of one or more of the following symptoms:
     detailSection1:
       description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
-        tempo.
-      buttonText: Partner Health Center Login
-    detailSection2:
-      description: >-
-        Learn more about contracting opportunities or our white-glove approach
-        to provider support.
-      buttonText: Learn More
+        Call 911 if your condition is Life threatening.
     points:
-      - Cozeva
-      - Clinical, Quality, and Operational Support Staff
-      - MedPOINT Management Provider Portalf
-      - Lanes Health Information Exchange
-      - Secure, Individualized FTP
-      - Partners in Care
-      - Innovacer
-      - Samaritan City
+      - Difficulty breathing, shortness of breath
+      - Chest pain/pressure
+      - Fainting, trouble talking, dizziness
+      - Changes in vision
+      - Confusion
+      - Uncontrolled bleeding
+      - Severe persistent vomiting or diarrhea
+      - Coughing up or vomiting blood
+      - Suicidal feelings
+      - Unusual abdominal pain
+      - Suspected broken bones
+      - Eye pressure
+      - Asthma attack
+    points2:
+      - icon:
+          src: /images/icon-check.svg
+          alt: check icon
+          width: 35
+          height: 35
+        title:
+        description: >-
+          <strong>When should I call the Doctor for advice?</strong>
+          <br/>You can always call your doctor’s office for advice. Especially for conditions such as: fevers over 102.0, headaches, heartburn, indigestion, constipation, hemorrhoids or back pain. If you call your doctor’s office after working hours, you may ask to speak with the doctor on call.
+      - icon:
+          src: /images/icon-check.svg
+          alt: check icon
+          width: 35
+          height: 35
+        title:
+        description: >-
+          <strong>What should I do if my Doctor’s office can’t help me?</strong>
+          <br/> Contact your health plan’s 24-hour nurse advice line.
+          <strong>Click here</strong> for a list of nurse advice lines by health plan.
 
 ---

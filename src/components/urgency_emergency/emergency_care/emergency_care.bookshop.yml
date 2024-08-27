@@ -1,0 +1,61 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Emergency Care
+  description: Emergency Care Description
+  icon: "cottage"
+  tags: ["emergency"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Curated Clinical Resources
+  description: >-
+    Our partner health centers consistently rank HCLA, IPA above the competition
+    for our white-glove approach to pulling together the optimal mix of
+    informational, educational, technological, and operational resources needed
+    to excel within a value-based healthcare system, including:
+  detailSection1:
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
+      tempo.
+    buttonText: Partner Health Center Login
+  detailSection2:
+    description: >-
+      Learn more about contracting opportunities or our white-glove approach to
+      provider support.
+    buttonText: Learn More
+  points:
+    - Cozeva
+    - Clinical, Quality, and Operational Support Staff
+    - MedPOINT Management Provider Portalf
+    - Lanes Health Information Exchange
+    - Secure, Individualized FTP
+    - Partners in Care
+    - Innovacer
+    - Samaritan City
+  points2:
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Enhanced care management</strong> combines resources to help
+        meet patients where they are in life, addressing social determinants
+        like <strong>housing, food, transportation, and mental health</strong>
+        to deliver whole-person care.
+    - icon:
+        src: /images/icon-check.svg
+        alt: check icon
+        width: 35
+        height: 35
+      title:
+      description: >-
+        <strong>Inpatient and transition of care programs</strong> including
+        <strong>telephonic case managers</strong> and a <strong>hospitalist
+        network</strong> to coordinate care for patients during hospital stays
+        and Care Transition and <a href="#" class="text-green"><strong>Post
+        Discharge Clinic</strong></a> programs that help discharged patients
+        recover safely at home and avoid unnecessary readmission.
