@@ -7,7 +7,7 @@ export default function UrgencyEmergencyCare(block) {
 
             <div className="max-container text-center relative z-[1]">
                 <h3 className="font-[500] font-outfit text-blue mt-20">
-                    {block?.title}
+                <i className="fa-solid fa-phone"></i> {block?.title}
                 </h3>
                 <p className="p1 text-dark-blue my-[22px] text-left md:text-left whitespace-pre-line" dangerouslySetInnerHTML={{ __html: block?.description }}>{ }</p>
                 <div className="bg-trans-blue p-[50px]">
@@ -34,7 +34,7 @@ export default function UrgencyEmergencyCare(block) {
                             className="w-full bg-white drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-[8px] md:rounded-[18px]"
                         >
                             <p className="p1 text-dark-blue my-[20px] whitespace-pre-line">
-                                {block?.detailSection1?.detailed_call}
+                            <i className="fa-solid fa-phone"></i> {block?.detailSection1?.detailed_call}
                             </p>
                             {
                                 block?.detailSection1?.buttonText && (
