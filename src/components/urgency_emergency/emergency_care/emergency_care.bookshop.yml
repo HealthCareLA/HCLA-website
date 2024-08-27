@@ -9,7 +9,6 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: Curated Clinical Resources
   description: >-
     Our partner health centers consistently rank HCLA, IPA above the competition
     for our white-glove approach to pulling together the optimal mix of
