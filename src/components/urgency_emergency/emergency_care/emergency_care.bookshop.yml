@@ -9,52 +9,42 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  description: >-
-    Our partner health centers consistently rank HCLA, IPA above the competition
-    for our white-glove approach to pulling together the optimal mix of
-    informational, educational, technological, and operational resources needed
-    to excel within a value-based healthcare system, including:
-  detailSection1:
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
-      tempo.
-    buttonText: Partner Health Center Login
-  detailSection2:
-    description: >-
-      Learn more about contracting opportunities or our white-glove approach to
-      provider support.
-    buttonText: Learn More
-  points:
-    - Cozeva
-    - Clinical, Quality, and Operational Support Staff
-    - MedPOINT Management Provider Portalf
-    - Lanes Health Information Exchange
-    - Secure, Individualized FTP
-    - Partners in Care
-    - Innovacer
-    - Samaritan City
-  points2:
-    - icon:
-        src: /images/icon-check.svg
-        alt: check icon
-        width: 35
-        height: 35
-      title:
+      An emergency medical condition can consist of one or more of the following symptoms:
+    detailSection1:
       description: >-
-        <strong>Enhanced care management</strong> combines resources to help
-        meet patients where they are in life, addressing social determinants
-        like <strong>housing, food, transportation, and mental health</strong>
-        to deliver whole-person care.
-    - icon:
-        src: /images/icon-check.svg
-        alt: check icon
-        width: 35
-        height: 35
-      title:
-      description: >-
-        <strong>Inpatient and transition of care programs</strong> including
-        <strong>telephonic case managers</strong> and a <strong>hospitalist
-        network</strong> to coordinate care for patients during hospital stays
-        and Care Transition and <a href="#" class="text-green"><strong>Post
-        Discharge Clinic</strong></a> programs that help discharged patients
-        recover safely at home and avoid unnecessary readmission.
+        Call 911 if your condition is Life threatening.
+    points:
+      - Difficulty breathing, shortness of breath
+      - Chest pain/pressure
+      - Fainting, trouble talking, dizziness
+      - Changes in vision
+      - Confusion
+      - Uncontrolled bleeding
+      - Severe persistent vomiting or diarrhea
+      - Coughing up or vomiting blood
+      - Suicidal feelings
+      - Unusual abdominal pain
+      - Suspected broken bones
+      - Eye pressure
+      - Asthma attack
+    points2:
+      - icon:
+          src: /images/icon-check.svg
+          alt: check icon
+          width: 35
+          height: 35
+        title:
+        description: >-
+          <strong>When should I call the Doctor for advice?</strong>
+          <br/>You can always call your doctor’s office for advice. Especially for conditions such as: fevers over 102.0, headaches, heartburn, indigestion, constipation, hemorrhoids or back pain. If you call your doctor’s office after working hours, you may ask to speak with the doctor on call.
+      - icon:
+          src: /images/icon-check.svg
+          alt: check icon
+          width: 35
+          height: 35
+        title:
+        description: >-
+          <strong>What should I do if my Doctor’s office can’t help me?</strong>
+          <br/> Contact your health plan’s 24-hour nurse advice line.
+          <strong>Click here</strong> for a list of nurse advice lines by health plan.
