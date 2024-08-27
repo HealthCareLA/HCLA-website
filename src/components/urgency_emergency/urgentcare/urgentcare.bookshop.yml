@@ -10,43 +10,21 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   image:
-    src: /images/healthcare-changed.png
-    alt: image
-    width: 474
-    height: 465
+    src: /images/urgency-emergency/urgency-2.jpg
+    alt: Who we are image
+    width: 480
+    height: 480
+    isRound: true
   greenCircleImage:
     src: /images/green-circle.svg
-    alt: yellow-circle
+    alt: green-circle
     width: 200
     height: 200
-  title: Healthcare Has Changed
+    isRound: true
+  title: Urgent Care
   description: >-
-    The healthcare landscape has gotten more complex in the past decade under
-    managed care with the introduction of new value-based care (VBC) models
-    with:
-  description2: >-
-    This leaves health centers administratively and financially overburdened,
-    struggling to maintain quality patient care, meet community needs, and
-    remain solvent.
-  points:
-    - >-
-      Increasingly intricate requirements, including regulatory, technological,
-      and administrative.
-    - More restrictive reporting and reimbursement structures.
-    - >-
-      More stringent focus on patient health status, particularly those with
-      chronic conditions like diabetes, COPD, heart or kidney disease, and
-      cancer
-  icondescriptions:
-    image:
-      src: /images/icon-partnering.svg
-      alt: icon
-      width: 85
-      height: 86
-    description: >-
-      Partnering with Health Care LA, IPA gives health centers the strategic
-      support, collaboration, expertise, and resources they need to not only
-      survive but succeed under complex VBC models.
+    When you need care right away but can’t see your regular doctor, urgent care can be a good option. Urgent cares usually have shorter wait times and lower out of pocket costs than emergency rooms. Many urgent care centers are open evenings and weekends and you don’t need an appointment.
+  buttonText: FIND URGENT CARE
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

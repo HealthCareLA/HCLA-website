@@ -13,16 +13,15 @@ export default function UrgencyUrgentCare({
   icondescriptions
 }) {
   return (
-    <>
-      <div className="bg-white relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[200px]">
-        <img
-          src="/images/quick-links-shape.png"
-          alt="shape"
-          className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
-        />
-      </div>
-      <section className={isMatch ? "bg-sky-blue text-blue py-[50px] md:py-[80px] lg:pb-[100px]" : "bg-blue text-white py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning
-        id="Why_HCLA" >
+
+    // <div className="bg-white relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[200px]">
+    //   <img
+    //     src="/images/quick-links-shape.png"
+    //     alt="shape"
+    //     className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
+    //   />
+    // </div>    
+      <section className={isMatch ? "bg-sky-blue text-blue py-[50px] md:py-[80px] lg:pb-[100px]" : "bg-blue text-white py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
         <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[50px]">
 
           <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-[50px]">
@@ -86,6 +85,5 @@ export default function UrgencyUrgentCare({
 
         </div>
       </section>
-    </>
   );
 }
