@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; // For making HTTP requests
 
-const ContractedHospitalsFilter = (block) => {
+const PostDischargeClinicsFilter = (block) => {
 
   return (
     <section>
@@ -20,6 +20,7 @@ const ContractedHospitalsFilter = (block) => {
             objectPosition: '0px 5px'
           }}
         />
+        <p className="text-common-clr note p3">{block.titleNote}</p>
         <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative">
           {block.items.map((item, index) => (
             <div key={'ch_' + index} className="w-full flex flex-wrap bg-white rounded-[18px] mb-[40px] overflow-hidden p-[30px] lg:p-[40px] shadow-[0px_0px_10px_0px_#0183B31A]">
@@ -33,31 +34,27 @@ const ContractedHospitalsFilter = (block) => {
                 />
               </div>
               <div className="w-full lg:w-[calc(100%-160px)] lg:pl-[40px] text-center lg:text-left">
-                <h4 className="text-common-clr font-medium">{item.hospitalName}</h4>
+                <h4 className="text-common-clr font-medium">{item.clinicName}</h4>
                 <ul>
-                  {item.hospitals.map((subHospital, index) => (
-                    <li key={'ch_2_' + index} className="flex flex-col md:flex-row p2 md:gap-[12px] justify-center lg:justify-start items-center text-common-clr mb-[3px] last:mb-0">
-                      {subHospital.name && (
-                        <span>{subHospital.name}</span>
-                      )}
-                      <a
-                        href={subHospital.link}
-                        target={subHospital.target}
-                        className="text-green hover:text-blue"
-                      >
-                        {subHospital.linkText}
-                      </a>
-                    </li>
-                  ))}
+                  <li className="flex flex-col md:flex-row p2 md:gap-[12px] justify-center lg:justify-start items-center text-common-clr mb-[3px] last:mb-0">
+                    {item.address && (
+                      <span>{item.address}</span>
+                    )}
+                  </li>
+                  <li className="flex flex-col md:flex-row p2 md:gap-[12px] justify-center lg:justify-start items-center text-common-clr mb-[3px] last:mb-0">
+                    <strong>Phone:</strong>
+                    {item.phone && (
+                      <span>{item.phone}</span>
+                    )}
+                  </li>
                 </ul>
               </div>
             </div>
           ))}
-          <p className="text-common-clr note p3">{block.titleNote}</p>
         </div>
       </div>
     </section>
   );
 };
 
-export default ContractedHospitalsFilter;
+export default PostDischargeClinicsFilter;

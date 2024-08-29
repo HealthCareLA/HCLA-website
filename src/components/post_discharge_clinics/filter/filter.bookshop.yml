@@ -1,0 +1,30 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Post Discharge Clinics Filter
+  description: Post Discharge Clinics Filter Description
+  icon: "cottage"
+  tags: ["filter"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  titleNote: "Helping patients transition safely from the hospital setting to home."
+  items:
+    - clinicName: Valley Presbyterian Post Discharge Clinic
+      image:
+        src: /images/post-discharge-clinics/valley-pres.jpg
+        alt: Clinic
+        width: 160
+        height: 160
+      address: >-
+        6850 Sepulveda Blvd., Suite 210
+        Van Nuys, CA 91405
+      phone: (818) 902-5232
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
