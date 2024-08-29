@@ -1,7 +1,6 @@
 ---
 _schema: default
 title: Providers
-n_type: "2"
 seo:
   page_description:
   canonical_url:
@@ -13,8 +12,9 @@ seo:
 content_blocks:
   - _bookshop_name: provider/hero
     title: Health Care LA, IPA for Providers and Health Centers
-    content2: >-
-      Be part of something bigger.
+    description: >-
+      Health Care LA, IPA brings access to quality care to Los Angeles County
+      residents who need it most.
     button:
     image:
       src: /images/hero-providers.png
@@ -27,61 +27,66 @@ content_blocks:
       alt: yellow-circle
       width: 280
       height: 280
+    content2: Be part of something bigger.
   - _bookshop_name: provider/provider
     title: Programs and Resources for Participating Health Center Providers
     sections:
       - title: Dedicated Support
-        description: We’re committed to helping our health centers thrive for the long-term. By providing management resources, information on best practice opportunities, and quality metrics tools and programs, we help our health centers provide quality care and patient experiences while building healthier communities.
+        description: >-
+          We provide partner health centers with management resources,
+          best-practice guidance, and quality metrics tools and programs. With
+          our help, they can more easily provide quality care, improve patient
+          experiences, and build healthier communities.
         link:
           text: Contacted Provider Login
-          href: "#"
+          href: '#'
         image:
           src: /images/dedicated-support.png
           alt: Dedicated Support
           isSquare: false
           isRound: true
-        shapIcon: 
+        shapIcon:
           src: /images/blue-circle.png
           alt: blue circle icon
           height: 200
           width: 200
       - title: Value-Based Care Resources
-        description: Our provider resource library provides easy access to helpful information, forms, plan updates, and health education materials.
+        description: >-
+          Our provider resource library provides easy access to helpful
+          information, forms, plan updates, and health education materials.
         link:
           text: Provider Resource Library
-          href: "#"
+          href: '#'
         image:
           src: /images/value-based.png
           alt: Value-Based Care Resources
           isSquare: true
           isRound: false
-        shapIcon: 
+        shapIcon:
           src: /images/yellow-circle.svg
           alt: blue circle icon
           height: 200
           width: 200
       - title: Health Plans
-        description: We offer contracts under most government and commercial plans and products, and work diligently to expand our plan offerings in order to provide the most competitive opportunities to physicians and patients alike.
-        pointsTitle: >-
-          Our HMO Product Lines Include:
+        description: >-
+          We hold agreements with most government and commercial plans and
+          products and regularly expand our plan offerings to provide physicians
+          and patients with the most competitive choices.
+        pointsTitle: 'Our HMO Product Lines Include:'
         points:
-          - >-
-            Medi-Cal Managed Care
-          - >-
-            Medicare Advantage
-          - >-
-            Covered California
-          - >-
-            Commercial Healthplans
+          - Medi-Cal Managed Care
+          - Medicare Advantage
+          - Covered California
+          - Commercial Healthplans
         link:
           text: See Our Health Plans
-          href: "#"
+          href: '#'
         image:
           src: /images/health-plans.png
           alt: Health Plans
           isSquare: false
           isRound: true
-        shapIcon: 
+        shapIcon:
           src: /images/green-circle.svg
           alt: blue circle icon
           height: 200
@@ -97,7 +102,13 @@ content_blocks:
           height: 35
           hasBackground: true
         title: Trusted Network
-        description: Deliver high-quality, cost-efficient care through measuring and monitoring performance standards, and providing training and support to meet best practice standards and quality benchmarks.
+        description: >-
+          o Health Care LA, IPA (HCLA IPA) works with a network of Federally
+          Qualified Health Centers (FQHCs) and Community Health Centers (CHCs)
+          that serve as the medical home to 600,000+ members. We are the largest
+          IPA in California devoted to the underserved patient community, and
+          care for more Medi-Cal beneficiaries than any other Independent
+          Physician Association in the entire state of California.
       - icon:
           src: /images/icon-better-selections.svg
           alt: better selections icon
@@ -105,7 +116,12 @@ content_blocks:
           height: 35
           hasBackground: true
         title: Better Selection
-        description: HCLA IPA contracts with most major managed care health plans serving Medi-Cal, Medicare Advantage, Covered California, Cal MediConnect, and commercial members. Our range of health plan choices makes it easier for your patients and their families to stay within their chosen health center if their insurance ever changes
+        description: >-
+          HCLA IPA contracts with most major managed care health plans serving
+          Medi-Cal, Medicare Advantage, Covered California, Cal MediConnect, and
+          commercial members. Our range of health plan choices makes it easier
+          for your patients and their families to stay within their chosen
+          health center if their insurance ever changes
       - icon:
           src: /images/icon-stability.svg
           alt: stability icon
@@ -113,7 +129,10 @@ content_blocks:
           height: 35
           hasBackground: true
         title: Proven Stability
-        description: Our IPA has served LA County providers and patients for over 25 years. We help guide and anchor patient care with the community health centers they know and trust.
+        description: >-
+          Our IPA has served LA County providers and patients for over 25 years.
+          We help guide and anchor patient care with the community health
+          centers they know and trust.
       - icon:
           src: /images/icon-culturally.svg
           alt: culturally icon
@@ -121,7 +140,9 @@ content_blocks:
           height: 35
           hasBackground: true
         title: Culturally Sensitive
-        description: HCLA IPA is as diverse as the communities we serve. Our multi-lingual, multi-cultural network embraces all of Los Angeles County.
+        description: >-
+          HCLA IPA is as diverse as the communities we serve. Our multi-lingual,
+          multi-cultural network represents all of Los Angeles County.
       - icon:
           src: /images/icon-reputation.svg
           alt: reputation icon
@@ -129,16 +150,22 @@ content_blocks:
           height: 35
           hasBackground: true
         title: Reputation
-        description: HCLA IPA is consistently ranked above the competition by providers and industry leaders for our white-glove approach and dedication to supporting quality, accessible health care to the patients and communities who need it most.
+        description: >-
+          HCLA IPA is consistently ranked above the competition by providers and
+          industry leaders for our white-glove approach and dedication to
+          supporting quality, accessible health care to the patients and
+          communities who need it most.
   - _bookshop_name: provider/contact
     icon:
       src: /images/icon-email.svg
-      alt: "Contact Icon"
+      alt: Contact Icon
       width: 40
       height: 40
-    text: Email us to learn more about contracting opportunities or our white-glove approach to provider support.
+    text: >-
+      Email us to learn more about contracting opportunities or our white-glove
+      approach to provider support.
     button:
-      text: "Send Email"
-      link: "mailto:example@example.com"
-      target: "_blank"
+      text: Send Email
+      link: mailto:example@example.com
+      target: _blank
 ---
