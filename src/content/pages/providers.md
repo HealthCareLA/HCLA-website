@@ -103,12 +103,11 @@ content_blocks:
           hasBackground: true
         title: Trusted Network
         description: >-
-          o Health Care LA, IPA (HCLA IPA) works with a network of Federally
-          Qualified Health Centers (FQHCs) and Community Health Centers (CHCs)
-          that serve as the medical home to 600,000+ members. We are the largest
-          IPA in California devoted to the underserved patient community, and
-          care for more Medi-Cal beneficiaries than any other Independent
-          Physician Association in the entire state of California.
+          HCLA IPA works with a network of health centers that serve as the
+          medical home to 600,000+ members. We are the largest IPA in California
+          devoted to the underserved patient community, and care for more
+          Medi-Cal beneficiaries than any other Independent Physician
+          Association in the entire state of California.
       - icon:
           src: /images/icon-better-selections.svg
           alt: better selections icon
