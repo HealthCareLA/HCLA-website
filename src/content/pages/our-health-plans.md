@@ -16,7 +16,7 @@ content_blocks:
     plans:
       - name: Alignment Health (Formerly Citizens Choice)
         logo: /images/alignment-health-plan.png
-        description: Commercial, Medi-Cal, Medicare
+        description: Medicare
         phone: (866) 249-4844
         website: https://www.alignmenthealthplan.com/
       - name: Anthem Blue Cross
@@ -38,12 +38,8 @@ content_blocks:
         logo: /images/blue-shiled-of-california.png
         description: Commercial, Covered California, POS
         phone: (800) 544-0088
-        website: https://www.blueshieldca.com/bsca/bsc/wcm/connect/sites/sites_content_en/bsp/home
-      - name: Central Health Medicare Plan
-        logo: /images/central-health-medicare.png
-        description: Medicare, Medi-Medi
-        phone: (866) 314-2427
-        website: https://www.centralhealthplan.com/
+        website: >-
+          https://www.blueshieldca.com/bsca/bsc/wcm/connect/sites/sites_content_en/bsp/home
       - name: Cigna Health Plan
         logo: /images/cigna.png
         description: Commercial, POS
@@ -54,11 +50,6 @@ content_blocks:
         description: Commercial, Covered California, Medi-Cal, Medicare, POS
         phone: (877) 527-8409
         website: https://healthnet.com/
-      - name: Imperial Health Plan of California
-        logo: /images/imperial-health.png
-        description: Medicare, Medi-Medi
-        phone: (800) 838-8271
-        website: http://www.imperialhealthplan.com/california/
       - name: LA Care Health Plan
         logo: /images/la-care-health.png
         description: Cal MediConnect, Covered California, Medi-Cal, Medicare

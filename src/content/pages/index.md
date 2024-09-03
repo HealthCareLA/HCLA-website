@@ -133,7 +133,7 @@ content_blocks:
         boldText: ''
         description: >-
           As the managed care landscape grows ever more complex, HCLA IPA has
-          the experience and agility to meet the evolving needs of our GGG
+          the experience and agility to meet the evolving needs of our health
           centers and patient population, not just today but well into the
           future.
       - image:
@@ -227,18 +227,18 @@ content_blocks:
       including:
     detailSection1:
       description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
-        tempo.
-      buttonText: Partner Health Center Login
+        If you are interested in joining the HCLA network as a health center
+        provider, please click the button below
+      buttonText: PROVIDER NETWORK INQUIRY
     detailSection2:
       description: >-
-        Learn more about contracting opportunities or our white-glove approach
-        to provider support.
-      buttonText: Learn More
+        Login here for access to resources and content exclusive to contracted
+        providers.
+      buttonText: PARTNER HEALTH CENTER LOGIN
     points:
       - Cozeva
       - Clinical, Quality, and Operational Support Staff
-      - MedPOINT Management Provider Portalf
+      - MedPOINT Management Provider Portal
       - Lanes Health Information Exchange
       - Secure, Individualized FTP
       - Partners in Care
