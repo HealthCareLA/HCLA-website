@@ -47,6 +47,15 @@ export default function OurImpactHero(block) {
           </div>
         )}
       </div>
+
+      <div className="bg-white relative" style={{ height: '250px', marginTop: '-125px' }}>
+        <img
+          src="/images/quick-links-shape.png"
+          alt="shape"
+          className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
+        />
+      </div>
+
     </section>
 
   );

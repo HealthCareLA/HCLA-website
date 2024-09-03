@@ -26,18 +26,10 @@ export default function OurImpactQuicklink(block) {
         };
     }, []);
 
-
     return (
-        <>
-            <div className="bg-white relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[200px]">
-                <img
-                    src="/images/quick-links-shape.png"
-                    alt="shape"
-                    className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
-                />
-            </div>
-            <section id="sticky-links"
-                className={`bg-white py-9 overflow-auto ${isFixed ? 'fixed-impact-link top-0 w-full' : 'relative'}`} suppressHydrationWarning>
+        <section suppressHydrationWarning>
+            <div id="sticky-links"
+                className={`bg-white py-9 overflow-auto ${isFixed ? 'fixed-impact-link top-0 w-full' : 'relative'}`} >
                 <div className="w-[1050px] max-container">
                     <ul className="w-full flex justify-center gap-[30px] xl:gap-[50px] xxl:gap-[90px]">
                         {block.links?.map((item, index) => (
@@ -49,7 +41,7 @@ export default function OurImpactQuicklink(block) {
                         ))}
                     </ul>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
 }
