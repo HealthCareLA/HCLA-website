@@ -1,0 +1,41 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Epi Source
+  description: Epi Source Description
+  icon: "cottage"
+  tags: ["goal"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+    image1:
+      src: /images/providers-secure/img_epi_1.jpg
+      alt: image
+      width: 420
+      height: 305
+      borderRadius: '50px'
+    image2:
+      src: /images/providers-secure/img_epi_2.jpg
+      alt: image
+      width: 355
+      height: 305
+      borderRadius: '100%'
+    title: Utilize the EpiSource Web Portal Tool for Patient Outreach
+    descriptionData:
+      - image:
+          src: /images/Icon grow.svg
+          alt: Icon grow
+          width: 53
+          height: 40
+        boldText: ""
+        description: >-
+          HCLA, IPA is committed to helping our health centers achieve HEDIS quality benchmarks, and engaging with our EpiSource web portal is an excellent way to start. The portal provides HEDIS performance information by selected line of business. Data on the portal will be refreshed quarterly and provides summary IPA level and individual clinic level data for analysis and member outreach purposes. Once you log in, a user guide is available on the site.
+      - image:
+          src: /images/Icon mission.svg
+          alt: Icon mission
+          width: 48
+          height: 43
+        boldText: "Our Mission:"
+        description: >-
+          The EpiSource web portal helps you to achieve quality benchmarks required by health plans. By meeting these benchmarks health centers may benefit from additional incentives provided by the IPA and certain health plans.

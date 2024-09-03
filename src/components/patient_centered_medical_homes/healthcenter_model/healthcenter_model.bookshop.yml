@@ -1,0 +1,29 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Patient-Centered Medical Homes
+  description: Patient-Centered Medical Homes Description
+  icon: "cottage"
+  tags: ["filter"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  titleNote: >-
+    The Patient-Centered Medical Home (PCMH) is a care model that promotes care coordination and communication in order to provide better care and outcomes to patients. The National Center for Quality Assurance (NCQA) PCMH recognition model is the most widely adopted model in the country for transforming health centers into Patient-Centered Medical Homes. Research shows that NCQA recognized medical homes deliver higher quality care, help control costs and improve the service experience for both patients and physicians. <strong>Following are the Health Centers within the HCLA network that are currently recognized as NCQA Patient-Centered Medical Homes</strong>:
+  items1:
+    - healthCenterName: APLA Health & Wellness Center, Gleicher/Chen Health Center – Baldwin Hills
+      address: >-
+        3743 S. La Brea Ave., Los Angeles
+  items2:
+    - healthCenterName: APLA Health & Wellness Center, Gleicher/Chen Health Center – Baldwin Hills
+      address: >-
+        3743 S. La Brea Ave., Los Angeles
+    
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
