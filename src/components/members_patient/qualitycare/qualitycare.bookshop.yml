@@ -1,0 +1,87 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Quality Care
+  description: Quality Care section
+  icon: "cottage"
+  tags: ["hero"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Quality Care Network
+  sections:
+    - title: Convenience and Choice
+      description:
+        Health Care LA, IPA (HCLA IPA) has many, convenient network health center locations throughout Los Angeles County. That makes it easy to find quality care in your neighborhood from providers who understand your language and culture. We also offer language assistance programs to make sure our members always feel comfortable, safe and heard.
+
+
+        Your health center should be the first place you turn to for quality care and answers to all your health questions and concerns. The physicians, providers and office staff at our network health centers are all dedicated to providing you quality care and service. We all work together to help you and your family enjoy healthy lives.
+      link:
+        text:
+        href:
+      image:
+        src: /images/photo-choice.png
+        alt: Dedicated Support
+        isSquare: false
+        isRound: true
+      shapIcon: 
+        src: /images/blue-circle.png
+        alt: blue circle icon
+        height: 200
+        width: 200
+    - title: Guiding Better Health
+      description: We understand that healthcare can be confusing. You can depend on our health centers to help guide your care in the right direction. They offer programs that make it easier for you and your family stay healthy.
+      link:
+        text:
+        href:
+      image:
+        src: /images/photo-guiding.png
+        alt: Value-Based Care Resources
+        isSquare: true
+        isRound: false
+      shapIcon: 
+        src: /images/yellow-circle.svg
+        alt: blue circle icon
+        height: 200
+        width: 200
+    - title: "Wellness programs include:"
+      description:
+      pointsTitle: >-
+        
+      points:
+        - >-
+          Prenatal Care
+        - >-
+          Well-child exams and childhood immunizations
+        - >-
+          Senior Health Programs
+        - >-
+          Behavioral health services
+        - >-
+          Adult Wellness Programs
+        - >-
+          Women’s health services
+        - >-
+          Staff Social Workers
+      link:
+        text:
+        href:
+      image:
+        src: /images/photo-wellness.png
+        alt: Health Plans
+        isSquare: false
+        isRound: true
+      shapIcon: 
+        src: /images/green-circle.svg
+        alt: blue circle icon
+        height: 200
+        width: 200
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

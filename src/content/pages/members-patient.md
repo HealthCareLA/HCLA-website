@@ -29,382 +29,180 @@ content_blocks:
       height: 280
   - _bookshop_name: our_impact/quicklink
     links:
-      - text: Why HCLA
-        link: '#Why_HCLA'
+      - text: Quality Care Network
+        link: '#Quality_Care_Network'
         target: _self
-      - text: Strategic Goals
-        link: '#Strategic_Goals'
+      - text: Finding Care
+        link: '#Finding_Care'
         target: _self
-      - text: Ways We Serve
-        link: '#Ways_We_Serve'
+      - text: How to Enroll
+        link: '#How_to_Enroll'
         target: _self
-      - text: Strength and Stability
-        link: '#Strength_Stability'
+      - text: Health Plans & Resources
+        link: '#Health_Plans_Resources'
         target: _self
-      - text: Grants and Collaboration
-        link: '#Grants_Collaboration'
+      - text: FAQ
+        link: '#FAQs'
         target: _self
-  - _bookshop_name: our_impact/healthcare
-    image:
-      src: /images/healthcare-changed.png
-      alt: image
-      width: 474
-      height: 465
-    greenCircleImage:
-      src: /images/green-circle.svg
-      alt: yellow-circle
-      width: 200
-      height: 200
-    title: Healthcare Has Changed
-    description: >-
-      The healthcare landscape has gotten more complex in the past decade under
-      managed care with the introduction of new value-based care (VBC) models
-      with:
-    description2: >-
-      This leaves health centers administratively and financially overburdened,
-      struggling to maintain quality patient care, meet community needs, and
-      remain solvent.
-    points:
-      - >-
-        Increasingly intricate requirements, including regulatory, technological,
-        and administrative.
-      - More restrictive reporting and reimbursement structures.
-      - >-
-        More stringent focus on patient health status, particularly those with
-        chronic conditions like diabetes, COPD, heart or kidney disease, and
-        cancer
-    icondescriptions:
-      image:
-        src: /images/icon-partnering.svg
-        alt: icon
-        width: 85
-        height: 86
-      description: >-
-        Partnering with Health Care LA, IPA gives health centers the strategic
-        support, collaboration, expertise, and resources they need to not only
-        survive but succeed under complex VBC models.
-  - _bookshop_name: our_impact/counter
-    title: HCLA, IPA Helps Support
+  - _bookshop_name: members_patient/callout
+    icon: "/images/greencall-icon.svg"
+    message: "If you need to check on a referral, need help finding a local provider, or if you have questions, please call our customer service department at"
+    contactInfo: "818-702-0100,"
+    contactLink: 8187020100
+    operatingHours: "M – F 9:00 a.m. – 5:00 p.m. PST."
+  - _bookshop_name: members_patient/qualitycare
+    title: Quality Care Network
+    sections:
+      - title: Convenience and Choice
+        description:
+          Health Care LA, IPA (HCLA IPA) has many, convenient network health center locations throughout Los Angeles County. That makes it easy to find quality care in your neighborhood from providers who understand your language and culture. We also offer language assistance programs to make sure our members always feel comfortable, safe and heard.
+
+
+          Your health center should be the first place you turn to for quality care and answers to all your health questions and concerns. The physicians, providers and office staff at our network health centers are all dedicated to providing you quality care and service. We all work together to help you and your family enjoy healthy lives.
+        link:
+          text:
+          href:
+        image:
+          src: /images/photo-choice.png
+          alt: Dedicated Support
+          isSquare: false
+          isRound: true
+        shapIcon: 
+          src: /images/blue-circle.png
+          alt: blue circle icon
+          height: 200
+          width: 200
+      - title: Guiding Better Health
+        description: We understand that healthcare can be confusing. You can depend on our health centers to help guide your care in the right direction. They offer programs that make it easier for you and your family stay healthy.
+        link:
+          text:
+          href:
+        image:
+          src: /images/photo-guiding.png
+          alt: Value-Based Care Resources
+          isSquare: true
+          isRound: false
+        shapIcon: 
+          src: /images/yellow-circle.svg
+          alt: blue circle icon
+          height: 200
+          width: 200
+      - title: "Wellness programs include:"
+        description:
+        pointsTitle: >-
+          
+        points:
+          - >-
+            Prenatal Care
+          - >-
+            Well-child exams and childhood immunizations
+          - >-
+            Senior Health Programs
+          - >-
+            Behavioral health services
+          - >-
+            Adult Wellness Programs
+          - >-
+            Women’s health services
+          - >-
+            Staff Social Workers
+        link:
+          text:
+          href:
+        image:
+          src: /images/photo-wellness.png
+          alt: Health Plans
+          isSquare: false
+          isRound: true
+        shapIcon: 
+          src: /images/green-circle.svg
+          alt: blue circle icon
+          height: 200
+          width: 200
+  - _bookshop_name: members_patient/counter
+    title: We Make It Easy To Find Quality–Care
+    gridCols: 4
     counters:
       - number: '30'
         label: Health Centers
         sign: +
+        backgroundColor: "#DFF6FF"
       - number: '163'
         label: Practice Locations
+        backgroundColor: "#DFF6FF"
       - number: '1000'
         label: Primary Care Physicians
+        sign: +
+        backgroundColor: "#DFF6FF"
       - number: 3,000
         label: Specialty Care Providers
         sign: +
-      - number: '25'
-        label: Urgent Cares
-        sign: +
-      - number: '24'
-        label: Contracted Hospital Locations
-        sign: +
-      - number: '600'
-        label: Members
-        signLetter: K+
-  - _bookshop_name: our_impact/strategic_goals
-    title: Our Strategic Goals
-    goals:
-      - icon:
-          src: /images/icon-quality.svg
-          alt: quality icon
-          width: 50
-          height: 50
-        title:
-        description: >-
-          Deliver high-quality, cost-efficient care through measuring and
-          monitoring performance standards, and providing training and support to
-          meet best practice standards and quality benchmarks.
-      - icon:
-          src: /images/icon-collaborate.svg
-          alt: collaborate icon
-          width: 50
-          height: 50
-        title:
-        description: >-
-          Become the IPA of choice for government-sponsored programs by
-          cultivating strong, collaborative relationships with health plans,
-          health centers, industry stakeholders, and state and federal
-          decision-makers.
-      - icon:
-          src: /images/icon-fulfill.svg
-          alt: fulfill icon
-          width: 50
-          height: 50
-        title:
-        description: >-
-          Fulfill the Healthcare <strong>Quintuple Aim</strong> of reducing costs
-          while also improving population health, patient experience,
-          <strong>Health Equity</strong> and team well-being by improving health
-          outcomes for high-risk populations, strengthening infrastructure and
-          operations, diversifying funding streams, and expanding partnerships and
-          business relationships.
-  - _bookshop_name: our_impact/ways_serve
-    title: Ways We Serve
-    description: >-
-      HCLA IPA goes above and beyond by recognizing that accessing medical care is
-      just one piece of a very complex process. Administrative and regulatory
-      requirements and social determinants of health must all be addressed to
-      elevate community health <strong>status</strong> and well-being.
+        backgroundColor: "#DFF6FF"
+  - _bookshop_name: members_patient/joinHCL
+    title: "Join the HCLA Family"
+    subtitle: "Enrolling as a member with HCLA IPA is simple. Just follow these steps:"
+    steps:
+      - number: 1
+        title: "Check if your health plan and product is contracted with HCLA IPA."
+        linkText: "Check HCLA Plans"
+        linkUrl: "#"
+      - number: 2
+        title: "Choose a physician or health center in our network."
+        linkText: "Search for Provider"
+        linkUrl: "#"
+      - number: 3
+        title: "Call or visit your chosen health center where a Certified Applicant Assistant can help you sign up."
+        linkText: "Get Help"
+        linkUrl: "#"
+    contactInfo:
+      additionalTextTop: Or, call our customer service department at
+      phone: "818.702.0100 (M-F)"
+      phoneUrl: 8187020100
+      hours: "9:00 a.m. – 5:00 p.m. PST"
+      additionalTextBottom: "A representative can help you walk through the sign-up process with your health plan." 
+  - _bookshop_name: members_patient/plans_resources
+    healthPlans:
+      title: "Our Health Plans"
+      description: "HCLA IPA works with many different managed care health plans (including Medi-Cal, Medicare Advantage, Covered California and Commercial) to help you and your families find the care and coverage you need all in one place. Having more health plan choices makes it easier to stay with the health center you know and trust if your insurance ever changes."
+      buttonlinks:
+        - text: "See Our Health Plans"
+          url: "#"
+        - text: "Nurse Advice Line"
+          url: "#"
+    resources:
+      title: "Helpful Resources"
+      description: "Our resources page is a menu of useful links for healthcare, wellness and illness-prevention. Below are some of the most popular links, or you can click the button below for the whole list."
+      links:
+        - text: "American Diabetes Association"
+          url: "diabetes.org"
+          target: "_blank"
+        - text: "Covered California"
+          url: "coveredca.org"
+          target: "_blank"
+        - text: "Department of Public Health LA County"
+          url: "publichealth.lacounty.gov"
+          target: "_blank"
+        - text: "WebMD"
+          url: "www.webmd.com"
+          target: "_blank"
+      buttonlinks:
+        - text: "Helpful Resources"
+          url: "#"
+  - _bookshop_name: members_patient/accordion_faq
+    title: "Frequently Asked Questions"
+    designType: simple
+    faqs:
+      - question: "How does Health Care LA, IPA (HCLA IPA) interact with my Health Plan?"
+        answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+      - question: "What is the role of my Primary Care Physician (PCP) and health center?"
+        answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+      - question: "Annual Health Exams"
+        answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+      - question: "My Primary Care Physician (PCP) advises that I need to see a specialist. Now what happens?"
+        answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+      - question: "Are there any services that don’t need an authorization?"
+        answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+      - question: "Am I required to pay a co-payment?"
+        answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
 
-
-      To that end, we provide our partner health centers with expertise, support,
-      guidance, and access to administrative and technical resources, empowering
-      them to remain in control of their practices while we collectively
-      facilitate quality healthcare management.
-    image:
-      src: /images/ways-we-serve.png
-      alt: ways we serve image
-      width: 480
-      height: 480
-    greenCircleImage:
-      src: /images/green-circle.svg
-      alt: green circle
-      width: 200
-      height: 200
-  - _bookshop_name: our_impact/our_value_data
-    title: Our Value-Added Differentiators
-    points:
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Enhanced care management</strong> combines resources to help
-          meet patients where they are in life, addressing social determinants
-          like <strong>housing, food, transportation, and mental health</strong>
-          to deliver whole-person care.
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Inpatient and transition of care programs</strong> including
-          <strong>telephonic case managers</strong> and a <strong>hospitalist
-          network</strong> to coordinate care for patients during hospital stays
-          and Care Transition and <a href="#" class="text-green"><strong>Post
-          Discharge Clinic</strong></a> programs that help discharged patients
-          recover safely at home and avoid unnecessary readmission.
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Advanced, interconnected healthcare technology</strong> provided
-          to our health centers at no additional cost helps them leverage tools
-          and data to improve population health, collect and report quality
-          metrics, better focus resources, and improve patient outcomes.
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Patient Wellness Navigators</strong> guide patients through the
-          care continuum, educate them on available wellness programs and
-          community resources, and motivate them to actively participate in their
-          own health and well-being.  
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Annual wellness and immunization visit promotions</strong> draw
-          patients into their health centers for preventive screenings and care.
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Medication reconciliation appointment coordination</strong> to
-          ensure review of all medications and supplements to identify possibly
-          missed contraindications or duplications
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Awareness-raising campaigns</strong> including educational
-          materials, outreach initiatives, and incentive programs encourage
-          proactive health behaviors in our patient population.
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Quarterly educational seminars</strong> for providers and staff
-          to improve care and practice administration.
-      - icon:
-          src: /images/icon-check.svg
-          alt: check icon
-          width: 35
-          height: 35
-        title:
-        description: >-
-          <strong>Continual advocacy</strong> with local, state, and national
-          legislators on behalf of our health centers to help shape beneficial
-          healthcare policy and drive sustainable change.
-  - _bookshop_name: our_impact/tabbing
-    title: A Model of Strength and Stability
-    tabs:
-      - label: MedPoint Management
-        content: >-
-          We have worked closely with the same management services organization,
-          MedPoint Management (MPM), for more than three decades. MPM is the
-          operational backbone of our IPA, providing vital administrative and
-          clinical infrastructure, including:
-        content2: >-
-          Having access to these resources frees our partner health centers to
-          focus their time and energy on delivering quality patient care and
-          service.
-        image:
-          src: /images/photo-medpoint.png
-          alt: MedPoint Management Image
-          width: 380
-          height: 380
-        points:
-          - State-of-the-art information technology
-          - Compliance guidance
-          - Utilization management
-          - Data analytics
-          - Fiscal services
-          - Network development
-          - Claims processing
-          - Customer service
-          - Care management
-      - label: Optimal Health Plan Contracts
-        image:
-          src: /images/photo-optimal.png
-          alt: optimal Image
-          width: 380
-          height: 380
-        content: >-
-          HCLA IPA contracts with most major managed care health plans, including
-          Medi-Cal, Medicare Advantage, Covered California, and commercial plans.
-        content2: >-
-          Our history of trust and support coupled with our large network uniquely
-          positions us to negotiate favorable plan contracts, ensuring the
-          financial health and sustainability of our network.
-      - label: Legacy and Longevity
-        image:
-          src: /images/photo-legacy.png
-          alt: legacy Image
-          width: 380
-          height: 380
-        content: >-
-          For more than 30 years, HCLA IPA has been a stable, respected force
-          guiding health centers to better care delivery and patients to better
-          health. Industry leaders, providers, and members alike have recognized
-          us for our dedication to sustaining a quality, health care safety net
-          for those who need it most.
-        content2: >-
-          As the managed care landscape continues to transform, HCLA IPA has the
-          experience and agility to pivot along with it, ensuring that we will be
-          here to meet the needs of our health centers and patient members—not
-          just now but for the long term.
-  - _bookshop_name: our_impact/goal
-    image:
-      src: /images/community.png
-      alt: community image
-      width: 495
-      height: 705
-    title: Engaging Grants and Community Partnerships for the Greater Good
-    isLargeTitle: true
-    description: >-
-      We leverage grant funding and build collaborative programs with like-minded
-      healthcare organizations and community partners to better support our
-      network of health centers and patient members.  Supplemental resources from
-      these initiatives help on multiple fronts:
-    description2: >-
-      Working together, HCLA IPA and our grant and community partners expand
-      outreach and improve health and wellness within the diverse Los Angeles
-      County communities that we serve.
-    learnMoreText: Contact Us for Collaboration Opportunities
-    points:
-      - >-
-        Engaging additional staff to guide practice improvements and advocate for
-        patient wellness.
-      - Funding existing and new preventive health and care coordination programs.
-      - >-
-        Providing street-level support to our most at-risk and vulnerable
-        populations.
-  - _bookshop_name: our_impact/collaborataction
-    title: Collaboration in Action
-    learnMoreText: View More News
-    newsData:
-      - image:
-          src: /images/news3.png
-          alt: news image
-          width: 315
-          height: 210
-        category: Latest News
-        title: >-
-          HCLA Recognized in America’s Physician Groups’ 2023 Case Studies in
-          Excellence
-      - image:
-          src: /images/news2.png
-          alt: news image
-          width: 315
-          height: 210
-        category: Latest News
-        title: HCLA Receives Grant from Cedars-Sinai
-      - image:
-          src: /images/news1.png
-          alt: news image
-          width: 315
-          height: 210
-        category: Latest News
-        title: Gaining Ground and Supporting the Homeless
-  - _bookshop_name: our_impact/collaborate
-    title: Collaborate with HCLA IPA
-    subtitle: >-
-      Health Care LA, IPA is actively seeking collaborators to help expand our
-      impact.
-    button:
-      buttontext: Contact Us
-      link: '#'
-      target: _self
-    descriptionData:
-      - icon:
-          src: /images/icon-grants.svg
-          alt: grants icon
-          width: 55
-          height: 55
-        description: >-
-          Grants and philanthropic support to fund new programs and interventions
-          to better serve our communities.
-      - icon:
-          src: /images/icon-build.svg
-          alt: build icon
-          width: 55
-          height: 55
-        description: >-
-          Partnerships with healthcare organizations and providers aligned with
-          our mission and goals.
-      - icon:
-          src: /images/icon-advocacy.svg
-          alt: advocacy icon
-          width: 55
-          height: 55
-        description: >-
-          Legislative advocacy and policy change to enhance care access, advance
-          health equity, and create lasting improvements in community health.
 ---

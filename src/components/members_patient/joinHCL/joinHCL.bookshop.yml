@@ -1,0 +1,40 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Join HCL
+  description: Join HCL section
+  icon: "cottage"
+  tags: ["content"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: "Join the HCLA Family"
+  subtitle: "Enrolling as a member with HCLA IPA is simple. Just follow these steps:"
+  steps:
+    - number: 1
+      title: "Check if your health plan and product is contracted with HCLA IPA."
+      linkText: "Check HCLA Plans"
+      linkUrl: "#"
+    - number: 2
+      title: "Choose a physician or health center in our network."
+      linkText: "Search for Provider"
+      linkUrl: "#"
+    - number: 3
+      title: "Call or visit your chosen health center where a Certified Applicant Assistant can help you sign up."
+      linkText: "Get Help"
+      linkUrl: "#"
+  contactInfo:
+    additionalTextTop: Or, call our customer service department at
+    phone: "818.702.0100 (M-F)"
+    phoneUrl: 8187020100
+    hours: "9:00 a.m. – 5:00 p.m. PST"
+    additionalTextBottom: "A representative can help you walk through the sign-up process with your health plan." 
+  
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

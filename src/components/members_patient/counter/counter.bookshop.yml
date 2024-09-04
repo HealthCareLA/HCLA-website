@@ -1,0 +1,37 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Member Patient Counter
+  description: Member Patient Counter Section
+  icon: "cottage"
+  tags: ["content"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: We Make It Easy To Find Quality–Care
+  gridCols: 4
+  counters:
+    - number: '30'
+      label: Health Centers
+      sign: +
+      backgroundColor: "#DFF6FF"
+    - number: '163'
+      label: Practice Locations
+      backgroundColor: "#DFF6FF"
+    - number: '1000'
+      label: Primary Care Physicians
+      sign: +
+      backgroundColor: "#DFF6FF"
+    - number: 3,000
+      label: Specialty Care Providers
+      sign: +
+      backgroundColor: "#DFF6FF"
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown

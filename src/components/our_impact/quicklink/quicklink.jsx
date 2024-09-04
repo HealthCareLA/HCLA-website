@@ -28,7 +28,7 @@ export default function OurImpactQuicklink(block) {
 
     return (
         <section suppressHydrationWarning>
-            <div id="sticky-links"
+            <div id="sticky-links" style={{ marginTop: (isFixed ? '' : '-20px') }}
                 className={`bg-white py-9 overflow-auto ${isFixed ? 'fixed-impact-link top-0 w-full' : 'relative'}`} >
                 <div className="w-[1050px] max-container">
                     <ul className="w-full flex justify-center gap-[30px] xl:gap-[50px] xxl:gap-[90px]">
@@ -42,6 +42,6 @@ export default function OurImpactQuicklink(block) {
                     </ul>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

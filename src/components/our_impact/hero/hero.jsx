@@ -48,7 +48,7 @@ export default function OurImpactHero(block) {
         )}
       </div>
 
-      <div className="bg-white relative" style={{ height: '250px', marginTop: '-125px' }}>
+      <div className="bg-white relative" style={{ height: '250px', marginTop: '-130px' }}>
         <img
           src="/images/quick-links-shape.png"
           alt="shape"

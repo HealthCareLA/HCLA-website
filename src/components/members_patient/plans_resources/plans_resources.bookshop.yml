@@ -1,0 +1,46 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Plans and Resources
+  description: Plans and Resources section
+  icon: "cottage"
+  tags: ["content"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  healthPlans:
+    title: "Our Health Plans"
+    description: "HCLA IPA works with many different managed care health plans (including Medi-Cal, Medicare Advantage, Covered California and Commercial) to help you and your families find the care and coverage you need all in one place. Having more health plan choices makes it easier to stay with the health center you know and trust if your insurance ever changes."
+    buttonlinks:
+      - text: "See Our Health Plans"
+        url: "#"
+      - text: "Nurse Advice Line"
+        url: "#"
+  resources:
+    title: "Helpful Resources"
+    description: "Our resources page is a menu of useful links for healthcare, wellness and illness-prevention. Below are some of the most popular links, or you can click the button below for the whole list."
+    links:
+      - text: "American Diabetes Association"
+        url: "diabetes.org"
+        target: "_blank"
+      - text: "Covered California"
+        url: "coveredca.org"
+        target: "_blank"
+      - text: "Department of Public Health LA County"
+        url: "publichealth.lacounty.gov"
+        target: "_blank"
+      - text: "WebMD"
+        url: "www.webmd.com"
+        target: "_blank"
+    buttonlinks:
+      - text: "Helpful Resources"
+        url: "#"
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
