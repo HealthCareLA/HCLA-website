@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Our Impact
+title: Member & Patients
 n_type: "2"
 seo:
   page_description:
