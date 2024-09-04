@@ -2,11 +2,12 @@ import MarkdownIt from "markdown-it";
 export default function HelpfulResourceNurseAdvice(block) {
     return (
         <section suppressHydrationWarning>
-            <div id="" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-[80px]">
+            <div id="" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-[80px]" style={{'marginTop' : '100px'}}>
                 <img
                     src="/images/quick-links-shape-bottom.png"
                     alt="shape"
                     className="absolute left-1/2 -translate-x-1/2 w-full z-[1] top-[-8%] lg:top-[-14%] hidden lg:block"
+                    style={{background: 'rgb(238 252 255)'}}
                 />
                 <div className="max-container relative z-[2]">
                     <div className="text-center">
