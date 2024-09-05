@@ -225,16 +225,21 @@ content_blocks:
       mix of informational, educational, technological, and operational
       resources needed to excel within a value-based healthcare system,
       including:
+    buttonSection:
+      buttonText: PROVIDER RESOURCE LIBRARY
+      buttonLink: https://healthcarela.org/resources/
     detailSection1:
       description: >-
         If you are interested in joining the HCLA network as a health center
         provider, please click the button below
       buttonText: PROVIDER NETWORK INQUIRY
+      buttonLink: https://healthcarela.org/join-network
     detailSection2:
       description: >-
         Login here for access to resources and content exclusive to contracted
         providers.
       buttonText: PARTNER HEALTH CENTER LOGIN
+      buttonLink: https://portal.medpointmanagement.com/sign-in
     points:
       - Cozeva
       - Clinical, Quality, and Operational Support Staff

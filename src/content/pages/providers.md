@@ -156,16 +156,14 @@ content_blocks:
           supporting quality, accessible health care to the patients and
           communities who need it most.
   - _bookshop_name: provider/contact
-    icon:
-      src: /images/icon-email.svg
-      alt: Contact Icon
-      width: 40
-      height: 40
-    text: >-
-      Email us to learn more about contracting opportunities or our white-glove
-      approach to provider support.
-    button:
-      text: Send Email
-      link: mailto:example@example.com
-      target: _blank
+    detailSection1:
+      description: >-
+        If you are interested in joining the HCLA network as a health center provider, please click the button below.
+      buttonText: PROVIDER NETWORK INQUIRY
+      buttonLink: https://healthcarela.org/join-network
+    detailSection2:
+      description: >-
+        Login here for access to resources and content exclusive to contracted providers.
+      buttonText: PROVIDER LOGIN
+      buttonLink: https://healthcarela.org/providers-secure
 ---
