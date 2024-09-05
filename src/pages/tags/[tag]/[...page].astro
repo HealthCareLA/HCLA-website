@@ -1,19 +1,20 @@
 ---
-import NewEventList from "@components/blog/list";
-import NewEventPagination from "@components/blog/pagination";
+import NewEventList from "@components/news_events/list";
+import NewEventPagination from "@components/news_events/pagination";
 import Layout from "@layouts/Layout.astro";
 import { getCollection, getEntryBySlug } from "astro:content";
 
 export async function getStaticPaths({ paginate }: { paginate: Function }) {
   const tags: Record<string, any> = {};
-  const page = await getEntryBySlug("pages", "blog");
-  const posts = await getCollection("blog");
-  posts.forEach(({ data }) =>
-    data.tags.forEach((tag: string) => (tags[tag] = true))
+  const page = await getEntryBySlug("pages", "news-events");
+  const posts = await getCollection("news-events");
+  posts.forEach(
+    ({ data }) =>
+      data.tags && data.tags.forEach((tag: string) => (tags[tag] = true)),
   );
 
   return Object.keys(tags).map((tag) => {
-    const filteredPosts = posts.filter(({ data }) => data.tags.includes(tag));
+    const filteredPosts = posts.filter(({ data }) => data.tags?.includes(tag));
     return paginate(filteredPosts, {
       params: { tag },
       pageSize: page.data.page_size,
@@ -22,7 +23,7 @@ export async function getStaticPaths({ paginate }: { paginate: Function }) {
 }
 
 const tag = Astro.params.tag ?? "";
-const page = (await getEntryBySlug("pages", "blog")).data;
+const page = (await getEntryBySlug("pages", "news-events")).data;
 page.title = tag[0].toUpperCase() + tag.slice(1);
 page.description = "";
 

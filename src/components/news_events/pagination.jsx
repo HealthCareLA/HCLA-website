@@ -2,7 +2,7 @@ import PostSummary from "../../components/posts/summary";
 import MarkdownIt from "markdown-it";
 const md = new MarkdownIt({ html: true });
 
-export default function BlogPagination({ pagination }) {
+export default function NewEventPagination({ pagination }) {
   const {
     currentPage,
     lastPage,
@@ -18,9 +18,8 @@ export default function BlogPagination({ pagination }) {
     pageLinks.push(
       <li className="page-item" key={i}>
         <a
-          className={`page-link btn btn-secondary ${
-            i === currentPage ? "active" : ""
-          }`}
+          className={`page-link btn btn-secondary ${i === currentPage ? "active" : ""
+            }`}
           href={i === 1 ? "/news-events" : `/news-events/${i}`}
         >
           {i}

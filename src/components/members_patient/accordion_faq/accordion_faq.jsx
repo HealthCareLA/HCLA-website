@@ -9,9 +9,9 @@ const FaqSection = ({ title, faqs }) => {
   };
 
   return (
-    <section id="FAQs" class="pt-[50px] md:pt-[80px] lg:pt-[100px] pb-[50px] md:pb-[80px] lg:pb-[150px] bg-trans-blue"
+    <section id="FAQs" className="pt-[50px] md:pt-[80px] lg:pt-[100px] pb-[50px] md:pb-[80px] lg:pb-[150px] bg-trans-blue"
       suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
-      <div class="max-container">
+      <div className="max-container">
         <div className="faq-section text-center">
           {title && (
             <h2 className="text-blue mb-[30px] md:mb-[50px] lg:mb-[80px] font-medium">
