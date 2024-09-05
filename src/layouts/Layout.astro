@@ -23,7 +23,7 @@ export interface Props {
 const { seo } = Astro.props;
 const baseUrl = Astro.site;
 const title = Astro.props.title
-  ? `${Astro.props.title} | ${site.site_title}`
+  ? `${Astro.props.title}`
   : site.site_title;
 const n_type = Astro.props.n_type ? Astro.props.n_type : 1;
 const description = seo?.page_description || site.description;
