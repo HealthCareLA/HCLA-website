@@ -9,17 +9,17 @@
   "sitemaplinks": [
     {
       "text": "About Us",
-      "link": "#",
+      "link": "/",
       "target": "_self"
     },
     {
       "text": "For Providers",
-      "link": "#",
+      "link": "/providers-secure",
       "target": "_self"
     },
     {
       "text": "For Patients",
-      "link": "#",
+      "link": "/members-patient",
       "target": "_self"
     },
     {
@@ -42,32 +42,32 @@
   "quicklinks":[
     {
       "text": "Find a Clinic",
-      "link": "#",
+      "link": "/post-discharge-clinics",
       "target": "_self"
     },
     {
       "text": "Urgent Care",
-      "link": "#",
+      "link": "/urgent-care",
       "target": "_self"
     },
     {
       "text": "Hospital Directory",
-      "link": "#",
+      "link": "/patient-centered-medical-homes",
       "target": "_self"
     },
     {
       "text": "Nurse Advice Lines",
-      "link": "#",
+      "link": "/helpful_resources",
       "target": "_self"
     },
     {
       "text": "Find Resources",
-      "link": "#",
+      "link": "/resource-provider",
       "target": "_self"
     },
     {
       "text": "Find Health Plans",
-      "link": "#",
+      "link": "/our-health-plans",
       "target": "_self"
     }
   ]

@@ -33,27 +33,27 @@
     },
     "links": [
       {
-        "link": "#",
+        "link": "/providers",
         "text": "Providers"
       },
       {
-        "link": "#",
+        "link": "/members-patient",
         "text": "Members/Patient"
       },
       {
-        "link": "#",
+        "link": "/health-care",
         "text": "Find Care"
       },
       {
-        "link": "#",
+        "link": "resource-provider",
         "text": "Resource Library"
       },
       {
-        "link": "#",
+        "link": "/news-events",
         "text": "News & Events"
       },
       {
-        "link": "#",
+        "link": "/",
         "text": "About"
       }
     ]
