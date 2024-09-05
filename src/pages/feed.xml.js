@@ -9,7 +9,7 @@ export const get = () => rss({
   description: site.description,
 	site: import.meta.env.SITE,
   items: posts.map((post) => ({
-    link: `/blog/${post.slug}`,
+    link: `/news-events/${post.slug}`,
     title: post.data.title,
     pubDate: post.data.date,
   }))

@@ -10,6 +10,44 @@ module.exports = {
       disable_add: true,
       disable_add_folder: true,
     },
+    posts: {
+      path: "src/content/news-events",
+      output: true,
+      url: "/news-events/[slug]/",
+      _enabled_editors: ["content", "visual"],
+      add_options: [
+        {
+          name: "Add New Post",
+          schema: "default",
+          icon: "post_add",
+        },
+      ],
+      schemas: {
+        default: {
+          name: "New Post",
+          path: "schemas/post.md",
+        },
+      },
+      _inputs: {
+        title: {
+          empty_type: "string",
+        },
+        image: {
+          empty_type: "string",
+        },
+        image_alt: {
+          empty_type: "string",
+        },
+        author: {
+          empty_type: "string",
+        },
+        tags: {
+          type: "multiselect",
+          allow_create: true,
+          empty_type: "array",
+        },
+      }
+    },
     pages: {
       path: "src/content/pages",
       url: (filePath, parsed, { buildUrl }) =>

@@ -8,7 +8,7 @@ export default function PostSummary({ post }) {
       <div className="col-lg-4 col-md-6">
         <article className="blog-post">
           <div className="blog-post-thumb">
-            <a href={`/blog/${slug}`}>
+            <a href={`/news-events/${slug}`}>
               <img
                 src={thumb_image.image}
                 alt={thumb_image.image_alt}
@@ -25,7 +25,7 @@ export default function PostSummary({ post }) {
               ))}
             </div>
             <div className="blog-post-title">
-              <a href={`/blog/${slug}`}>{title}</a>
+              <a href={`/news-events/${slug}`}>{title}</a>
             </div>
           </div>
         </article>
