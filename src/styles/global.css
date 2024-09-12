@@ -36,6 +36,42 @@
     color: #3ed973 !important;
 }
 
+.nav-link:hover {
+    color: #3ed973 !important;
+}
+
+.nav-submenu-item:hover{
+    color: #3ed973 !important;
+}
+
+.nav-submenu-container .nav-submenu ul{
+    position: absolute;
+    background: white;
+    padding: 15px 20px;
+    width: 220px;
+    top: 25px;
+    left: -160px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #0183B3;
+    display: none;
+}
+.nav-submenu-container .nav-submenu ul li{
+    margin-top:5px;
+}
+.nav-submenu-container .nav-submenu ul li.na-left{
+    margin-top: 10px;
+    padding-left: 0px;
+}
+.nav-submenu-container .nav-submenu ul li.na-right{
+    padding-left: 30px;
+}
+
+.nav-submenu-container:hover .nav-submenu ul{
+    display: block;
+}
+
 .text-common-clr {
     color: #003041;
 }

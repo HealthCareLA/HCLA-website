@@ -1,5 +1,5 @@
 {
-  "topBar":{
+  "topBar": {
     "mobileNumber": {
       "text": "(818) 702-0100"
     },
@@ -33,28 +33,107 @@
     },
     "links": [
       {
+        "link": "/",
+        "text": "About",
+        "submenu": [
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Who We Are"
+          },
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Our Impact"
+          },
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Careers"
+          }
+        ]
+      },
+      {
         "link": "/providers",
-        "text": "Providers"
+        "text": "Providers",
+        "submenu": [
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Value Based Care Resources"
+          },
+          {
+            "align": "left",
+            "link": "/",
+            "text": "For Providers"
+          },
+          {
+            "align": "right",
+            "link": "/",
+            "text": "Provider Login"
+          },
+          {
+            "align": "right",
+            "link": "/",
+            "text": "Network Benefits"
+          }
+        ]
       },
       {
         "link": "/members-patient",
-        "text": "Members/Patient"
+        "text": "Patient",
+        "submenu": [
+          {
+            "align": "left",
+            "link": "/",
+            "text": "For Patients"
+          },
+          {
+            "align": "right",
+            "link": "/",
+            "text": "Expectant Mothers"
+          },
+          {
+            "align": "right",
+            "link": "/",
+            "text": "Helpful Resources"
+          }
+        ]
       },
       {
         "link": "/health-care",
-        "text": "Find Care"
-      },
-      {
-        "link": "resource-provider",
-        "text": "Resource Library"
+        "text": "Find Care",
+        "submenu": [
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Health Centers"
+          },
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Hospital Directory"
+          },
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Health Plans"
+          },
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Nurse Advice Lines"
+          },
+          {
+            "align": "left",
+            "link": "/",
+            "text": "Urgent Cares"
+          }
+        ]
       },
       {
         "link": "/news-events",
         "text": "News & Events"
-      },
-      {
-        "link": "/",
-        "text": "About"
       }
     ]
   }

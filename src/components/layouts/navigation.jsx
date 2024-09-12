@@ -60,7 +60,7 @@ export default function Navigation({ n_type }) {
       });
     };
 
-    if(n_type == '1'){
+    if (n_type == '1') {
       const updateNavbarBackground = () => {
         if (window.scrollY > 100) {
           invokeFunctionOnScrollDown();
@@ -68,12 +68,12 @@ export default function Navigation({ n_type }) {
           invokeFunctionOnScrollTop();
         }
       };
-  
+
       window.addEventListener("scroll", updateNavbarBackground);
       return () => {
         window.removeEventListener("scroll", updateNavbarBackground);
       };
-    }else if( n_type == '2' ){
+    } else if (n_type == '2') {
       const updateNavbarBackground = () => {
         if (window.scrollY > 100) {
           invokeFunctionOnScrollDown();
@@ -92,7 +92,7 @@ export default function Navigation({ n_type }) {
     }
 
   }, [navBarData]);
-  
+
   return (
     <>
       <nav className="fixed top-0 w-full z-[100]">
@@ -103,7 +103,7 @@ export default function Navigation({ n_type }) {
             <a
               href='#'
               className="flex items-center gap-1 text-white hover:text-blue"
-              >
+            >
               <i className="fa-solid fa-phone" aria-hidden="true"></i>{mobileNumberText}
             </a>
             {
@@ -119,7 +119,7 @@ export default function Navigation({ n_type }) {
                   </a>
                 );
               })
-            }            
+            }
           </div>
         </div>
         <div className="navbar py-[16px]">
@@ -140,12 +140,38 @@ export default function Navigation({ n_type }) {
               {
                 navBarData?.links?.map((item, index) => {
                   return (
-                    <a 
-                      key={"n2_"+index}
-                      href={item?.link}
-                      target={item?.target} className="nav-link">
-                      {item?.text}
-                    </a>
+                    <div className="flex nav-submenu-container" key={'na-m-' + index}>
+                      <a
+                        key={"n2_" + index}
+                        href={item?.link}
+                        target={item?.target} className="nav-link">
+                        {item?.text}
+                      </a>
+                      {
+                        item?.submenu &&
+                        <div style={{ margin: '7px 10px' }}>
+                          <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.52868 7.82886L1.21618 2.51636C0.784534 2.11792 0.784534 1.42065 1.21618 1.02222C1.61461 0.590576 2.31188 0.590576 2.71032 1.02222L7.29235 5.57104L11.8412 1.02222C12.2396 0.590576 12.9369 0.590576 13.3353 1.02222C13.767 1.42065 13.767 2.11792 13.3353 2.51636L8.02282 7.82886C7.62438 8.2605 6.92711 8.2605 6.52868 7.82886Z" fill="white" />
+                          </svg>
+                        </div>
+                      }
+                      {
+                        item?.submenu && item?.submenu.length > 0 &&
+                        <div className="nav-submenu" style={{ position: 'relative' }}>
+                          <ul>
+                            {
+                              item.submenu.map((item2, index2) => {
+                                return (
+                                  <li key={'submenu_' + index + '_' + index2}
+                                    className={item2.align == 'left' ? 'nav-submenu-item na-left' : 'nav-submenu-item na-right'}
+                                  >{item2.text}</li>
+                                )
+                              })
+                            }
+                          </ul>
+                        </div>
+                      }
+                    </div>
                   );
                 })
               }
@@ -164,7 +190,7 @@ export default function Navigation({ n_type }) {
                   navBarData?.links?.map((item, index) => {
                     return (
                       <a
-                        key={'n3_'+index}
+                        key={'n3_' + index}
                         href={item?.link}
                         target={item?.target}
                         className="text-blue hover:text-highlight-green"
@@ -178,7 +204,7 @@ export default function Navigation({ n_type }) {
                   topBarData?.links?.map((item, index) => {
                     return (
                       <a
-                        key={'n4_'+index}
+                        key={'n4_' + index}
                         href={item?.link}
                         target={item?.target}
                         className="text-blue hover:text-highlight-green"

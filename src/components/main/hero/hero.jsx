@@ -8,6 +8,7 @@ export default function MainHero(block) {
 
     <section
       className="bg-blue text-white py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"
+      suppressHydrationWarning
     >
       <div
         className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10"
