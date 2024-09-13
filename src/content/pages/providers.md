@@ -40,7 +40,7 @@ content_blocks:
           experiences, and build healthier communities.
         link:
           text: Contacted Provider Login
-          href: '#'
+          href: 'https://portal.medpointmanagement.com/sign-in'
         image:
           src: /images/dedicated-support.png
           alt: Dedicated Support
@@ -57,7 +57,7 @@ content_blocks:
           information, forms, plan updates, and health education materials.
         link:
           text: Provider Resource Library
-          href: '#'
+          href: '/resource-provider'
         image:
           src: /images/value-based.png
           alt: Value-Based Care Resources
@@ -81,7 +81,7 @@ content_blocks:
           - Commercial Healthplans
         link:
           text: See Our Health Plans
-          href: '#'
+          href: '/our-health-plans'
         image:
           src: /images/health-plans.png
           alt: Health Plans

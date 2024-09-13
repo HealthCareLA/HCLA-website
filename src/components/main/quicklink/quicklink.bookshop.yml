@@ -11,8 +11,11 @@ spec:
 blueprint:
   title: Quick Links
   button1Text: Community Impact
+  button1Link: '/our-impact'
   button2Text: For Patients
+  button2Link: '/patient-centered-medical-homes'
   button3Text: View Discussions
+  button3Link: '/careers'
   description: Quick Links description
   mobileNumber:
     text: (818) 702-0100

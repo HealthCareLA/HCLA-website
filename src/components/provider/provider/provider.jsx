@@ -70,10 +70,12 @@ export default function ProviderPart(block) {
                                     }
                                     {
                                         section.link.text && (
-                                            <p className="mt-[10px] sm:mt-[20px] xl:mt-[30px] p2 font-[500] text-blue whitespace-pre-line w-full max-w-[500px]">
-                                                {section.link.text}
-                                                <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden="true"></i>
-                                            </p>
+                                            <a href={section.link.href} style={{ width: '100%' }}>
+                                                <p className="mt-[10px] sm:mt-[20px] xl:mt-[30px] p2 font-[500] text-blue whitespace-pre-line w-full max-w-[500px]">
+                                                    {section.link.text}
+                                                    <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden="true"></i>
+                                                </p>
+                                            </a>
                                         )
                                     }
                                 </div>
@@ -81,7 +83,7 @@ export default function ProviderPart(block) {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     );
 }

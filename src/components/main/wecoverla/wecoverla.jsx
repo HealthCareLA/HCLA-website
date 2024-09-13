@@ -21,31 +21,33 @@ export default function MainWecoverla(block) {
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] text-center md:text-left"
                 >
                     {
-                    block?.priorities?.map((item, index) => {
-                        return (
-                        <div
-                            key={ "b1_" + index }
-                            style={{backgroundColor: item.backgroundColor}}
-                            className={`rounded-[8px] md:rounded-[18px] px-[20px] md:px-[40px] py-[15px] md:py-[30px] text-white w-full`}
-                        >
-                            <img
-                            src={item?.image?.src}
-                            alt={item?.image?.alt}
-                            className="mb-[15px] md:mb-[25px] mx-auto w-[30px] md:w-auto"
-                            />
-                            <p className="text-[16px] md:text-[19px] leading-[20px] md:leading-[26px] whitespace-pre-line">
-                            {item?.description}
-                            </p>
-                        </div>
-                        );
-                    })
+                        block?.priorities?.map((item, index) => {
+                            return (
+                                <div
+                                    key={"b1_" + index}
+                                    style={{ backgroundColor: item.backgroundColor }}
+                                    className={`rounded-[8px] md:rounded-[18px] px-[20px] md:px-[40px] py-[15px] md:py-[30px] text-white w-full`}
+                                >
+                                    <img
+                                        src={item?.image?.src}
+                                        alt={item?.image?.alt}
+                                        className="mb-[15px] md:mb-[25px] mx-auto w-[30px] md:w-auto"
+                                    />
+                                    <p className="text-[16px] md:text-[19px] leading-[20px] md:leading-[26px] whitespace-pre-line">
+                                        {item?.description}
+                                    </p>
+                                </div>
+                            );
+                        })
                     }
                 </div>
                 <p
                     className="mt-[53px] p4 leading-[24px] md:leading-[36px] max-w-[575px] mx-auto font-[500] text-blue text-center whitespace-pre-line"
                 >
-                    {block?.learnMoreText}
-                    <i className="fa-solid fa-circle-chevron-right text-green ml-1"></i>
+                    <a href={block?.learnMoreTextLink}>
+                        {block?.learnMoreText}
+                        <i className="fa-solid fa-circle-chevron-right text-green ml-1"></i>
+                    </a>
                 </p>
             </div>
         </div>

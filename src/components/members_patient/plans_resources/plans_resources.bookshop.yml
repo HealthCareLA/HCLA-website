@@ -14,9 +14,9 @@ blueprint:
     description: "HCLA IPA works with many different managed care health plans (including Medi-Cal, Medicare Advantage, Covered California and Commercial) to help you and your families find the care and coverage you need all in one place. Having more health plan choices makes it easier to stay with the health center you know and trust if your insurance ever changes."
     buttonlinks:
       - text: "See Our Health Plans"
-        url: "#"
+        url: "/our-health-plans"
       - text: "Nurse Advice Line"
-        url: "#"
+        url: "/helpful-resources"
   resources:
     title: "Helpful Resources"
     description: "Our resources page is a menu of useful links for healthcare, wellness and illness-prevention. Below are some of the most popular links, or you can click the button below for the whole list."
@@ -35,7 +35,7 @@ blueprint:
         target: "_blank"
     buttonlinks:
       - text: "Helpful Resources"
-        url: "#"
+        url: "/helpful-resources"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

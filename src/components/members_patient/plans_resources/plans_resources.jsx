@@ -49,7 +49,7 @@ export default function MemberPatientPlanResource(block) {
                   <li className="py-[20px] border-t-[1px] border-[#B3E1F2]">
                     <p className="p1 text-common-clr font-medium">{link.text}</p>
                     <a href={link.url} target={link.target || "_self"} className="p1 text-green hover:text-blue font-normal">
-                      {link.url}
+                      {link.url_text}
                     </a>
                   </li>
                 ))}

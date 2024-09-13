@@ -5,7 +5,7 @@ export default function MainQuicklink(block) {
 
     return (
         <section suppressHydrationWarning>
-           <div className="bg-sky-blue relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[200px]">
+            <div className="bg-sky-blue relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[200px]">
                 <img
                     src="/images/quick-links-shape.png"
                     alt="shape"
@@ -18,26 +18,32 @@ export default function MainQuicklink(block) {
                     <div className="flex items-center justify-center gap-[20px] md:gap-[30px] flex-wrap">
                         {
                             block?.button1Text && (
-                                <button className="btn2">
-                                    {block?.button1Text}
-                                    <i className="fa-solid fa-circle-chevron-right text-green ml-1" />
-                                </button>
+                                <a href={block?.button1Link}>
+                                    <button className="btn2">
+                                        {block?.button1Text}
+                                        <i className="fa-solid fa-circle-chevron-right text-green ml-1" />
+                                    </button>
+                                </a>
                             )
                         }
                         {
                             block?.button2Text && (
-                                <button className="btn2">
-                                    {block?.button2Text}{" "}
-                                    <i className="fa-solid fa-circle-chevron-right text-green ml-1" />
-                                </button>
+                                <a href={block?.button2Link}>
+                                    <button className="btn2">
+                                        {block?.button2Text}{" "}
+                                        <i className="fa-solid fa-circle-chevron-right text-green ml-1" />
+                                    </button>
+                                </a>
                             )
                         }
                         {
                             block?.button3Text && (
-                                <button className="btn2">
-                                    {block?.button3Text}{" "}
-                                    <i className="fa-solid fa-circle-chevron-right text-green ml-1" />
-                                </button>
+                                <a href={block?.button3Link}>
+                                    <button className="btn2">
+                                        {block?.button3Text}{" "}
+                                        <i className="fa-solid fa-circle-chevron-right text-green ml-1" />
+                                    </button>
+                                </a>
                             )
                         }
                     </div>

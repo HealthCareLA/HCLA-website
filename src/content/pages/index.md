@@ -27,13 +27,14 @@ content_blocks:
       width: 280
       height: 280
   - _bookshop_name: main/quicklink
-    title: 'Quick Links:'
+    title: Quick Links
     button1Text: Community Impact
+    button1Link: '/our-impact'
     button2Text: For Patients
+    button2Link: '/patient-centered-medical-homes'
     button3Text: View Discussions
-    description: >-
-      If you need to check on a referral, need help finding a local provider, or
-      if you have questions, please call our customer service department at
+    button3Link: '/careers'
+    description: Quick Links description
     mobileNumber:
       text: (818) 702-0100
     timings: M – F, 9:00 a.m. – 5:00 p.m. PST
@@ -49,6 +50,7 @@ content_blocks:
       in a way that ensures care access and equity within our diverse,
       underserved communities.
     learnMoreText: Learn more about our unique approach to community care access and equity
+    learnMoreTextLink: '/our-impact'
     priorities:
       - backgroundColor: '#039CD5'
         image:
@@ -88,7 +90,6 @@ content_blocks:
       members to access quality care, no matter where in LA County they work and
       live. Together, our network represents a significant segment of Los
       Angeles County’s healthcare delivery safety net, with:
-    buttonText: View Accepted Health Plans
     points:
       - text: 30+ Health Centers
       - text: 1,000+ Primary Care Physicians
@@ -112,6 +113,7 @@ content_blocks:
       HCLA IPA contracts with most major health plans under HMO product lines,
       including:
     buttonText: View Accepted Health Plans
+    buttonTextLink: '/our-health-plans'
     points:
       - Medi-Cal Managed Care
       - Medicare Advantage
@@ -167,6 +169,7 @@ content_blocks:
       health and wellness for underserved, at-risk, and vulnerable patient
       populations.
     buttonText: Learn More
+    buttonTextLink: '/providers'
     points:
       - >-
         Coordinating care and expanding access to specialized programs to

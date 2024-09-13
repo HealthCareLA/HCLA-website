@@ -20,6 +20,7 @@ blueprint:
     a way that ensures care access and equity within our diverse, underserved
     communities.  
   learnMoreText: Learn more about our unique approach to community care access and equity
+  learnMoreTextLink: Learn more about our unique approach to community care access and equity
   priorities:
     - backgroundColor: "#039CD5"
       image:

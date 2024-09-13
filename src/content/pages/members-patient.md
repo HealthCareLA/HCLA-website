@@ -145,15 +145,15 @@ content_blocks:
       - number: 1
         title: "Check if your health plan and product is contracted with HCLA IPA."
         linkText: "Check HCLA Plans"
-        linkUrl: "#"
+        linkUrl: "/our-health-plans"
       - number: 2
         title: "Choose a physician or health center in our network."
         linkText: "Search for Provider"
-        linkUrl: "#"
+        linkUrl: "/health-care"
       - number: 3
         title: "Call or visit your chosen health center where a Certified Applicant Assistant can help you sign up."
         linkText: "Get Help"
-        linkUrl: "#"
+        linkUrl: "/health-care"
     contactInfo:
       additionalTextTop: Or, call our customer service department at
       phone: "818.702.0100 (M-F)"
@@ -166,24 +166,27 @@ content_blocks:
       description: "HCLA IPA works with many different managed care health plans (including Medi-Cal, Medicare Advantage, Covered California and Commercial) to help you and your families find the care and coverage you need all in one place. Having more health plan choices makes it easier to stay with the health center you know and trust if your insurance ever changes."
       buttonlinks:
         - text: "See Our Health Plans"
-          url: "#"
+          url: "/our-health-plans"
         - text: "Nurse Advice Line"
-          url: "#"
+          url: "/helpful-resources"
     resources:
       title: "Helpful Resources"
       description: "Our resources page is a menu of useful links for healthcare, wellness and illness-prevention. Below are some of the most popular links, or you can click the button below for the whole list."
       links:
         - text: "American Diabetes Association"
-          url: "diabetes.org"
+          url: "https://diabetes.org"
+          url_text: "diabetes.org"
           target: "_blank"
         - text: "Covered California"
-          url: "coveredca.org"
+          url: "https://coveredca.org"
+          url_text: "coveredca.org"
           target: "_blank"
         - text: "Department of Public Health LA County"
-          url: "publichealth.lacounty.gov"
+          url: "https://publichealth.lacounty.gov"
+          url_text: "publichealth.lacounty.gov"
           target: "_blank"
         - text: "WebMD"
-          url: "www.webmd.com"
+          url: "https://www.webmd.com"
           target: "_blank"
       buttonlinks:
         - text: "Helpful Resources"

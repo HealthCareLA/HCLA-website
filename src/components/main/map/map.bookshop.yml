@@ -22,7 +22,6 @@ blueprint:
   description: >-
     HCLA IPA contracts with most major health plans under HMO product lines,
     including:
-  buttonText: View Accepted Health Plans
   points:
     - Medi-Cal Managed Care
     - Medicare Advantage

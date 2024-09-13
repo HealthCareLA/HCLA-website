@@ -28,6 +28,7 @@ blueprint:
     health and wellness for underserved, at-risk, and vulnerable patient
     populations.
   buttonText: Learn More
+  buttonTextLink: '/providers'
   points:
     - >-
       Coordinating care and expanding access to specialized programs to improve
