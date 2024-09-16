@@ -5,15 +5,15 @@
     },
     "links": [
       {
-        "link": "#",
+        "link": "https://portal.medpointmanagement.com/sign-in",
         "text": "Provider Login"
       },
       {
-        "link": "#",
+        "link": "https://medpointmanagement.com",
         "text": "MedPOINT"
       },
       {
-        "link": "#",
+        "link": "/contact",
         "text": "Contact Us"
       }
     ]
@@ -33,17 +33,17 @@
     },
     "links": [
       {
-        "link": "/",
+        "link": null,
         "text": "About",
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/who-we-are",
             "text": "Who We Are"
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/our-impact",
             "text": "Our Impact"
           },
           {
@@ -54,69 +54,64 @@
         ]
       },
       {
-        "link": "/providers",
+        "link": null,
         "text": "Providers",
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/resource-provider",
             "text": "Value Based Care Resources"
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/providers",
             "text": "For Providers"
           },
           {
-            "align": "right",
-            "link": "/",
+            "align": "left",
+            "link": "https://portal.medpointmanagement.com/sign-in",
             "text": "Provider Login"
-          },
-          {
-            "align": "right",
-            "link": "/",
-            "text": "Network Benefits"
           }
         ]
       },
       {
-        "link": "/members-patient",
-        "text": "Patient",
+        "link": null,
+        "text": "Patients",
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/members-patient",
             "text": "For Patients"
           },
           {
-            "align": "right",
-            "link": "/",
+            "align": "left",
+            "link": "https://peaceful-puppy-465755.netlify.app",
             "text": "Expectant Mothers"
           },
           {
-            "align": "right",
-            "link": "/",
+            "align": "left",
+            "link": "/helpful-resources",
             "text": "Helpful Resources"
           }
         ]
       },
       {
-        "link": "/health-care",
+        "link": null,
         "text": "Find Care",
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/health-care",
             "text": "Health Centers"
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/contracted-hospitals",
             "text": "Hospital Directory"
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/our-health-plans",
             "text": "Health Plans"
           },
           {
@@ -126,7 +121,7 @@
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/urgent-care",
             "text": "Urgent Cares"
           }
         ]
