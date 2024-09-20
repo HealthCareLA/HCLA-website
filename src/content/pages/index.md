@@ -29,11 +29,11 @@ content_blocks:
   - _bookshop_name: main/quicklink
     title: Quick Links
     button1Text: Community Impact
-    button1Link: '/our-impact'
+    button1Link: /our-impact
     button2Text: For Patients
-    button2Link: '/patient-centered-medical-homes'
-    button3Text: View Discussions
-    button3Link: '/careers'
+    button2Link: /members-patient
+    button3Text: Careers
+    button3Link: /careers
     description: Quick Links description
     mobileNumber:
       text: (818) 702-0100
@@ -50,7 +50,7 @@ content_blocks:
       in a way that ensures care access and equity within our diverse,
       underserved communities.
     learnMoreText: Learn more about our unique approach to community care access and equity
-    learnMoreTextLink: '/our-impact'
+    learnMoreTextLink: /our-impact
     priorities:
       - backgroundColor: '#039CD5'
         image:
@@ -113,7 +113,7 @@ content_blocks:
       HCLA IPA contracts with most major health plans under HMO product lines,
       including:
     buttonText: View Accepted Health Plans
-    buttonTextLink: '/our-health-plans'
+    buttonTextLink: /our-health-plans
     points:
       - Medi-Cal Managed Care
       - Medicare Advantage
@@ -169,7 +169,7 @@ content_blocks:
       health and wellness for underserved, at-risk, and vulnerable patient
       populations.
     buttonText: Learn More
-    buttonTextLink: '/providers'
+    buttonTextLink: /providers
     points:
       - >-
         Coordinating care and expanding access to specialized programs to
@@ -228,9 +228,6 @@ content_blocks:
       mix of informational, educational, technological, and operational
       resources needed to excel within a value-based healthcare system,
       including:
-    buttonSection:
-      buttonText: PROVIDER RESOURCE LIBRARY
-      buttonLink: https://healthcarela.org/resources/
     detailSection1:
       description: >-
         If you are interested in joining the HCLA network as a health center
@@ -252,4 +249,7 @@ content_blocks:
       - Partners in Care
       - Innovacer
       - Samaritan City
+    buttonSection:
+      buttonText: PROVIDER RESOURCE LIBRARY
+      buttonLink: /resource-provider
 ---

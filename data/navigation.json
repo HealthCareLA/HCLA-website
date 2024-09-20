@@ -5,15 +5,15 @@
     },
     "links": [
       {
-        "link": "#",
+        "link": "https://portal.medpointmanagement.com/sign-in",
         "text": "Provider Login"
       },
       {
-        "link": "#",
+        "link": "https://medpointmanagement.com",
         "text": "MedPOINT"
       },
       {
-        "link": "#",
+        "link": "/contact",
         "text": "Contact Us"
       }
     ]
@@ -33,7 +33,7 @@
     },
     "links": [
       {
-        "link": "/",
+        "link": null,
         "text": "About",
         "submenu": [
           {
@@ -54,7 +54,7 @@
         ]
       },
       {
-        "link": "/providers",
+        "link": null,
         "text": "Providers",
         "submenu": [
           {
@@ -68,40 +68,35 @@
             "text": "For Providers"
           },
           {
-            "align": "right",
-            "link": "https://healthcarela.org/providers-secure",
+            "align": "left",
+            "link": "https://portal.medpointmanagement.com/sign-in",
             "text": "Provider Login"
-          },
-          {
-            "align": "right",
-            "link": "https://healthcarela.org/join-network",
-            "text": "Network Benefits"
           }
         ]
       },
       {
-        "link": "/members-patient",
-        "text": "Patient",
+        "link": null,
+        "text": "Patients",
         "submenu": [
           {
             "align": "left",
-            "link": "/patient-centered-medical-homes",
+            "link": "/members-patient",
             "text": "For Patients"
           },
           {
-            "align": "right",
-            "link": "/",
+            "align": "left",
+            "link": "https://peaceful-puppy-465755.netlify.app",
             "text": "Expectant Mothers"
           },
           {
-            "align": "right",
+            "align": "left",
             "link": "/helpful-resources",
             "text": "Helpful Resources"
           }
         ]
       },
       {
-        "link": "/health-care",
+        "link": null,
         "text": "Find Care",
         "submenu": [
           {
@@ -111,7 +106,7 @@
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/contracted-hospitals",
             "text": "Hospital Directory"
           },
           {
