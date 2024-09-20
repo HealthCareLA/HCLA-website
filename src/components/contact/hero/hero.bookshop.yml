@@ -4,14 +4,18 @@ spec:
     - content_blocks
   label: Contact Hero
   description: Contact Hero section
-  icon: "contact_support"
+  icon: "cottage"
   tags: ["hero"]
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: Let&#39;s talk.
-  description: We take our commitment to our users seriously. Have a question or
-    suggestion? Feel free to drop us a message!
+  title: We believe that everyone deserves easy access to quality healthcare.
+  image:
+    src: /images/whoweare-hero.png
+    alt: banner-image
+    width: 550
+    height: 550
+    isRounded: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

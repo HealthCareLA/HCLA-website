@@ -1,0 +1,40 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Contact Information
+  description: Contact Information section
+  icon: "cottage"
+  tags: ["content"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: Contact Information
+  subtitle1: General Questions & Support
+  - icon:
+      src: /images/icon-board-members.svg
+      alt: image
+      height: 70
+      width: 70
+  description1: >-
+    <strong>Current physicians or patients,</strong> please contact our management company,
+    MedPOINT Management at:
+  phone_desc: >-
+    <strong>Main Phone</strong>: 818-702-0100
+  phone_details: (TTY/TDD users should dial 711.)
+  operation_hours: >-
+    <strong>Hours of Operation</strong>: M – F 8:00 a.m. – 5:00 p.m.
+
+  subtitle2: Grant Liaison & General Inquiries
+  part2_description1: >-
+    <strong>For grant program questions</strong>, please contact Health Care LA at (818) 702-0100 and ask to be transferred to our grant liaison.
+  part2_description2: >-
+    <strong>For general inquiries,</strong> please email <strong>info@healthcarela.org</strong>.
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
