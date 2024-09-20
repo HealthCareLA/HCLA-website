@@ -11,11 +11,7 @@ spec:
 blueprint:
   title: Contact Information
   subtitle1: General Questions & Support
-  - icon:
-      src: /images/icon-board-members.svg
-      alt: image
-      height: 70
-      width: 70
+  icon1: /images/icon-advocacy.svg
   description1: >-
     <strong>Current physicians or patients,</strong> please contact our management company,
     MedPOINT Management at:
@@ -26,11 +22,11 @@ blueprint:
     <strong>Hours of Operation</strong>: M – F 8:00 a.m. – 5:00 p.m.
 
   subtitle2: Grant Liaison & General Inquiries
+  icon2: /images/icon-build.svg
   part2_description1: >-
     <strong>For grant program questions</strong>, please contact Health Care LA at (818) 702-0100 and ask to be transferred to our grant liaison.
   part2_description2: >-
-    <strong>For general inquiries,</strong> please email <strong>info@healthcarela.org</strong>.
-
+    <strong>For general inquiries,</strong> please email <strong class="text-blue">info@healthcarela.org</strong>.
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
