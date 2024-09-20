@@ -2,9 +2,9 @@ import MarkdownIt from "markdown-it";
 const md = new MarkdownIt({ html: true });
 const isMatch = true;
 
-export default function ContactHero(block) {
+export default function CareersHero(block) {
   return (
-    <section className={isMatch ? " bg-white text-blue py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning style={{overflow: 'hidden'}}>
+    <section className={isMatch ? " bg-white text-blue py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning style={{overflow:'hidden'}}>
       <div className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10">
         <div className="text-center lg:text-left w-full lg:w-1/2 lg:min-w-1/2">
           {block.title && (
@@ -49,7 +49,7 @@ export default function ContactHero(block) {
       </div>
       <div className="bg-white relative" style={{ height: '250px', marginTop: '-125px'}}>
         <img
-          src="/images/quick-links-shape.png"
+          src="/images/quick-links-shape.svg"
           alt="shape"
           className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
         />

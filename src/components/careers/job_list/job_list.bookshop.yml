@@ -1,0 +1,34 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Accordion Faq
+  description: Accordion Faq section
+  icon: "cottage"
+  tags: ["content"]
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  title: "Frequently Asked Questions"
+  designType: simple
+  job_list:
+    - job: "How does Health Care LA, IPA (HCLA IPA) interact with my Health Plan?"
+      answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+    - job: "What is the role of my Primary Care Physician (PCP) and health center?"
+      answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+    - job: "Annual Health Exams"
+      answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+    - job: "My Primary Care Physician (PCP) advises that I need to see a specialist. Now what happens?"
+      answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+    - job: "Are there any services that don’t need an authorization?"
+      answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+    - job: "Am I required to pay a co-payment?"
+      answer: "HCLA IPA represents your physicians and health centers. We contract with federally qualified health centers, community clinics, rural health centers and some private physicians throughout Los Angeles County. Your health plan (for example Anthem Blue Cross, Care 1st, Health Net, LA Care and Molina) requires you to choose a primary care physician (PCP) or health center. You’ve chosen a PCP with HCLA IPA. Your PCP and HCLA IPA will be coordinating all of your care, using our specialty and hospital networks. Your health plan determines your benefits, for example your co-payment amount when you see a physician or go to an emergency room. If you have your insurance through your employer, your employer and insurance company work together to determine what your monthly premium will be and the premium is paid directly to your insurance company by you or your employer."
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  description:
+    type: markdown
