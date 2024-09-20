@@ -8,37 +8,22 @@ export default function Navigation({ n_type }) {
   const mobileNumberText = topBarData?.mobileNumber?.text || "No Number available";
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuOpen = () => {
+    setIsMenuOpen(true);
+    document.body.style.overflow = "hidden";
+  };
+
+  const handleMenuClose = () => {
+    setIsMenuOpen(false);
+    document.body.style.overflow = "unset";
+  };
+
   useEffect(() => {
     const navbar = document.querySelector(".navbar");
     const navLinks = document.querySelectorAll(".nav-link");
     const logo = document.querySelector(".logo");
-    const menu = document.querySelector(".menu");
-    const menuBody = document.querySelector(".menu-body");
-
-    const menuOpenFun = () => {
-      menu.style.display = "block";
-      document.body.style.overflow = "hidden";
-      setIsMenuOpen(true);
-    };
-
-    const menuCloseFun = () => {
-      menu.style.display = "none";
-      document.body.style.overflow = "unset";
-      setIsMenuOpen(false);
-    };
-
-    const handleMenuOpen = () => {
-      menuOpenFun();
-    };
-
-    const handleMenuClose = (e) => {
-      e.stopPropagation();
-      menuCloseFun();
-    };
-
-    const handleMenuBodyClick = (e) => {
-      e.stopPropagation();
-    };
+    const menu_open = document.querySelector(".menu-open");
 
     const invokeFunctionOnScrollDown = () => {
       navbar.style.backgroundColor = "white";
@@ -48,6 +33,7 @@ export default function Navigation({ n_type }) {
       navLinks.forEach((link) => {
         link.style.color = "#0183B3";
       });
+      menu_open.style.color = '#0183B3';
     };
 
     const invokeFunctionOnScrollTop = () => {
@@ -58,6 +44,10 @@ export default function Navigation({ n_type }) {
       navLinks.forEach((link) => {
         link.style.color = "white";
       });
+
+      if (n_type == '1') {
+        menu_open.style.color = '#FFF';
+      }
     };
 
     if (n_type == '1') {
@@ -164,7 +154,11 @@ export default function Navigation({ n_type }) {
                                 return (
                                   <li key={'submenu_' + index + '_' + index2}
                                     className={item2.align == 'left' ? 'nav-submenu-item na-left' : 'nav-submenu-item na-right'}
-                                  >{item2.text}</li>
+                                  >
+                                    <a href={item2.link}>
+                                      {item2.text}
+                                    </a>
+                                  </li>
                                 )
                               })
                             }
@@ -177,47 +171,67 @@ export default function Navigation({ n_type }) {
               }
             </div>
 
-            <button className="lg:hidden text-white text-[24px] menu-open" >
+            <button
+              onClick={handleMenuOpen}
+              className={`lg:hidden ${n_type == 1 ? 'text-white' : 'text-blue'} text-[24px] menu-open`}
+            >
               <i className="fa-solid fa-bars" aria-hidden="true"></i>
             </button>
-
-            <div className="menu hidden bg-[rgba(0,0,0,0.7)] fixed top-0 right-0 max-h-screen h-screen w-full">
-              <div className="menu-body bg-white absolute top-0 right-0 z-10 h-full w-3/4 p-5 overflow-y-auto hide-scrollbar flex flex-col gap-3 md:gap-5 p4 font-[500]">
-                <button className="w-max ml-auto text-[24px] md:text-[30px] menu-close">
-                  <i className="fa-solid fa-xmark" aria-hidden="true"></i>
-                </button>
-                {
-                  navBarData?.links?.map((item, index) => {
-                    return (
-                      <a
-                        key={'n3_' + index}
-                        href={item?.link}
-                        target={item?.target}
-                        className="text-blue hover:text-highlight-green"
-                      >
-                        {item?.text}
-                      </a>
-                    );
-                  })
-                }
-                {
-                  topBarData?.links?.map((item, index) => {
-                    return (
-                      <a
-                        key={'n4_' + index}
-                        href={item?.link}
-                        target={item?.target}
-                        className="text-blue hover:text-highlight-green"
-                      >
-                        {item?.text}
-                      </a>
-                    );
-                  })
-                }
-              </div>
-            </div>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="menu bg-[rgba(0,0,0,0.7)] fixed top-0 right-0 max-h-screen h-screen w-full">
+            <div className="menu-body bg-white absolute top-0 right-0 z-10 h-full w-3/4 p-5 overflow-y-auto hide-scrollbar flex flex-col gap-3 md:gap-5 p4 font-[500]">
+              <button onClick={handleMenuClose} className="w-max ml-auto text-[24px] md:text-[30px]">
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+              {navBarData?.links?.map((item, index) => (
+                <>
+                  <a
+                    key={`menu2-link-${index}`}
+                    href={item?.link}
+                    target={item?.target}
+                    className="text-blue hover:text-highlight-green"
+                  >
+                    {item?.text}
+                  </a>
+                  {
+                    item?.submenu && item?.submenu.length > 0 &&
+                    <div className="nav-submenu" style={{ position: 'relative', marginLeft: '30px' }}>
+                      <ul>
+                        {
+                          item.submenu.map((item2, index2) => {
+                            return (
+                              <li key={'submenu2_' + index + '_' + index2}
+                                className={item2.align == 'left' ? 'nav-submenu-item na-left' : 'nav-submenu-item na-right'}
+                              >
+                                <a href={item2.link} className="text-blue hover:text-highlight-green">
+                                  {item2.text}
+                                </a>
+                              </li>
+                            )
+                          })
+                        }
+                      </ul>
+                    </div>
+                  }
+                </>
+              ))}
+              {topBarData?.links?.map((item, index) => (
+                <a
+                  key={`topbar-menu-link-${index}`}
+                  href={item?.link}
+                  target={item?.target}
+                  className="text-blue hover:text-highlight-green"
+                >
+                  {item?.text}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
       </nav>
     </>
   );

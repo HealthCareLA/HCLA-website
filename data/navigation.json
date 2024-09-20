@@ -38,12 +38,12 @@
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/who-we-are",
             "text": "Who We Are"
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/our-impact",
             "text": "Our Impact"
           },
           {
@@ -59,22 +59,22 @@
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/resource-provider",
             "text": "Value Based Care Resources"
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/providers",
             "text": "For Providers"
           },
           {
             "align": "right",
-            "link": "/",
+            "link": "https://healthcarela.org/providers-secure",
             "text": "Provider Login"
           },
           {
             "align": "right",
-            "link": "/",
+            "link": "https://healthcarela.org/join-network",
             "text": "Network Benefits"
           }
         ]
@@ -85,7 +85,7 @@
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/patient-centered-medical-homes",
             "text": "For Patients"
           },
           {
@@ -95,7 +95,7 @@
           },
           {
             "align": "right",
-            "link": "/",
+            "link": "/helpful-resources",
             "text": "Helpful Resources"
           }
         ]
@@ -106,7 +106,7 @@
         "submenu": [
           {
             "align": "left",
-            "link": "/",
+            "link": "/health-care",
             "text": "Health Centers"
           },
           {
@@ -116,7 +116,7 @@
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/our-health-plans",
             "text": "Health Plans"
           },
           {
@@ -126,7 +126,7 @@
           },
           {
             "align": "left",
-            "link": "/",
+            "link": "/urgent-care",
             "text": "Urgent Cares"
           }
         ]

@@ -4,7 +4,7 @@ const isMatch = true;
 
 export default function ProviderHero(block) {
   return (
-    <section className={isMatch ? " bg-white text-blue py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
+    <section className={isMatch ? " bg-white text-blue py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
       <div className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10">
         <div className="text-center lg:text-left w-full lg:w-1/2 lg:min-w-1/2">
           {block.title && (

@@ -187,10 +187,11 @@ content_blocks:
           target: "_blank"
         - text: "WebMD"
           url: "https://www.webmd.com"
+          url_text: "www.webmd.com"
           target: "_blank"
       buttonlinks:
         - text: "Helpful Resources"
-          url: "#"
+          url: "/helpful-resources"
   - _bookshop_name: members_patient/accordion_faq
     title: "Frequently Asked Questions"
     designType: simple

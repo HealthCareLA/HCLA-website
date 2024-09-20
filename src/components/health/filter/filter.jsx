@@ -399,7 +399,7 @@ const HealthFilter = (block) => {
             <div className="w-full">
               {filteredItems.map((item) => (
                 <div className="center_item" key={item.id} style={styles.centerItem}>
-                  <img className="centerItemImg" src="/images/center_sample.png" alt="" style={styles.centerItemImg} />
+                  {/* <img className="centerItemImg" src="/images/center_sample.png" alt="" style={styles.centerItemImg} /> */}
                   <div className="ml-5">
                     <div className="mt-1" style={styles.centerItemTitle}>{item.title}</div>
                     <div style={styles.centerItemAddress}>{formatAddress(item)}</div>

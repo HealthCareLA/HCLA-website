@@ -13,7 +13,7 @@ export default function OurImpactHealthcare({
   icondescriptions
 }) {
   return (
-    <section className={isMatch ? " bg-sky-blue text-blue py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning
+    <section className={isMatch ? " bg-sky-blue text-blue py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning
       id="Why_HCLA" >
       <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[50px]">
 

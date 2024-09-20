@@ -770,7 +770,7 @@ const UrgentFilter = (block) => {
                           <img className="centerItemClockImg" src="/images/state_clock.svg" alt="" style={styles.centerItemStateImg} />
                           <span style={styles.centerItemStateTxt}>{isItemClosed(item) ? 'Open' : 'Closed'}</span>
                         </div>
-                        <img className="centerItemImg" src="/images/center_sample.png" alt="" style={styles.centerItemImg} />
+                        {/* <img className="centerItemImg" src="/images/center_sample.png" alt="" style={styles.centerItemImg} /> */}
                         <div className="ml-5">
                           <div className="mt-1" style={styles.centerItemTitle}>{item.title}</div>
                           <div style={styles.centerItemAddress}>{formatAddress(item)}</div>

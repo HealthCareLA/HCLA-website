@@ -6,7 +6,7 @@ export default function ContractedHospitalsHero(block) {
   return (
 
     <section
-      className="bg-blue text-white py-[50px] md:py-[80px] lg:pt-[120px] lg:pb-[25px] min-h-[350px]"
+      className="bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px] min-h-[350px]"
       suppressHydrationWarning
     >
       <div
