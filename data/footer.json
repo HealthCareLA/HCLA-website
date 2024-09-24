@@ -9,7 +9,7 @@
   "sitemaplinks": [
     {
       "text": "About Us",
-      "link": "/",
+      "link": "/about-us",
       "target": "_self"
     },
     {
@@ -24,25 +24,25 @@
     },
     {
       "text": "Expectant Mothers",
-      "link": "#",
+      "link": "https://peaceful-puppy-465755.netlify.app/",
       "target": "_self"
     },
     {
       "text": "Provider Login",
-      "link": "#",
+      "link": "https://portal.medpointmanagement.com/sign-in",
       "target": "_self"
     },
     {
       "text": "Contact Us",
-      "link": "#",
+      "link": "/contact-us",
       "target": "_self"
     }
   ],
   "quicklinksTitle": "Quick Links",
-  "quicklinks":[
+  "quicklinks": [
     {
       "text": "Find a Clinic",
-      "link": "/post-discharge-clinics",
+      "link": "/health-care",
       "target": "_self"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "text": "Hospital Directory",
-      "link": "/patient-centered-medical-homes",
+      "link": "/contracted-hospitals",
       "target": "_self"
     },
     {
