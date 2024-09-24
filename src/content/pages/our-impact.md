@@ -1,7 +1,6 @@
 ---
 _schema: default
 title: Our Impact
-n_type: "2"
 seo:
   page_description:
   canonical_url:
@@ -13,9 +12,9 @@ seo:
 content_blocks:
   - _bookshop_name: our_impact/hero
     title: Our Impact
-    content: >-
-      Health Care LA, IPA Helps Build Healthier Communities and a Brighter
-      Healthcare Future
+    description: >-
+      Health Care LA, IPA brings access to quality care to Los Angeles County
+      residents who need it most.
     button:
     image:
       src: /images/our-impact-hero.png
@@ -28,6 +27,9 @@ content_blocks:
       alt: yellow-circle
       width: 280
       height: 280
+    content: >-
+      Health Care LA, IPA Helps Build Healthier Communities and a Brighter
+      Healthcare Future
   - _bookshop_name: our_impact/quicklink
     links:
       - text: Why HCLA
@@ -67,8 +69,8 @@ content_blocks:
       remain solvent.
     points:
       - >-
-        Increasingly intricate requirements, including regulatory, technological,
-        and administrative.
+        Increasingly intricate requirements, including regulatory,
+        technological, and administrative.
       - More restrictive reporting and reimbursement structures.
       - >-
         More stringent focus on patient health status, particularly those with
@@ -117,8 +119,8 @@ content_blocks:
         title:
         description: >-
           Deliver high-quality, cost-efficient care through measuring and
-          monitoring performance standards, and providing training and support to
-          meet best practice standards and quality benchmarks.
+          monitoring performance standards, and providing training and support
+          to meet best practice standards and quality benchmarks.
       - icon:
           src: /images/icon-collaborate.svg
           alt: collaborate icon
@@ -137,25 +139,25 @@ content_blocks:
           height: 50
         title:
         description: >-
-          Fulfill the Healthcare <strong>Quintuple Aim</strong> of reducing costs
-          while also improving population health, patient experience,
+          Fulfill the Healthcare <strong>Quintuple Aim</strong> of reducing
+          costs while also improving population health, patient experience,
           <strong>Health Equity</strong> and team well-being by improving health
           outcomes for high-risk populations, strengthening infrastructure and
-          operations, diversifying funding streams, and expanding partnerships and
-          business relationships.
+          operations, diversifying funding streams, and expanding partnerships
+          and business relationships.
   - _bookshop_name: our_impact/ways_serve
     title: Ways We Serve
     description: >-
-      HCLA IPA goes above and beyond by recognizing that accessing medical care is
-      just one piece of a very complex process. Administrative and regulatory
+      HCLA IPA goes above and beyond by recognizing that accessing medical care
+      is just one piece of a very complex process. Administrative and regulatory
       requirements and social determinants of health must all be addressed to
       elevate community health <strong>status</strong> and well-being.
 
 
-      To that end, we provide our partner health centers with expertise, support,
-      guidance, and access to administrative and technical resources, empowering
-      them to remain in control of their practices while we collectively
-      facilitate quality healthcare management.
+      To that end, we provide our partner health centers with expertise,
+      support, guidance, and access to administrative and technical resources,
+      empowering them to remain in control of their practices while we
+      collectively facilitate quality healthcare management.
     image:
       src: /images/ways-we-serve.png
       alt: ways we serve image
@@ -200,10 +202,11 @@ content_blocks:
           height: 35
         title:
         description: >-
-          <strong>Advanced, interconnected healthcare technology</strong> provided
-          to our health centers at no additional cost helps them leverage tools
-          and data to improve population health, collect and report quality
-          metrics, better focus resources, and improve patient outcomes.
+          <strong>Advanced, interconnected healthcare technology</strong>
+          provided to our health centers at no additional cost helps them
+          leverage tools and data to improve population health, collect and
+          report quality metrics, better focus resources, and improve patient
+          outcomes.
       - icon:
           src: /images/icon-check.svg
           alt: check icon
@@ -211,10 +214,10 @@ content_blocks:
           height: 35
         title:
         description: >-
-          <strong>Patient Wellness Navigators</strong> guide patients through the
-          care continuum, educate them on available wellness programs and
-          community resources, and motivate them to actively participate in their
-          own health and well-being.  
+          <strong>Patient Wellness Navigators</strong> guide patients through
+          the care continuum, educate them on available wellness programs and
+          community resources, and motivate them to actively participate in
+          their own health and well-being.  
       - icon:
           src: /images/icon-check.svg
           alt: check icon
@@ -222,8 +225,9 @@ content_blocks:
           height: 35
         title:
         description: >-
-          <strong>Annual wellness and immunization visit promotions</strong> draw
-          patients into their health centers for preventive screenings and care.
+          <strong>Annual wellness and immunization visit promotions</strong>
+          draw patients into their health centers for preventive screenings and
+          care.
       - icon:
           src: /images/icon-check.svg
           alt: check icon
@@ -251,8 +255,8 @@ content_blocks:
           height: 35
         title:
         description: >-
-          <strong>Quarterly educational seminars</strong> for providers and staff
-          to improve care and practice administration.
+          <strong>Quarterly educational seminars</strong> for providers and
+          staff to improve care and practice administration.
       - icon:
           src: /images/icon-check.svg
           alt: check icon
@@ -292,24 +296,30 @@ content_blocks:
           - Customer service
           - Care management
       - label: Optimal Health Plan Contracts
+        content: >-
+          HCLA IPA contracts with most major managed care health plans,
+          including Medi-Cal, Medicare Advantage, Covered California, and
+          commercial plans.
+        content2: >-
+          Our history of trust and support coupled with our large network
+          uniquely positions us to negotiate favorable plan contracts, ensuring
+          the financial health and sustainability of our network.
         image:
           src: /images/photo-optimal.png
           alt: optimal Image
           width: 380
           height: 380
-        content: >-
-          HCLA IPA contracts with most major managed care health plans, including
-          Medi-Cal, Medicare Advantage, Covered California, and commercial plans.
-        content2: >-
-          Our history of trust and support coupled with our large network uniquely
-          positions us to negotiate favorable plan contracts, ensuring the
-          financial health and sustainability of our network.
+        points:
+          - State-of-the-art information technology
+          - Compliance guidance
+          - Utilization management
+          - Data analytics
+          - Fiscal services
+          - Network development
+          - Claims processing
+          - Customer service
+          - Care management
       - label: Legacy and Longevity
-        image:
-          src: /images/photo-legacy.png
-          alt: legacy Image
-          width: 380
-          height: 380
         content: >-
           For more than 30 years, HCLA IPA has been a stable, respected force
           guiding health centers to better care delivery and patients to better
@@ -318,9 +328,24 @@ content_blocks:
           for those who need it most.
         content2: >-
           As the managed care landscape continues to transform, HCLA IPA has the
-          experience and agility to pivot along with it, ensuring that we will be
-          here to meet the needs of our health centers and patient members—not
-          just now but for the long term.
+          experience and agility to pivot along with it, ensuring that we will
+          be here to meet the needs of our health centers and patient
+          members—not just now but for the long term.
+        image:
+          src: /images/photo-legacy.png
+          alt: legacy Image
+          width: 380
+          height: 380
+        points:
+          - State-of-the-art information technology
+          - Compliance guidance
+          - Utilization management
+          - Data analytics
+          - Fiscal services
+          - Network development
+          - Claims processing
+          - Customer service
+          - Care management
   - _bookshop_name: our_impact/goal
     image:
       src: /images/community.png
@@ -330,10 +355,10 @@ content_blocks:
     title: Engaging Grants and Community Partnerships for the Greater Good
     isLargeTitle: true
     description: >-
-      We leverage grant funding and build collaborative programs with like-minded
-      healthcare organizations and community partners to better support our
-      network of health centers and patient members.  Supplemental resources from
-      these initiatives help on multiple fronts:
+      We leverage grant funding and build collaborative programs with
+      like-minded healthcare organizations and community partners to better
+      support our network of health centers and patient members.  Supplemental
+      resources from these initiatives help on multiple fronts:
     description2: >-
       Working together, HCLA IPA and our grant and community partners expand
       outreach and improve health and wellness within the diverse Los Angeles
@@ -341,9 +366,11 @@ content_blocks:
     learnMoreText: Contact Us for Collaboration Opportunities
     points:
       - >-
-        Engaging additional staff to guide practice improvements and advocate for
-        patient wellness.
-      - Funding existing and new preventive health and care coordination programs.
+        Engaging additional staff to guide practice improvements and advocate
+        for patient wellness.
+      - >-
+        Funding existing and new preventive health and care coordination
+        programs.
       - >-
         Providing street-level support to our most at-risk and vulnerable
         populations.
@@ -381,7 +408,7 @@ content_blocks:
       impact.
     button:
       buttontext: Contact Us
-      link: '#'
+      link: /contact
       target: _self
     descriptionData:
       - icon:
@@ -390,8 +417,8 @@ content_blocks:
           width: 55
           height: 55
         description: >-
-          Grants and philanthropic support to fund new programs and interventions
-          to better serve our communities.
+          Grants and philanthropic support to fund new programs and
+          interventions to better serve our communities.
       - icon:
           src: /images/icon-build.svg
           alt: build icon

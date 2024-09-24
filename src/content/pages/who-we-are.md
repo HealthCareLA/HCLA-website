@@ -1,7 +1,6 @@
 ---
 _schema: default
 title: Who We Are
-n_type: "2"
 seo:
   page_description:
   canonical_url:
@@ -35,9 +34,22 @@ content_blocks:
     title: Who We Are
     description: >-
       Health Care LA, IPA (HCLA IPA) is a not-for-profit network of Federally
-      Qualified Health Centers (FQHCs) and Community Health Centers (CHCs) serving
-      Los Angeles County. Together, our network represents a significant segment
-      of the community's healthcare delivery safety net.
+      Qualified Health Centers (FQHCs) and Community Health Centers (CHCs)
+      serving Los Angeles County. Together, our network represents a significant
+      segment of the community's healthcare delivery safety net.
+    description2: >-
+      This leaves health centers administratively and financially overburdened,
+      struggling to maintain quality patient care, meet community needs, and
+      remain solvent.
+    points:
+      - >-
+        Increasingly intricate requirements, including regulatory,
+        technological, and administrative.
+      - More restrictive reporting and reimbursement structures.
+      - >-
+        More stringent focus on patient health status, particularly those with
+        chronic conditions like diabetes, COPD, heart or kidney disease, and
+        cancer
     icondescriptions:
       image:
         src: /images/icon-founded.svg
@@ -71,30 +83,19 @@ content_blocks:
         description: >-
           To make HCLA the recognized system of care for providing high-quality
           health services through our health center network while remaining true
-          to our collaborative/inclusive organizational structure and philosophy.
+          to our collaborative/inclusive organizational structure and
+          philosophy.
         backgroundColor: '#34C565'
   - _bookshop_name: who_we_are/ways_serve
     title: Our Community Impact
     description: >-
       HCLA IPA guides and supports our network of health centers to deliver
-      quality, accessible health care by coordinating care and enabling access to
-      specialized resources that improve health and well-being.
+      quality, accessible health care by coordinating care and enabling access
+      to specialized resources that improve health and well-being.
 
 
       We encourage improved health status in the communities we serve and are
       dedicated to expanding care for our most vulnerable populations.
-    points:
-      - >-
-        HCLA IPA serves more Medi-Cal recipients than any other IPA in the entire
-        state while also providing care under Medicare, Covered California, and
-        commercial health plans.
-      - >-
-        Our focus helps reduce health disparities for the high-risk, special needs
-        community, which is traditionally underserved.
-    button:
-      buttontext: Learn More
-      link: '#'
-      target: _self
     image:
       src: /images/photo-our-community.png
       alt: our community image
@@ -106,14 +107,26 @@ content_blocks:
       width: 200
       height: 200
       isRight: true
+    points:
+      - >-
+        HCLA IPA serves more Medi-Cal recipients than any other IPA in the
+        entire state while also providing care under Medicare, Covered
+        California, and commercial health plans.
+      - >-
+        Our focus helps reduce health disparities for the high-risk, special
+        needs community, which is traditionally underserved.
+    button:
+      buttontext: Learn More
+      link: /our-impact
+      target: _self
   - _bookshop_name: who_we_are/leadership
     title: Led by Health Centers
     description: >
       Health Care LA, IPA is a health-center-controlled Independent Physician
       Association (IPA) whose governing board is comprised of 15 c-suite leaders
       from our Federally Qualified Health Centers. This ensures that our
-      leadership represents the varied and wonderful diversity of the communities
-      we serve and promotes greater equity in quality care access.
+      leadership represents the varied and wonderful diversity of the
+      communities we serve and promotes greater equity in quality care access.
 
 
       This structure also informs a culture of inclusivity that encourages and
@@ -148,8 +161,9 @@ content_blocks:
     description: >-
       Our board guides and supports HCLA IPA, meeting regularly to help ensure
       that we stay on track with our operational and strategic goals.  Most
-      importantly, they serve to ensure that we remain true to our core mission of
-      providing efficient, compassionate, quality care to those who need it most.
+      importantly, they serve to ensure that we remain true to our core mission
+      of providing efficient, compassionate, quality care to those who need it
+      most.
     sections:
       - title: Board Executives
         members:
