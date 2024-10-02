@@ -29,15 +29,19 @@ export default function OurImpactCollaborataction(block) {
                     <h3 className="font-medium leading-4 mt-[20px] mb-[10px] text-[16px]">{item.category}</h3>
                   )
                 }
-                <p className="p2 font-medium text-[#003041]">{item.title}</p>
+                <a className="cursor-pointer" href={item.link} target="_self">
+                  <p className="p2 font-medium hover:text-blue text-[#003041]">{item.title}</p>
+                </a>
               </div>
             ))}
           </div>
           {
             block.learnMoreText && (
               <p className="mt-[10px] sm:mt-[20px] xl:mt-[50px] p2 max-w-[575px] mx-auto font-[500] text-blue whitespace-pre-line text-center">
-                {block?.learnMoreText}
-                <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden='true'></i>
+                <a className="cursor-pointer" href="/news-events" target="_self">
+                  {block?.learnMoreText}
+                  <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden='true'></i>
+                </a>
               </p>
             )
           }

@@ -8,11 +8,11 @@ export default function OurImpactQuicklink(block) {
 
     useEffect(() => {
         const stickyLinks = document.getElementById('sticky-links');
-        const stickyOffset = stickyLinks.getBoundingClientRect().top + window.pageYOffset;
+        const stickyOffset = stickyLinks.getBoundingClientRect().top;
 
         const handleScroll = () => {
             const windowpos = window.scrollY || document.documentElement.scrollTop;
-            if (windowpos >= stickyOffset) {
+            if (windowpos+115 >= stickyOffset) {
                 setIsFixed(true);
             } else {
                 setIsFixed(false);
@@ -26,6 +26,18 @@ export default function OurImpactQuicklink(block) {
         };
     }, []);
 
+    const moveToPage = (e, id) => {
+        e.preventDefault();
+        const targetRef = document.getElementById(id.substr(1, id.length));
+        if(targetRef) {
+            const top = targetRef.offsetTop;
+            window.scrollTo({
+                top: top-135,
+                behavior: 'smooth',
+            });
+        }
+    }
+
     return (
         <section suppressHydrationWarning>
             <div id="sticky-links" style={{ marginTop: (isFixed ? '' : '-20px') }}
@@ -34,7 +46,7 @@ export default function OurImpactQuicklink(block) {
                     <ul className="w-full flex justify-center gap-[30px] xl:gap-[50px] xxl:gap-[90px]">
                         {block.links?.map((item, index) => (
                             <li key={index} className="p2 text-blue font-medium hover:text-green whitespace-nowrap">
-                                <a href={item.link} target={item.target}>
+                                <a href={item.link} target={item.target} onClick={(e) => moveToPage(e, item.link)} >
                                     {item.text}
                                 </a>
                             </li>

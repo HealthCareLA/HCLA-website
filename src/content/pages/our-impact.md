@@ -387,6 +387,7 @@ content_blocks:
         title: >-
           HCLA Recognized in America’s Physician Groups’ 2023 Case Studies in
           Excellence
+        link: news-events/hcla-recognized-in-americas-physician-groups-2023-case-studies-in-excellence
       - image:
           src: /images/news2.png
           alt: news image
@@ -394,13 +395,15 @@ content_blocks:
           height: 210
         category: Latest News
         title: HCLA Receives Grant from Cedars-Sinai
+        link: news-events/hcla-receives-grant-from-cedars-sinai
       - image:
-          src: /images/news1.png
+          src: /images/news-event1.png
           alt: news image
           width: 315
           height: 210
         category: Latest News
-        title: Gaining Ground and Supporting the Homeless
+        title: HCLA Newsletter March 2019
+        link: news-events/hcla-newsletter-march-2019
   - _bookshop_name: our_impact/collaborate
     title: Collaborate with HCLA IPA
     subtitle: >-

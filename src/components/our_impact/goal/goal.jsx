@@ -80,8 +80,10 @@ export default function OurImpactGoal(block) {
               {
                 block.learnMoreText && (
                   <p className="mt-[50px] p2 max-w-[575px] mx-auto font-[500] text-blue whitespace-pre-line">
-                    {block?.learnMoreText}
-                    <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden="true" ></i>
+                    <a className="cursor-pointer" href="/contact" target="_self">
+                      {block?.learnMoreText}
+                      <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden="true" ></i>
+                    </a>
                   </p>
                 )
               }
