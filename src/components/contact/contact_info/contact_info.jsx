@@ -6,7 +6,7 @@ export default function ContactInfo(block) {
   return (
     <section className="bg-white pt-[50px] lg:pt-[50px] xl:pt-[85px] xxl:pt-[85px] pb-[50px] lg:pb-[80px] xl:pb-[85px]" suppressHydrationWarning id="Grants_Collaboration">
       <div className="max-container">
-        <h2 className="text-blue font-medium">{block.title}</h2>
+        <h2 className="text-blue font-medium mb-[70px]">{block.title}</h2>
         <div class="flex flex-wrap">
           <div className="w-full lg:w-1/2 mb-[30px] lg:mb-0">
             <div className="w-full flex justify-center">
