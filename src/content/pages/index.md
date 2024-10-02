@@ -36,7 +36,7 @@ content_blocks:
     button2Link: /members-patient
     button3Text: Careers
     button3Link: /careers
-    description: Quick Links description
+    description: If you need to check on a referral, need help finding a local provider, or if you have questions, please call our customer service department.
     mobileNumber:
       text: (818) 702-0100
     timings: M – F, 9:00 a.m. – 5:00 p.m. PST

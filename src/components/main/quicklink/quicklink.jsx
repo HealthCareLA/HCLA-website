@@ -47,7 +47,7 @@ export default function MainQuicklink(block) {
                             )
                         }
                     </div>
-                    <p className="text-center text-blue p4 leading-[28px] md:leading-[34px] mt-[30px] md:mt-[66px] whitespace-pre-line">
+                    <p className="text-center text-blue p4 leading-[28px] md:leading-[34px] mt-[30px] md:mt-[66px] whitespace-pre-line max-w-xl mx-auto">
                         {block?.description}
                     </p>
                     <a

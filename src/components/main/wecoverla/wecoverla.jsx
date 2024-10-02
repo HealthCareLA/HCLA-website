@@ -14,7 +14,7 @@ export default function MainWecoverla(block) {
                 <h2 className="font-[500] leading-[120%] md:leading-[140%] text-blue text-center">
                     {block?.title}
                 </h2>
-                <p className="text-dark-blue text-center p1 my-[30px] whitespace-pre-line">
+                <p className="text-dark-blue text-center p1 my-[30px] whitespace-pre-line px-12">
                     {block?.description}
                 </p>
                 <div
@@ -33,7 +33,7 @@ export default function MainWecoverla(block) {
                                         alt={item?.image?.alt}
                                         className="mb-[15px] md:mb-[25px] mx-auto w-[30px] md:w-auto"
                                     />
-                                    <p className="text-[16px] md:text-[19px] leading-[20px] md:leading-[26px] whitespace-pre-line">
+                                    <p className="text-[16px] md:text-[19px] leading-[20px] md:leading-[26px] whitespace-pre-line text-center">
                                         {item?.description}
                                     </p>
                                 </div>
