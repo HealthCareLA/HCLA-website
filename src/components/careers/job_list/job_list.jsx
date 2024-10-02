@@ -121,7 +121,7 @@ const JobListSection = (block) => {
             </div>
 
             <div className="flex flex-col mt-[20px]">
-              <input className="p-[10px] border-[1px] bg-blue" type='submit' value="Submit" />
+              <input className="p-[10px] border-[1px] bg-blue text-white" type='submit' value="Submit" />
             </div>
 
           </form>
