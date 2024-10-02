@@ -15,7 +15,9 @@ content_blocks:
     description: >-
       Health Care LA, IPA brings access to quality care to Los Angeles County
       residents who need it most.
-    button: Learn More
+    button:
+      text: Learn More
+      link: /our-impact
     image:
       src: /images/photo-here-520x520-2x.png
       alt: banner-image
