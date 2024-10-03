@@ -1,6 +1,7 @@
 ---
 _schema: default
 title: Our Health Plans
+n_type: "2"
 seo:
   page_description:
   canonical_url:

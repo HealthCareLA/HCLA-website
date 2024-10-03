@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 
 export default function Navigation({ n_type }) {
-
   const topBarData = navigation?.topBar;
   const navBarData = navigation?.navBar;
   const mobileNumberText = topBarData?.mobileNumber?.text || "No Number available";
@@ -32,6 +31,10 @@ export default function Navigation({ n_type }) {
       }
       navLinks.forEach((link) => {
         link.style.color = "#0183B3";
+        const arrow = link.querySelector('svg path');
+        if (arrow) {
+            arrow.style.fill = '#0183B3';
+        }
       });
       menu_open.style.color = '#0183B3';
     };
@@ -43,43 +46,29 @@ export default function Navigation({ n_type }) {
       }
       navLinks.forEach((link) => {
         link.style.color = "white";
+        const arrow = link.querySelector('svg path');
+        if (arrow) {
+            arrow.style.fill = 'white';
+        }
       });
-
-      if (n_type == '1') {
-        menu_open.style.color = '#FFF';
-      }
     };
 
-    if (n_type == '1') {
-      const updateNavbarBackground = () => {
-        if (window.scrollY > 100) {
-          invokeFunctionOnScrollDown();
-        } else {
+    const updateNavbarBackground = () => {
+      if (window.scrollY > 45) {
+        invokeFunctionOnScrollDown();
+      } else {
+        if(n_type == '2') {
           invokeFunctionOnScrollTop();
         }
-      };
+      }
+    };
+    
+    updateNavbarBackground();
 
-      window.addEventListener("scroll", updateNavbarBackground);
-      return () => {
-        window.removeEventListener("scroll", updateNavbarBackground);
-      };
-    } else if (n_type == '2') {
-      const updateNavbarBackground = () => {
-        if (window.scrollY > 100) {
-          invokeFunctionOnScrollDown();
-        } else {
-          invokeFunctionOnScrollDown();
-        }
-      };
-
-      invokeFunctionOnScrollDown();
-
-      window.addEventListener("scroll", updateNavbarBackground);
-
-      return () => {
-        window.removeEventListener("scroll", updateNavbarBackground);
-      };
-    }
+    window.addEventListener("scroll", updateNavbarBackground);
+    return () => {
+      window.removeEventListener("scroll", updateNavbarBackground);
+    };
 
   }, [navBarData]);
 
@@ -112,13 +101,13 @@ export default function Navigation({ n_type }) {
             }
           </div>
         </div>
-        <div className="navbar py-[16px]">
+        <div className="navbar py-[16px] shadow-sm ">
           <div
             className="flex items-center justify-between gap-[20px] max-container mx-auto"
           >
             <div>
               <img
-                src={navBarData?.logo.src}
+                src={n_type === 1 ? navBarData?.logo2.src: navBarData?.logo.src}
                 alt={navBarData?.logo?.alt}
                 width={navBarData?.logo?.width}
                 height={navBarData?.logo?.height}
@@ -135,16 +124,18 @@ export default function Navigation({ n_type }) {
                         key={"n2_" + index}
                         href={item?.link}
                         target={item?.target} className="nav-link">
-                        {item?.text}
+                        <span>
+                          {item?.text}
+                        </span>
+                        {
+                          item?.submenu &&
+                          <span>
+                            <svg width="10" height="10" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.52868 7.82886L1.21618 2.51636C0.784534 2.11792 0.784534 1.42065 1.21618 1.02222C1.61461 0.590576 2.31188 0.590576 2.71032 1.02222L7.29235 5.57104L11.8412 1.02222C12.2396 0.590576 12.9369 0.590576 13.3353 1.02222C13.767 1.42065 13.767 2.11792 13.3353 2.51636L8.02282 7.82886C7.62438 8.2605 6.92711 8.2605 6.52868 7.82886Z" fill="rgb(1, 131, 179)" />
+                            </svg>
+                          </span>
+                        }
                       </a>
-                      {
-                        item?.submenu &&
-                        <div style={{ margin: '7px 10px' }}>
-                          <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.52868 7.82886L1.21618 2.51636C0.784534 2.11792 0.784534 1.42065 1.21618 1.02222C1.61461 0.590576 2.31188 0.590576 2.71032 1.02222L7.29235 5.57104L11.8412 1.02222C12.2396 0.590576 12.9369 0.590576 13.3353 1.02222C13.767 1.42065 13.767 2.11792 13.3353 2.51636L8.02282 7.82886C7.62438 8.2605 6.92711 8.2605 6.52868 7.82886Z" fill="white" />
-                          </svg>
-                        </div>
-                      }
                       {
                         item?.submenu && item?.submenu.length > 0 &&
                         <div className="nav-submenu" style={{ position: 'relative' }}>

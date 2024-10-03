@@ -1,6 +1,7 @@
 ---
 _schema: default
 title: Our Contracted Hospitals
+n_type: "2"
 seo:
   page_description:
   canonical_url:

@@ -32,7 +32,7 @@ export default function OurImpactQuicklink(block) {
         if(targetRef) {
             const top = targetRef.offsetTop;
             window.scrollTo({
-                top: top-135,
+                top: top-(id.substr(1, id.length) === 'Why_HCLA'? 115 : 215),
                 behavior: 'smooth',
             });
         }

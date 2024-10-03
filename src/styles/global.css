@@ -29,11 +29,18 @@
 }
 
 .nav-link {
-    color: white;
+    color: rgb(1, 131, 179);
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .nav-link:hover {
     color: #3ed973 !important;
+}
+
+.nav-link:hover path {
+    fill: #3ed973 !important;
 }
 
 .nav-link:hover {
@@ -82,7 +89,9 @@
 
 .fixed-impact-link {
     position: fixed;
-    z-index: 100;
+    top: 115px;
+    z-index: 10;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .tab-button.active {
