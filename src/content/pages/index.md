@@ -15,7 +15,9 @@ content_blocks:
     description: >-
       Health Care LA, IPA brings access to quality care to Los Angeles County
       residents who need it most.
-    button: Learn More
+    button:
+      text: Learn More
+      link: /our-impact
     image:
       src: /images/photo-here-520x520-2x.png
       alt: banner-image
@@ -34,7 +36,7 @@ content_blocks:
     button2Link: /members-patient
     button3Text: Careers
     button3Link: /careers
-    description: Quick Links description
+    description: If you need to check on a referral, need help finding a local provider, or if you have questions, please call our customer service department.
     mobileNumber:
       text: (818) 702-0100
     timings: M – F, 9:00 a.m. – 5:00 p.m. PST

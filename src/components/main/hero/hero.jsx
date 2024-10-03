@@ -23,10 +23,12 @@ export default function MainHero(block) {
             {block?.description?.trim()}
           </p>
           {
-            block?.button && (
-              <button className="bg-green hover:bg-highlight-green shadow-[0px 0px 10px 0px rgba(1, 118, 160, 0.80)] p3 leading-[18px] btn1 mx-auto lg:mx-0">
-                {block?.button}
-              </button>
+            block?.button?.text && (
+              <a href={block?.button?.link}>
+                <button className="bg-green hover:bg-highlight-green shadow-[0px 0px 10px 0px rgba(1, 118, 160, 0.80)] p3 leading-[18px] btn1 mx-auto lg:mx-0">
+                  {block?.button?.text}
+                </button>
+              </a>
             )
           }
         </div>

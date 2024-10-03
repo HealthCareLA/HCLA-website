@@ -106,13 +106,15 @@ export default function Navigation({ n_type }) {
             className="flex items-center justify-between gap-[20px] max-container mx-auto"
           >
             <div>
-              <img
-                src={n_type === 1 ? navBarData?.logo2.src: navBarData?.logo.src}
-                alt={navBarData?.logo?.alt}
-                width={navBarData?.logo?.width}
-                height={navBarData?.logo?.height}
-                className="logo"
-              />
+              <a href="/">
+                <img
+                  src={n_type === 1 ? navBarData?.logo2.src: navBarData?.logo.src}
+                  alt={navBarData?.logo?.alt}
+                  width={navBarData?.logo?.width}
+                  height={navBarData?.logo?.height}
+                  className="logo"
+                />
+              </a>
             </div>
 
             <div className="items-center gap-5 text-[17px] font-[500] hidden lg:flex">

@@ -9,7 +9,7 @@
   "sitemaplinks": [
     {
       "text": "About Us",
-      "link": "/about-us",
+      "link": "/who-we-are",
       "target": "_self"
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "text": "Contact Us",
-      "link": "/contact-us",
+      "link": "/contact",
       "target": "_self"
     }
   ],
@@ -61,7 +61,7 @@
       "target": "_self"
     },
     {
-      "text": "Find Resources",
+      "text": "Provider Resources",
       "link": "/resource-provider",
       "target": "_self"
     },
