@@ -9,7 +9,7 @@ const FaqSection = ({ title, faqs }) => {
   };
 
   return (
-    <section id="FAQs" className="pt-[50px] md:pt-[80px] lg:pt-[100px] pb-[50px] md:pb-[80px] lg:pb-[150px] bg-trans-blue"
+    <section id="FAQs" className="pt-9 pb-[50px] md:pb-[80px] lg:pb-[150px] bg-trans-blue"
       suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
       <div className="max-container">
         <div className="faq-section text-center">

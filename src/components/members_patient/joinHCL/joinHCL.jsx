@@ -26,7 +26,7 @@ export default function MemberPatientJoinHCL(block) {
           <div className="steps-grid grid grid-cols-1 lg:grid-cols-3 gap-[30px] text-center mb-[50px]">
             {block.steps.map((step) => (
               <div className="step bg-trans-blue p-[30px] md:px-[35px] md:pt-[30px] md:pb-[50px] rounded-[18px]">
-                <h5 className="p5 step-number bg-green text-white w-[45px] sm:w-[55px] h-[45px] sm:h-[55px] rounded-full flex items-center justify-center mx-auto font-[500]">
+                <h5 className="p5 step-number bg-green text-white w-[45px] sm:w-[55px] h-[45px] sm:h-[55px] rounded-full flex items-center justify-center mx-auto font-[500] text-lg">
                   {step.number}
                 </h5>
                 <p className="p4 font-[500] mt-[25px] text-common-clr">{step.title}</p>

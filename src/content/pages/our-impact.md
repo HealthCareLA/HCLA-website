@@ -119,7 +119,7 @@ content_blocks:
         title:
         description: >-
           Deliver high-quality, cost-efficient care through measuring and
-          monitoring performance standards, and providing training and support
+          monitoring performance standards while providing training and support
           to meet best practice standards and quality benchmarks.
       - icon:
           src: /images/icon-collaborate.svg
@@ -151,7 +151,7 @@ content_blocks:
       HCLA IPA goes above and beyond by recognizing that accessing medical care
       is just one piece of a very complex process. Administrative and regulatory
       requirements and social determinants of health must all be addressed to
-      elevate community health <strong>status</strong> and well-being.
+      elevate community health status and well-being.
 
 
       To that end, we provide our partner health centers with expertise,
@@ -192,7 +192,7 @@ content_blocks:
           <strong>Inpatient and transition of care programs</strong> including
           <strong>telephonic case managers</strong> and a <strong>hospitalist
           network</strong> to coordinate care for patients during hospital stays
-          and Care Transition and <a href="#" class="text-green"><strong>Post
+          and Care Transition and <a href="/post-discharge-clinics/" class="text-green"><strong>Post
           Discharge Clinic</strong></a> programs that help discharged patients
           recover safely at home and avoid unnecessary readmission.
       - icon:
@@ -310,15 +310,6 @@ content_blocks:
           width: 380
           height: 380
         points:
-          - State-of-the-art information technology
-          - Compliance guidance
-          - Utilization management
-          - Data analytics
-          - Fiscal services
-          - Network development
-          - Claims processing
-          - Customer service
-          - Care management
       - label: Legacy and Longevity
         content: >-
           For more than 30 years, HCLA IPA has been a stable, respected force
@@ -337,15 +328,6 @@ content_blocks:
           width: 380
           height: 380
         points:
-          - State-of-the-art information technology
-          - Compliance guidance
-          - Utilization management
-          - Data analytics
-          - Fiscal services
-          - Network development
-          - Claims processing
-          - Customer service
-          - Care management
   - _bookshop_name: our_impact/goal
     image:
       src: /images/community.png
@@ -408,7 +390,7 @@ content_blocks:
     title: Collaborate with HCLA IPA
     subtitle: >-
       Health Care LA, IPA is actively seeking collaborators to help expand our
-      impact.
+      impact through:
     button:
       buttontext: Contact Us
       link: /contact

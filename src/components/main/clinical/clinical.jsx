@@ -14,7 +14,7 @@ export default function MainClinical(block) {
                     {block?.title}
                 </h3>
                 <p
-                    className="p1 text-dark-blue my-[22px] text-left md:text-center whitespace-pre-line"
+                    className="p1 text-dark-blue my-[22px] text-left md:text-center whitespace-pre-line px-10"
                 >
                     {block?.description}
                 </p>

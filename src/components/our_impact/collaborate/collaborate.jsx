@@ -13,15 +13,6 @@ export default function OurImpactCollaborate(block) {
               <h4 className="text-[28px] lg:max-w-[400px] my-[15px] text-common-clr">{block.subtitle}</h4>
             )
           }
-          {
-            block.button && (
-              <a href={block.button.link} target={block.button.target}
-                className="lg:mt-[30px] bg-green hover:bg-highlight-green text-white p3 btn1 !inline-block"
-              >
-                {block.button.buttontext}
-              </a>
-            )
-          }
         </div>
         <div className="w-full lg:w-3/5  xl:pl-[50px] xxl:pl-[90px] flex flex-col gap-[22px]">
           {block?.descriptionData?.map((item, index) => (
@@ -34,6 +25,15 @@ export default function OurImpactCollaborate(block) {
               </div>
             </div>
           ))}
+          {
+            block.button && (
+              <a href={block.button.link} target={block.button.target}
+                className="lg:mt-[30px] bg-green hover:bg-highlight-green text-white p3 btn1 !inline-block self-center"
+              >
+                {block.button.buttontext}
+              </a>
+            )
+          }
         </div>
       </div>
     </section>

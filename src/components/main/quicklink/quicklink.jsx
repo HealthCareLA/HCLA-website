@@ -5,7 +5,7 @@ export default function MainQuicklink(block) {
 
     return (
         <section suppressHydrationWarning>
-            <div className="bg-sky-blue relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[200px]">
+            <div className="bg-sky-blue relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[160px]">
                 <img
                     src="/images/quick-links-shape.png"
                     alt="shape"

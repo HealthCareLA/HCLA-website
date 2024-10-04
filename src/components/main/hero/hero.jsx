@@ -14,11 +14,11 @@ export default function MainHero(block) {
         className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10"
       >
         <div className="text-center lg:text-left w-full lg:w-1/2 lg:min-w-1/2">
-          <h1 className="font-[500] mt-[40px]">
+          <h1 className="font-[500] mt-[50px]">
             {block?.title}
           </h1>
           <p
-            className="p4 leading-[28px] md:leading-[34px] font-[500] max-w-[400px] my-[20px] md:my-[40px] mx-auto lg:mx-0 whitespace-pre-line"
+            className="p4 leading-[28px] md:leading-[34px] font-[500] max-w-[400px] my-[20px] md:my-[30px] mx-auto lg:mx-0 whitespace-pre-line"
           >
             {block?.description?.trim()}
           </p>

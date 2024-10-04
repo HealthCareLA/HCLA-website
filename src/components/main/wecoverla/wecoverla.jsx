@@ -4,7 +4,7 @@ const md = new MarkdownIt({ html: true });
 export default function MainWecoverla(block) {
 
     return (
-        <div className="bg-white relative pt-[50px] md:pt-[100px] lg:pb-[150px]">
+        <div className="bg-white relative pt-[50px] md:pt-[70px] lg:pb-[150px]">
             <img
                 src="/images/quick-links-shape-bottom.png"
                 alt="shape"

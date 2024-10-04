@@ -5,7 +5,7 @@ export default function MainHealthPlan(block) {
 
     return (
         <div className="bg-white relative">
-            <div className="max-container relative z-[2]">
+            <div className="max-container relative z-[2] pb-12">
                 <div
                     className="mt-[75px] md:mt-[150px] mb-[50px] md:mb-[100px] flex flex-col-reverse lg:flex-row items-center justify-between gap-[50px]"
                 >

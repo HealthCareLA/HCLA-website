@@ -23,21 +23,21 @@ content_blocks:
           width: 160
           height: 160
         hospitals:
+          - name: Brotman Medical Center
+            linkText: View website
+            link: "http://sch-culvercity.com/"
+            target: "_blank"
           - name: Hollywood Community Hospital
             linkText: View website
-            link: "#"
+            link: "http://sch-hollywood.com/"
             target: "_blank"
-          - name: Brotman Medical Center
+          - name: Los Angeles Community Hospital
             linkText: View website
-            link: "#"
-            target: "_blank"
-          - name: Brotman Medical Center
-            linkText: View website
-            link: "#"
+            link: "http://www.altacorp.com/altacorp/our-hospitals/lach-menu.html"
             target: "_blank"
           - name: Norwalk Community Hospital
             linkText: View website
-            link: "#"
+            link: "http://www.altacorp.com/altacorp/our-hospitals/nch-menu.html"
             target: "_blank"
       - hospitalName: Centinela Hospital Medical Center
         image:
@@ -48,7 +48,7 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "http://www.centinelamed.com/"
             target: "_blank"
       - hospitalName: Citrus Valley Health Partners*
         image:
@@ -59,15 +59,15 @@ content_blocks:
         hospitals:
           - name: Foothill Presbyterian
             linkText: View website
-            link: "#"
+            link: "http://www.cvhp.org/Our_Facilities/Foothill-Presbyterian.aspx"
             target: "_blank"
           - name: Inter-Community
             linkText: View website
-            link: "#"
+            link: "http://www.cvhp.org/Our_Facilities/Inter-Community.aspx"
             target: "_blank"
           - name: Queen of the Valley
             linkText: View website
-            link: "#"
+            link: "http://www.cvhp.org/Our_Facilities/Queen-of-the-Valley.aspx"
             target: "_blank"
       - hospitalName: Dignity Health Hospitals
         image:
@@ -78,11 +78,11 @@ content_blocks:
         hospitals:
           - name: California Hospital Medical Center*
             linkText: View website
-            link: "#"
+            link: "https://www.dignityhealth.org/californiahospital/"
             target: "_blank"
           - name: St. Mary Medical Center Long Beach
             linkText: View website
-            link: "#"
+            link: "http://www.dignityhealth.org/stmarymedical/"
             target: "_blank"
       - hospitalName: Martin Luther King, Jr. Community Hospital
         image:
@@ -93,7 +93,7 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "http://www.mlkcommunityhospital.org/"
             target: "_blank"
       - hospitalName: MemorialCare Health System
         image:
@@ -104,15 +104,15 @@ content_blocks:
         hospitals:
           - name: Community Hospital of Long Beach 
             linkText: View website
-            link: "#"
+            link: "https://www.memorialcare.org/community-hospital-long-beach"
             target: "_blank"
           - name: Long Beach Memorial Medical Center
             linkText: View website
-            link: "#"
+            link: "https://www.memorialcare.org/long-beach-memorial"
             target: "_blank"
           - name: Miller Children’s Hospital Long Beach
             linkText: View website
-            link: "#"
+            link: "http://www.millerchildrenshospitallb.org/"
             target: "_blank"
       - hospitalName: Olive View-UCLA Medical Center (Limited Scope)
         image:
@@ -123,7 +123,7 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "https://dhs.lacounty.gov/wps/portal/dhs/oliveview"
             target: "_blank"
       - hospitalName: Pomona Valley Hospital
         image:
@@ -134,7 +134,7 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "https://www.pvhmc.org/"
             target: "_blank"
       - hospitalName: Providence Hospitals
         image:
@@ -145,14 +145,14 @@ content_blocks:
         hospitals:
           - name: Holy Cross Medical Center
             linkText: View website
-            link: "#"
+            link: "http://california.providence.org/holy-cross/"
             target: "_blank"
           - name: Little Company of Mary
             linkText: View website
-            link: "#"
+            link: "http://california.providence.org/san-pedro/"
           - name: St. Joseph Medical Center
             linkText: View website
-            link: "#"
+            link: "http://california.providence.org/saint-joseph/"
             target: "_blank"
       - hospitalName: San Gabriel Valley Medical Center
         image:
@@ -163,7 +163,7 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "http://www.sgvmc.com/"
             target: "_blank"
       - hospitalName: St. Francis Medical Center*
         image:
@@ -174,7 +174,7 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "https://stfrancis.verity.org/"
             target: "_blank"
       - hospitalName: Valley Presbyterian Hospital*
         image:
@@ -185,7 +185,7 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "http://www.valleypres.org/"
             target: "_blank"
       - hospitalName: White Memorial Medical Center
         image:
@@ -196,6 +196,6 @@ content_blocks:
         hospitals:
           - name:
             linkText: View website
-            link: "#"
+            link: "https://www.adventisthealth.org/white-memorial/pages/default.aspx"
             target: "_blank"            
 ---
