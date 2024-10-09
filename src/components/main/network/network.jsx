@@ -9,7 +9,7 @@ export default function MainNetwork(block) {
             <img
                 src="/images/circle-shape-top.png"
                 alt="shape"
-                className="absolute left-1/2 -translate-x-1/2 w-full z-[1] top-[-8%] hidden lg:block"
+                className="absolute left-1/2 -translate-x-1/2 w-full z-[1] hidden lg:block"
             />
             <img
                 src="/images/circle-shape-bottom.png"

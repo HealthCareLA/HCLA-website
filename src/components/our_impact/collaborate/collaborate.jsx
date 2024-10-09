@@ -7,10 +7,10 @@ export default function OurImpactCollaborate(block) {
     <section className="bg-white pt-[50px] lg:pt-20 xl:pt-[135px] xxl:pt-[185px] pb-[50px] lg:pb-[80px] xl:pb-[135px]" suppressHydrationWarning id="Grants_Collaboration">
       <div className="max-container flex flex-wrap">
         <div className="w-full lg:w-2/5 mb-[30px] lg:mb-0">
-          <h2 className="text-blue font-medium">{block.title}</h2>
+          <h2 className="text-blue font-medium leading-[62px]">{block.title}</h2>
           {
             block.subtitle && (
-              <h4 className="text-[28px] lg:max-w-[400px] my-[15px] text-common-clr">{block.subtitle}</h4>
+              <h4 className="text-[28px] lg:max-w-[400px] my-8 text-common-clr leading-[38px]">{block.subtitle}</h4>
             )
           }
         </div>

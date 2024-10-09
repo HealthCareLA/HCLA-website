@@ -22,6 +22,7 @@ export default function WhoWeAreBoard(block) {
                                 {section.members.map(member => (
                                     <div className="text-center">
                                         <h5 className="font-semibold p6 text-blue-900 text-common-clr">{member.name}</h5>
+                                        <p className="font-medium text-gray-700 p3 text-common-clr">{member.role}</p>
                                         <p className="font-normal text-gray-700 p3 text-common-clr">{member.title}</p>
                                     </div>
                                 ))}

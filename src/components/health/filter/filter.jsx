@@ -329,7 +329,7 @@ const HealthFilter = (block) => {
     centerItem: {
       display: 'flex',
       flexDirection: 'row',
-      marginBottom: '10px',
+      marginBottom: '30px',
       backgroundColor: '#FFF',
       padding: '20px',
       borderRadius: '10px',

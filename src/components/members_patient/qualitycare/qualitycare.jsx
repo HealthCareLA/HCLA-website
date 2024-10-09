@@ -14,8 +14,8 @@ export default function OurImpactHealthcare(block) {
         </h2>
         <div className="flex flex-wrap">
           {block.sections.map((section, index) => (
-            <div className={`flex flex-col justify-between gap-[30px] items-start w-full mb-[50px] md:mb-[120px] last:mb-0 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} mb-12`}>
-              <div className="relative w-full mb-[50px] md:mb-0 md:w-[350px] lg:w-[480px]">
+            <div className={`flex flex-col justify-between gap-24 items-start w-full mb-[50px] md:mb-[120px] last:mb-0 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} mb-12`}>
+              <div className="relative w-full mb-[50px] md:mb-0 md:w-1/2 lg:w-1/2 flex justify-start">
                 <img
                   src={section.image.src}
                   alt={section.image.alt}
@@ -29,23 +29,23 @@ export default function OurImpactHealthcare(block) {
                   className={`absolute ${positions[index % positions.length]} w-[130px] md:w-[200px]`}
                 />
               </div>
-              <div className={`relative flex flex-col max-w-[500px] md:max-w-max w-full md:w-[calc(100%-350px)] lg:w-[calc(100%-480px)] text-blue mb-[30px] xl:mb-0 ${index % 2 === 0 ? 'lg:items-end' : 'lg:items-start'}`}>
+              <div className={`relative flex flex-col md:max-w-max w-full md:w-1/2 lg:w-1/2 text-blue mb-[30px] xl:mb-0 ${index % 2 === 0 ? 'lg:items-end' : 'lg:items-start'}`}>
                 {section.title && (
-                  <h3 className="font-medium mb-[10px] w-full max-w-[550px]">{section.title}</h3>
+                  <h3 className="font-medium mb-[10px] w-full ">{section.title}</h3>
                 )
                 }
                 {section.description && (
-                  <p className="p2 text-[#003041] w-full max-w-[550px] whitespace-pre-line">{section.description}</p>
+                  <p className="p2 text-[#003041] w-full whitespace-pre-line">{section.description}</p>
                 )
                 }
                 {
                   section.pointsTitle && (
-                    <h4 className="p2 font-medium text-[#003041] w-full max-w-[550px] mt-[30px] mb-5">{section.pointsTitle}</h4>
+                    <h4 className="p2 font-medium text-[#003041] w-full mt-[30px] mb-5">{section.pointsTitle}</h4>
                   )
                 }
                 {
                   section.points && (
-                    <div className="flex flex-wrap w-full max-w-[550px] gap-[10px] p1 font-medium text-[#003041]">
+                    <div className="flex flex-wrap w-full gap-[10px] p1 font-medium text-[#003041]">
                       {
                         section.points.map((point) => (
                           <div className="flex gap-2 items-start w-full">

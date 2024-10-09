@@ -29,11 +29,11 @@ export default function MainGoal(block) {
                             return (
                             <>
                                 <img
-                                src={item?.image?.src}
-                                alt={item?.image?.alt}
-                                width={item?.image?.width}
-                                height={item?.image?.height}
-                                className="mx-auto lg:mx-0"
+                                    src={item?.image?.src}
+                                    alt={item?.image?.alt}
+                                    width={item?.image?.width}
+                                    height={item?.image?.height}
+                                    className="mx-auto lg:mx-0"
                                 />
                                 <p
                                 className={`text-dark-blue p1 mt-3 whitespace-pre-line ${
@@ -51,11 +51,11 @@ export default function MainGoal(block) {
                     </div>
                     <div className="w-full lg:max-w-1/2">
                         <img
-                        src={block?.image?.src}
-                        alt={block?.image?.alt}
-                        width={block?.image?.width}
-                        height={block?.image?.height}
-                        className="w-full"
+                            src={block?.image?.src}
+                            alt={block?.image?.alt}
+                            width={block?.image?.width}
+                            height={block?.image?.height}
+                            className={`w-[450px]`}
                         />
                     </div>
                 </div>

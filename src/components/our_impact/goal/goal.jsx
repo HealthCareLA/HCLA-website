@@ -88,13 +88,13 @@ export default function OurImpactGoal(block) {
                 )
               }
             </div>
-            <div className="w-full lg:max-w-1/2">
+            <div className="w-full lg:max-w-1/2 flex justify-center">
               <img
                 src={block?.image?.src}
                 alt={block?.image?.alt}
                 width={block?.image?.width}
                 height={block?.image?.height}
-                className="w-full"
+                className="w-[455px]"
               />
             </div>
           </div>

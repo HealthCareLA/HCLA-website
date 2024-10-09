@@ -588,7 +588,7 @@ const UrgentFilter = (block) => {
     centerItemContainer: {
       display: 'flex',
       flexDirection: 'column',
-      marginBottom: '10px',
+      marginBottom: '30px',
       backgroundColor: '#FFF',
       padding: '0px',
       borderRadius: '10px',

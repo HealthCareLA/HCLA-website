@@ -19,13 +19,17 @@ blueprint:
     - title: Board Executives
       members:
         - name: Alicia Mardini
-          title: President, East Valley Community Health Center
+          role: President 
+          title: East Valley Community Health Center
         - name: Eloisa Perard
-          title: CEO, QueensCare Health Centers
+          role: CEO
+          title: QueensCare Health Centers
         - name: Craig Thompson
-          title: CEO, APLA Health & Wellness Center
+          role: CEO
+          title: APLA Health & Wellness Center
         - name: Al Ballestros
-          title: Treasurer, JWCH Institute Inc.
+          role: Treasurer
+          title: JWCH Institute Inc.
     - title: Board Members
       members:
         - name: Genevieve Filmardirossian

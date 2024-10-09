@@ -13,7 +13,7 @@ export default function WhoWeAreHealthcare({
   icondescriptions
 }) {
   return (
-    <section className={isMatch ? "bg-sky-blue text-blue py-20 md:py-20 lg:pb-[100px]" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning
+    <section className={isMatch ? "bg-sky-blue text-blue pb-20 md:pb-20 lg:pb-[100px] -mt-14" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning
       id="Why_HCLA" >
       <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[50px]">
 

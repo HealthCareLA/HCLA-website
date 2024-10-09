@@ -29,10 +29,13 @@ export default function OurImpactQuicklink(block) {
     const moveToPage = (e, id) => {
         e.preventDefault();
         const targetRef = document.getElementById(id.substr(1, id.length));
-        if(targetRef) {
+        if (targetRef) {
             const top = targetRef.offsetTop;
+            const idIsWhyHCLA = id === '#Why_HCLA';
+            const fixedOffset = isFixed ? (idIsWhyHCLA ? 115 : 215) : (idIsWhyHCLA ? 215 : 315);
+        
             window.scrollTo({
-                top: top-(id.substr(1, id.length) === 'Why_HCLA'? 115 : 215),
+                top: top - fixedOffset,
                 behavior: 'smooth',
             });
         }

@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Resource Providers
+title: Provider Resource
 n_type: "2"
 seo:
   page_description:
@@ -12,7 +12,7 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: resource/hero
-    title: Resource Provider
+    title: Provider Resource
   - _bookshop_name: resource/filter
     select_category_description: Select Categories to find and download Resources
     select_category_title_1: Select a category

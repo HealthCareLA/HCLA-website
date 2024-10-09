@@ -8,7 +8,7 @@ export default function OurImpactHero(block) {
       <div className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10">
         <div className="text-center lg:text-left w-full lg:w-1/2 lg:min-w-1/2">
           {block.title && (
-            <h1 className="font-medium mt-10">{block.title}</h1>
+            <h1 className="font-medium mt-24">{block.title}</h1>
           )}
           {block.content && (
             <p className="p4 leading-7 md:leading-[34px] font-medium max-w-[400px] my-5 md:my-10 mx-auto lg:mx-0 whitespace-pre-line">
@@ -27,7 +27,7 @@ export default function OurImpactHero(block) {
           )}
         </div>
         {block.image && (
-          <div className="w-full lg:w-1/2 lg:min-w-1/2 relative z-[1]">
+          <div className="w-full lg:w-1/2 lg:min-w-1/2 relative z-[1] mt-5">
             <img
               src={block.image.src}
               alt={block.image.alt || "image"}

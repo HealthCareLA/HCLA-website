@@ -17,8 +17,8 @@ export default function OurImpactHealthcare({
       id="Why_HCLA" >
       <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[50px]">
 
-        <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-[50px]">
-          <div className="mx-auto lg:w-1/2 relative">
+        <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-[75px]">
+          <div className="mx-auto lg:w-1/2 relative flex justify-end">
             <img
               src={image?.src}
               alt={image?.alt}
@@ -35,7 +35,7 @@ export default function OurImpactHealthcare({
             />
           </div>
           <div className="w-full lg:w-1/2">
-            <h2 className="font-[500] leading-10 md:leading-[54px] text-blue mb-8 text-center lg:text-left">
+            <h2 className="font-[500] leading-10 md:leading-[54px] text-blue mb-8 text-center lg:text-left whitespace-nowrap">
               {title}
             </h2>
             <p className="p1 text-common-clr mb-7 text-center lg:text-left whitespace-pre-line">

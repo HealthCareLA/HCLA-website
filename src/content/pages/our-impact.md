@@ -51,7 +51,7 @@ content_blocks:
     image:
       src: /images/healthcare-changed.png
       alt: image
-      width: 474
+      width: 490
       height: 465
     greenCircleImage:
       src: /images/green-circle.svg
