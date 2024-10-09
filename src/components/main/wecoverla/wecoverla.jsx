@@ -11,7 +11,7 @@ export default function MainWecoverla(block) {
                 className="absolute left-1/2 -translate-x-1/2 w-full z-[1] top-[-6%] hidden lg:block"
             />
             <div className="max-container relative z-[2]">
-                <h2 className="font-[500] leading-[120%] md:leading-[140%] text-blue text-center">
+                <h2 className="font-medium leading-[120%] md:leading-[140%] text-blue text-center">
                     {block?.title}
                 </h2>
                 <p className="text-dark-blue text-center p1 my-[30px] whitespace-pre-line px-12">
@@ -26,14 +26,14 @@ export default function MainWecoverla(block) {
                                 <div
                                     key={"b1_" + index}
                                     style={{ backgroundColor: item.backgroundColor }}
-                                    className={`rounded-[8px] md:rounded-[18px] px-[20px] md:px-[40px] py-[15px] md:py-[30px] text-white w-full`}
+                                    className={`rounded-2 md:rounded-[18px] px-5 md:px-10 py-[15px] md:py-[30px] text-white w-full`}
                                 >
                                     <img
                                         src={item?.image?.src}
                                         alt={item?.image?.alt}
                                         className="mb-[15px] md:mb-[25px] mx-auto w-[30px] md:w-auto"
                                     />
-                                    <p className="text-[16px] md:text-[19px] leading-[20px] md:leading-[26px] whitespace-pre-line text-center">
+                                    <p className="text-base md:text-[19px] leading-5 md:leading-[26px] whitespace-pre-line text-center">
                                         {item?.description}
                                     </p>
                                 </div>
@@ -42,7 +42,7 @@ export default function MainWecoverla(block) {
                     }
                 </div>
                 <p
-                    className="mt-[53px] p4 leading-[24px] md:leading-[36px] max-w-[575px] mx-auto font-[500] text-blue text-center whitespace-pre-line"
+                    className="mt-[53px] p4 leading-6 md:leading-9 max-w-[575px] mx-auto font-medium text-blue text-center whitespace-pre-line"
                 >
                     <a href={block?.learnMoreTextLink}>
                         {block?.learnMoreText}

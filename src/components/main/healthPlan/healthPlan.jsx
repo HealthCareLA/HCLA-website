@@ -22,23 +22,23 @@ export default function MainHealthPlan(block) {
                             alt={block?.yellowCircleImage?.alt}
                             width={block?.yellowCircleImage?.width}
                             height={block?.yellowCircleImage?.height}
-                            className="absolute bottom-[-15px] right-[24px] w-[130px] md:w-[200px]"
+                            className="absolute bottom-[-15px] right-6 w-[130px] md:w-[200px]"
                         />
                     </div>
                     <div className="w-full lg:max-w-1/2">
                         <p
-                            className="p4 font-[500] leading-[28px] md:leading-[36px] text-blue mb-[25px] md:mb-[32px] text-center lg:text-left whitespace-pre-line"
+                            className="p4 font-[500] leading-7 md:leading-9 text-blue mb-[25px] md:mb-8 text-center lg:text-left whitespace-pre-line"
                         >
                             {block?.description}
                         </p>
                         <div
-                            className="flex flex-col text-dark-blue p2 leading-[28px] md:leading-[44px] font-[500]"
+                            className="flex flex-col text-dark-blue p2 leading-7 md:leading-[44px] font-medium"
                         >
                             {
                                 block?.points?.map((point) => {
                                     return (
-                                        <div className="flex gap-[8px]">
-                                            <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[6px] md:mt-[12px]" />
+                                        <div className="flex gap-2">
+                                            <i className="fa-solid fa-circle-check h-7 md:h-10 text-med-blue mt-[6px] md:mt-3" />
                                             <p>{point}</p>
                                         </div>
                                     );

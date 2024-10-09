@@ -4,19 +4,19 @@ const isMatch = true;
 
 export default function HelpfulResourceHero(block) {
   return (
-    <section className={isMatch ? " bg-white text-blue py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
+    <section className={isMatch ? " bg-white text-blue py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
       <div className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10">
         <div className="text-center lg:text-left w-full lg:w-1/2 lg:min-w-1/2">
           {block.title && (
-            <h1 className="font-[500] mt-[90px]">{block.title}</h1>
+            <h1 className="font-[500] mt-24">{block.title}</h1>
           )}
           {block.content && (
-            <p className="p4 leading-[28px] md:leading-[34px] font-[500] max-w-[400px] my-[20px] md:my-[40px] mx-auto lg:mx-0 whitespace-pre-line">
+            <p className="p4 leading-7 md:leading-[34px] font-medium max-w-[400px] my-5 md:my-10 mx-auto lg:mx-0 whitespace-pre-line">
               {block.content.trim()}
             </p>
           )}
           {block.content2 && (
-            <p className="p4 leading-[28px] md:leading-[34px] font-medium max-w-[400px] my-[20px] mx-auto lg:mx-0 whitespace-pre-line text-common-clr">
+            <p className="p4 leading-7 md:leading-[34px] font-medium max-w-[400px] my-5 mx-auto lg:mx-0 whitespace-pre-line text-common-clr">
               {block.content2.trim()}
             </p>
           )}
@@ -41,7 +41,7 @@ export default function HelpfulResourceHero(block) {
                 alt={block.yellowCircleImage.alt || "image"}
                 width={block.yellowCircleImage.width}
                 height={block.yellowCircleImage.height}
-                className="absolute bottom-[64px] right-[-30px] xl:right-[-81px] hidden lg:block"
+                className="absolute bottom-16 right-[-30px] xl:right-[-81px] hidden lg:block"
               />
             )}
           </div>

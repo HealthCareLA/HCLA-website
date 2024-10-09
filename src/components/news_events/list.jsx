@@ -31,13 +31,13 @@ export default function NewEventList({ page, posts }) {
   return (
     <section suppressHydrationWarning>
       <section
-        className="bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px] min-h-[350px]"
+        className="bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px] min-h-[350px]"
 
       >
         <div
           className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10"
         >
-          <h1 className="font-[500] mt-[40px] w-full text-center">
+          <h1 className="font-medium mt-10 w-full text-center">
             {page.title}
           </h1>
         </div>
@@ -61,17 +61,17 @@ export default function NewEventList({ page, posts }) {
             <div className="blog-hero-content">
 
               {featuredNews && featuredNews.data.image ? (
-                <div className="featured-news md:flex items-center md:gap-[40px] xl:gap-[65px] mb-[50px] lg:mb-[100px]">
+                <div className="featured-news md:flex items-center md:gap-10 xl:gap-[65px] mb-[50px] lg:mb-[100px]">
                   <img
                     src={featuredNews.data.image}
                     alt={featuredNews.data.title || 'Default Title'}
-                    className="w-full md:w-1/2 mb-[20px] lg:mb-0 h-[300px] md:h-[360px] object-cover rounded-[18px]"
+                    className="w-full md:w-1/2 mb-5 lg:mb-0 h-[300px] md:h-[360px] object-cover rounded-[18px]"
                   />
                   <div className="w-full md:w-1/2">
-                    <span className="block text-blue font-medium mb-[20px]">{featuredNews.data.category || 'General'}</span>
+                    <span className="block text-blue font-medium mb-5">{featuredNews.data.category || 'General'}</span>
                     <h2 className="text-[28px] md:text-[32px] lg:text-[36px] leading-[38px] md:leading-[42px] lg:leading-[46px] font-medium mb-[15px] text-blue">{featuredNews.data.title || 'Default Title'}</h2>
                     <p className="mb-[20px] p2 text-common-clr">{featuredNews.data.description || 'Default Description'}</p>
-                    <a href={featuredNews.data.url || '#'} className="mt-[10px] sm:mt-[20px] xl:mt-[25px] p2 mx-auto font-[500] text-blue hover:text-green transition">
+                    <a href={featuredNews.data.url || '#'} className="mt-[10px] sm:mt-5 xl:mt-[25px] p2 mx-auto font-medium text-blue hover:text-green transition">
                       Read more <i className="fa-solid fa-circle-chevron-right text-green ml-1" />
                     </a>
                   </div>
@@ -81,7 +81,7 @@ export default function NewEventList({ page, posts }) {
               )}
 
 
-              <div className="mb-[40px]">
+              <div className="mb-10">
                 <select
                   className="p3 leading-[1.2] font-normal text-common-clr cursor-pointer outline-none"
                   id="category-filter"
@@ -107,7 +107,7 @@ export default function NewEventList({ page, posts }) {
                           className="rounded-[10px] mb-[15px] h-[250px] object-cover w-full"
                         />
                         <span className="block text-blue mb-[10px]">{news.data.category || 'General'}</span>
-                        <h4 className="p4 leading-[32px] text-common-clr font-medium mb-[10px]">{news.data.title || 'Default Title'}</h4>
+                        <h4 className="p4 leading-8 text-common-clr font-medium mb-[10px]">{news.data.title || 'Default Title'}</h4>
                         <a href={news.data.url || '#'} className="text-green font-normal hover:text-blue transition p2">
                           Read more
                         </a>

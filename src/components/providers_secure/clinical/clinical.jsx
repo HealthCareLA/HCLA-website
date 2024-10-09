@@ -14,17 +14,17 @@ export default function ProvidersSecureClinical(block) {
                         className="mt-[25px] md:mt-[47px] flex flex-col lg:flex-row items-stretch gap-[25px] md:gap-[35px] justify-between"
                     >
                         <div
-                            className="w-full lg:max-w-1/2 bg-white drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-[8px] md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
+                            className="w-full lg:max-w-1/2 bg-white drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-lg md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
                         >
                             <div className="flex flex-wrap text-left gap-[10px] md:gap-0">
                                 {
                                     block?.points?.map((point, index) => {
                                         return (
                                             <div key={"clinical_" + index} className="w-full flex flex-row justify-between">
-                                                <p className="text-blue font-[500] p2 leading-[28px] md:leading-[42px]">
+                                                <p className="text-blue font-[500] p2 leading-7 md:leading-[42px]">
                                                     <a download href={point.link}>{point.name}</a>
                                                 </p>
-                                                <i className="fa-solid fa-circle-chevron-right text-green text-[18px] md:text-[20px] mt-[6px] md:mt-[12px]" aria-hidden='true'/>
+                                                <i className="fa-solid fa-circle-chevron-right text-green text-lg md:text-xl mt-[6px] md:mt-3" aria-hidden='true'/>
                                             </div>
                                         );
                                     })
@@ -38,9 +38,9 @@ export default function ProvidersSecureClinical(block) {
 
                         </div>
                         <div
-                            className="w-full lg:max-w-1/2 bg-white drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-[8px] md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
+                            className="w-full lg:max-w-1/2 bg-white drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-lg md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
                         >
-                            <p className="p1 text-dark-blue mb-[20px] md:mb-[25px] whitespace-pre-line text-left" dangerouslySetInnerHTML={{ __html: block.description }}>{ }</p>
+                            <p className="p1 text-dark-blue mb-5 md:mb-[25px] whitespace-pre-line text-left" dangerouslySetInnerHTML={{ __html: block.description }}>{ }</p>
                         </div>
                     </div>
                 </div>

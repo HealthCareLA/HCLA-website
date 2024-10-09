@@ -45,13 +45,13 @@ export default function OurImpactCounter(block) {
   }, []);
 
   return (
-    <section className={isMatch ? "bg-sky-blue text-blue py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
+    <section className={isMatch ? "bg-sky-blue text-blue py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
       <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative">
         <div className="counter-section" id="counterSection">
-          <h2 className="font-[500] leading-[40px] md:leading-[54px] text-blue text-center mb-[30px] lg:mb-[50px] xl:mb-[80px]">
+          <h2 className="font-medium leading-10 md:leading-[54px] text-blue text-center mb-[30px] lg:mb-[50px] xl:mb-20">
             {block?.title}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] lg:gap-[30px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px]">
             {block?.counters?.map((counter, index) => (
               <div
                 className="counter bg-white p-[25px] lg:p-[35px] rounded-[18px] shadow-md"

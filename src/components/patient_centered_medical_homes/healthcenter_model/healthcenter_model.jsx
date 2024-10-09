@@ -27,12 +27,12 @@ const PatientHealthCenterModel = (block) => {
             {
               block?.items1 && (
                 <div className="flex flex-wrap gap-[10px] p1 font-medium text-[#003041] mt-[30px]">
-                  <div className="flex flex-col gap-[8px] items-start w-full sm:w-[calc(50%-10px)]">
+                  <div className="flex flex-col gap-2 items-start w-full sm:w-[calc(50%-10px)]">
                     {
                       block.items1.map((point, index) => (
                         <div className='flex flex-row' key={'items1-' + index}>
-                          <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[4px] md:mt-[6px]" aria-hidden="true" />
-                          <div className='ml-[10px] mb-[10px] pr-[20px]' style={{ display: 'flex', 'flexDirection': 'column' }}>
+                          <i className="fa-solid fa-circle-check h-7 md:h-10 text-med-blue mt-1 md:mt-[6px]" aria-hidden="true" />
+                          <div className='ml-[10px] mb-[10px] pr-5' style={{ display: 'flex', 'flexDirection': 'column' }}>
                             <p>{point.healthCenterName}</p>
                             <div style={{ fontWeight: 300 }}>{point.address}</div>
                           </div>
@@ -40,12 +40,12 @@ const PatientHealthCenterModel = (block) => {
                       ))
                     }
                   </div>
-                  <div className="flex flex-col gap-[8px] items-start w-full sm:w-[calc(50%-10px)]">
+                  <div className="flex flex-col gap-2 items-start w-full sm:w-[calc(50%-10px)]">
                     {
                       block.items2.map((point, index) => (
                         <div className='flex flex-row' key={'items2-' + index}>
-                          <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[4px] md:mt-[6px]" aria-hidden="true" />
-                          <div className='ml-[10px] mb-[10px] pr-[20px]' style={{ display: 'flex', 'flexDirection': 'column' }}>
+                          <i className="fa-solid fa-circle-check h-7 md:h-10 text-med-blue mt-1 md:mt-[6px]" aria-hidden="true" />
+                          <div className='ml-[10px] mb-[10px] pr-5' style={{ display: 'flex', 'flexDirection': 'column' }}>
                             <p>{point.healthCenterName}</p>
                             <div style={{ fontWeight: 300 }}>{point.address}</div>
                           </div>

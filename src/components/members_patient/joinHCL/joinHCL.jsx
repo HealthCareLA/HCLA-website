@@ -13,7 +13,7 @@ export default function MemberPatientJoinHCL(block) {
           <div className="text-center mb-[30px] md:mb-[60px]">
             {
               block.title && (
-                <h2 className="text-blue font-[500] mb-[20px] md:mb-[30px] lg:mb-[50px]">{block.title}</h2>
+                <h2 className="text-blue font-medium mb-5 md:mb-[30px] lg:mb-[50px]">{block.title}</h2>
               )
             }
             {
@@ -26,10 +26,10 @@ export default function MemberPatientJoinHCL(block) {
           <div className="steps-grid grid grid-cols-1 lg:grid-cols-3 gap-[30px] text-center mb-[50px]">
             {block.steps.map((step) => (
               <div className="step bg-trans-blue p-[30px] md:px-[35px] md:pt-[30px] md:pb-[50px] rounded-[18px]">
-                <h5 className="p5 step-number bg-green text-white w-[45px] sm:w-[55px] h-[45px] sm:h-[55px] rounded-full flex items-center justify-center mx-auto font-[500]">
+                <h5 className="p5 step-number bg-green text-white w-[45px] sm:w-[55px] h-[45px] sm:h-[55px] rounded-full flex items-center justify-center mx-auto font-medium">
                   {step.number}
                 </h5>
-                <p className="p4 font-[500] mt-[25px] text-common-clr">{step.title}</p>
+                <p className="p4 font-medium mt-[25px] text-common-clr">{step.title}</p>
                 {
                   step.linkText && (
                     <a href={step.linkUrl} className="p2 text-blue hover:text-green mt-[25px] inline-block">
@@ -41,7 +41,7 @@ export default function MemberPatientJoinHCL(block) {
             ))}
           </div>
 
-          <div className="contact-info text-center bg-trans-blue py-[40px] px-[20px] rounded-[18px]">
+          <div className="contact-info text-center bg-trans-blue py-10 px-5] rounded-[18px]">
             {
               block.contactInfo.additionalTextTop && (
                 <p className="p4 text-common-clr font-medium">{block.contactInfo.additionalTextTop}</p>
@@ -49,7 +49,7 @@ export default function MemberPatientJoinHCL(block) {
             }
             {
               block.contactInfo.phone && (
-                <a href={`tel:${block.contactInfo.phoneUrl}`} className="p4 font-medium text-blue text-[24px] mt-[10px] inline-block hover:text-green">
+                <a href={`tel:${block.contactInfo.phoneUrl}`} className="p4 font-medium text-blue text-2xl mt-[10px] inline-block hover:text-green">
                   {block.contactInfo.phone}
                 </a>
               )

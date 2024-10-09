@@ -22,9 +22,9 @@ export default function MainClinical(block) {
                     {
                         block?.points?.map((point, index) => {
                             return (
-                                <div key={"clinical_" + index} className="w-full lg:w-1/2 flex gap-[8px]">
-                                    <i className="fa-solid fa-circle-chevron-right text-green text-[18px] md:text-[20px] mt-[6px] md:mt-[12px]" />
-                                    <p className="text-blue font-[500] p2 leading-[28px] md:leading-[42px]">
+                                <div key={"clinical_" + index} className="w-full lg:w-1/2 flex gap-2">
+                                    <i className="fa-solid fa-circle-chevron-right text-green text-[18px] md:text-xl mt-[6px] md:mt-3" />
+                                    <p className="text-blue font-medium p2 leading-7 md:leading-[42px]">
                                         {point}
                                     </p>
                                 </div>
@@ -36,7 +36,7 @@ export default function MainClinical(block) {
                     className="mt-[25px] md:mt-[47px] flex flex-col lg:flex-row items-stretch gap-[25px] md:gap-[35px] justify-between"
                 >
                     <div
-                        className="w-full drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-[8px] md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
+                        className="w-full drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-lg md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
                     >
                         {
                             block?.buttonSection?.buttonText && (
@@ -72,9 +72,9 @@ export default function MainClinical(block) {
                         }
                     </div>
                     <div
-                        className="w-full lg:max-w-1/2 bg-white drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-[8px] md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
+                        className="w-full lg:max-w-1/2 bg-white drop-shadow-[0_0_10px_0_rgba(1,131,179,0.10)] rounded-lg md:rounded-[18px] px-[15px] md:px-[50px] py-[15px] md:py-[35px]"
                     >
-                        <p className="p1 text-dark-blue mb-[20px] md:mb-[25px] whitespace-pre-line">
+                        <p className="p1 text-dark-blue mb-5 md:mb-[25px] whitespace-pre-line">
                             {block?.detailSection2?.description}
                         </p>
                         {

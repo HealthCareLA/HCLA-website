@@ -6,12 +6,12 @@ export default function MainSupport(block) {
         <div className="bg-white lg:py-[150px]">
             <div className="max-container pt-[70px] md:pt-[120px] pb-[50px] md:pb-[100px]">
                 <h2
-                className="text-blue font-[500] leading-[40px] md:leading-[64px] mb-[33px] text-center max-w-[900px] mx-auto"
+                className="text-blue font-medium leading-10 md:leading-[64px] mb-[33px] text-center max-w-[900px] mx-auto"
                 >
                 {block?.title}
                 </h2>
                 <p
-                className="p1 text-dark-blue font-[400] mb-[25px] md:mb-[50px] text-center whitespace-pre-line max-w-[982px] mx-auto"
+                className="p1 text-dark-blue font-normal mb-[25px] md:mb-[50px] text-center whitespace-pre-line max-w-[982px] mx-auto"
                 >
                 {block?.description}
                 </p>
@@ -21,7 +21,7 @@ export default function MainSupport(block) {
                 {
                     block?.points?.map((point) => {
                     return (
-                        <div className="w-full lg:max-w-1/2 bg-trans-blue even:bg-trans-blue-2 rounded-[8px] md:rounded-[18px] px-[15px] md:px-[30px] py-[15px] md:py-[22px] flex flex-col lg:flex-row items-center gap-[25px] md:gap-[40px]">
+                        <div className="w-full lg:max-w-1/2 bg-trans-blue even:bg-trans-blue-2 rounded-2 md:rounded-[18px] px-[15px] md:px-[30px] py-[15px] md:py-[22px] flex flex-col lg:flex-row items-center gap-[25px] md:gap-10">
                         <img
                             src={point?.image?.src}
                             alt={point?.image?.alt}

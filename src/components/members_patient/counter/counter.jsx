@@ -69,7 +69,7 @@ const CounterSection = ({ title, gridCols = 3, counters }) => {
 
   return (
     <section id="Finding_Care" suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
-      <div className="relative pt-[50px] pb-[50px] md:pb-[80px] lg:pb-[100px]">
+      <div className="relative pt-[50px] pb-[50px] md:pb-20 lg:pb-[100px]">
         <img
           src="/images/quick-links-shape-bottom.png"
           alt="shape"
@@ -77,10 +77,10 @@ const CounterSection = ({ title, gridCols = 3, counters }) => {
         />
         <div className="max-container relative z-[2]">
           <div className="counter-section" id="counterSection">
-            <h2 className="font-[500] leading-[40px] md:leading-[54px] text-blue text-center mb-[30px] lg:mb-[50px] xl:mb-[80px]">
+            <h2 className="font-[500] leading-10 md:leading-[54px] text-blue text-center mb-[30px] lg:mb-[50px] xl:mb-20">
               {title}
             </h2>
-            <div className={`grid grid-cols-1 sm:grid-cols-2 ${gridClass} gap-[20px] lg:gap-[30px]`}>
+            <div className={`grid grid-cols-1 sm:grid-cols-2 ${gridClass} gap-5 lg:gap-[30px]`}>
               {counters?.map((counter, index) => (
                 <div
                   className="counter p-[25px] lg:p-[35px] rounded-[18px] shadow-md"

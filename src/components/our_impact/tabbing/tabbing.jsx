@@ -13,14 +13,14 @@ export default function OurImpactTabbing(block) {
 
   return (
     <section className="tabbing-section" suppressHydrationWarning>
-      <div id="Strength_Stability" className="bg-white py-[50px] lg:pt-[80px] xl:pt-[100px] xxl:pt-[170px] lg:pb-[250px] xl:pb-[300px] xxl:pb-[350px]">
+      <div id="Strength_Stability" className="bg-white py-[50px] lg:pt-20 xl:pt-[100px] xxl:pt-[170px] lg:pb-[250px] xl:pb-[300px] xxl:pb-[350px]">
         <div className="max-container">
           {
             block.title && (
-              <h2 className="font-medium text-blue text-center mb-[80px]">{block.title}</h2>
+              <h2 className="font-medium text-blue text-center mb-20">{block.title}</h2>
             )
           }
-          <div className="tabs flex flex-wrap justify-center gap-[25px] mb-[30px] lg:mb-[50px] xl:mb-[80px]">
+          <div className="tabs flex flex-wrap justify-center gap-[25px] mb-[30px] lg:mb-[50px] xl:mb-20">
             {block.tabs.map((tab, index) => (
               <button
                 key={'btn-tabbing-' + index}
@@ -49,8 +49,8 @@ export default function OurImpactTabbing(block) {
                         <div className="flex flex-wrap gap-[10px] p1 font-medium text-[#003041] mt-[30px]">
                           {
                             tab?.points?.map((point, index) => (
-                              <div className="flex gap-[8px] items-start w-full sm:w-[calc(50%-10px)]" key={'tc-p-' + index}>
-                                <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[4px] md:mt-[6px]" aria-hidden="true" />
+                              <div className="flex gap-2 items-start w-full sm:w-[calc(50%-10px)]" key={'tc-p-' + index}>
+                                <i className="fa-solid fa-circle-check h-7 md:h-[40px] text-med-blue mt-[4px] md:mt-[6px]" aria-hidden="true" />
                                 <p>{point}</p>
                               </div>
                             ))

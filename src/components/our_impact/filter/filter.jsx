@@ -24,7 +24,7 @@ const HealthPlansFilter = (block) => {
         <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[50px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[30px] lg:gap-y-[55px] gap-y-[30px]">
             {block.plans.map((plan, index) => (
-              <div key={'health_plans_item_list_' + index} className="bg-white rounded-[18px] lg:py-[30px] py-[30px] xl:px-[80px] px-[30px] shadow-[0px_0px_10px_0px_#0183B31A] text-center text-common-clr">
+              <div key={'health_plans_item_list_' + index} className="bg-white rounded-[18px] lg:py-[30px] py-[30px] xl:px-20 px-[30px] shadow-[0px_0px_10px_0px_#0183B31A] text-center text-common-clr">
                 <img src={plan.logo} alt={plan.name} className="mx-auto mb-[10px]" />
                 <h3 className="p4 font-medium leading-snug mb-[10px]">{plan.name}</h3>
                 <p className="p2 mb-[10px]">{plan.description}</p>

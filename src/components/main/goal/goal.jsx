@@ -21,7 +21,7 @@ export default function MainGoal(block) {
             <div className="max-container py-[50px] relative z-[1]">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-[50px]">
                     <div className="w-full lg:max-w-1/2 text-center lg:text-left">
-                        <h3 className="font-[500] text-blue mb-[35px] md:mb-[54px]">
+                        <h3 className="font-medium text-blue mb-[35px] md:mb-[54px]">
                         {block?.title}
                         </h3>
                         {
@@ -36,7 +36,7 @@ export default function MainGoal(block) {
                                 className="mx-auto lg:mx-0"
                                 />
                                 <p
-                                className={`text-dark-blue p1 mt-[12px] whitespace-pre-line ${
+                                className={`text-dark-blue p1 mt-3 whitespace-pre-line ${
                                     i != block?.descriptionData?.length - 1
                                     ? "mb-[25px] md:mb-[35px]"
                                     : ""

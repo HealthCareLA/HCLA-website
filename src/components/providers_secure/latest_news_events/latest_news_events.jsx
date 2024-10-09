@@ -6,7 +6,7 @@ export default function OurImpactCollaborataction(block) {
   return (
     <section id="Latest_News" className="bg-trans-blue py-[120px]" suppressHydrationWarning>
       <div className="max-container">
-        <div className="bg-white py-[30px] lg:py-[0] px-[20px] lg::p-[30px] xl:p-[50px] xxl:p-[80px] rounded-[18px]">
+        <div className="bg-white py-[30px] lg:py-[0] px-5 lg::p-[30px] xl:p-[50px] xxl:p-20 rounded-[18px]">
 
           {
             block.title && (
@@ -16,7 +16,7 @@ export default function OurImpactCollaborataction(block) {
 
           <div className="flex flex-wrap">
             {block?.newsData?.map((item, index) => (
-              <div key={'im-ca-' + index} className=" text-blue w-full sm:w-[50%]  xl:w-[33.33%] px-[20px] mb-[30px] xl:mb-0">
+              <div key={'im-ca-' + index} className=" text-blue w-full sm:w-[50%]  xl:w-[33.33%] px-5 mb-[30px] xl:mb-0">
                 <img
                   src={item.image.src}
                   alt={item.image.alt}
@@ -26,7 +26,7 @@ export default function OurImpactCollaborataction(block) {
                 />
                 {
                   item.category && (
-                    <h3 className="font-medium leading-4 mt-[20px] mb-[10px] text-[16px]">{item.category}</h3>
+                    <h3 className="font-medium leading-4 mt-5 mb-[10px] text-base">{item.category}</h3>
                   )
                 }
                 <p className="p2 font-medium text-[#003041]">{item.title}</p>
@@ -36,7 +36,7 @@ export default function OurImpactCollaborataction(block) {
           </div>
           {
             block.learnMoreText && (
-              <p className="mt-[10px] sm:mt-[20px] xl:mt-[50px] p2 max-w-[575px] mx-auto font-[500] text-blue whitespace-pre-line text-center">
+              <p className="mt-[10px] sm:mt-5 xl:mt-[50px] p2 max-w-[575px] mx-auto font-medium text-blue whitespace-pre-line text-center">
                 {block?.learnMoreText}
                 <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden='true'></i>
               </p>

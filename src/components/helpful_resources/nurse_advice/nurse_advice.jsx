@@ -2,7 +2,7 @@ import MarkdownIt from "markdown-it";
 export default function HelpfulResourceNurseAdvice(block) {
     return (
         <section suppressHydrationWarning>
-            <div id="" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-[80px]" style={{'marginTop' : '100px'}}>
+            <div id="" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-20" style={{'marginTop' : '100px'}}>
                 <img
                     src="/images/quick-links-shape-bottom.png"
                     alt="shape"
@@ -11,12 +11,12 @@ export default function HelpfulResourceNurseAdvice(block) {
                 />
                 <div className="max-container relative z-[2]">
                     <div className="text-center">
-                        <h2 className="text-center font-[500] text-blue mb-[30px] md:mb-[50px] xl:mb-[80px]">
+                        <h2 className="text-center font-medium text-blue mb-[30px] md:mb-[50px] xl:mb-20">
                             {block.title}
                         </h2>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px] lg:gap-[30px]">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-[30px]">
                             {block.plans.map(plan => (
-                                <div className="bg-trans-blue rounded-[18px] py-[20px] px-[15px] shadow-md text-center">
+                                <div className="bg-trans-blue rounded-[18px] py-5 px-[15px] shadow-md text-center">
                                     {plan.name && (
                                         <h4 className="text-common-clr font-medium p4 leading-normal mb-[10px]">
                                             {plan.name}
@@ -29,7 +29,7 @@ export default function HelpfulResourceNurseAdvice(block) {
                             ))}
                         </div>
                         {block.plansNote && (
-                            <p className="text-[16px] text-common-clr mt-[30px] md:mt-[50px] lg:mt-[80px] text-left"
+                            <p className="text-base text-common-clr mt-[30px] md:mt-[50px] lg:mt-20 text-left"
                                 dangerouslySetInnerHTML={{ __html: block.plansNote }}>{ }</p>
                         )}
                     </div>

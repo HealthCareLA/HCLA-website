@@ -23,25 +23,25 @@ const PostDischargeClinicsFilter = (block) => {
         <p className="text-common-clr note p3">{block.titleNote}</p>
         <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative">
           {block.items.map((item, index) => (
-            <div key={'ch_' + index} className="w-full flex flex-wrap bg-white rounded-[18px] mb-[40px] overflow-hidden p-[30px] lg:p-[40px] shadow-[0px_0px_10px_0px_#0183B31A]">
-              <div className="mx-auto lg:w-[160px] mb-[20px] lg:mb-0">
+            <div key={'ch_' + index} className="w-full flex flex-wrap bg-white rounded-[18px] mb-10 overflow-hidden p-[30px] lg:p-10 shadow-[0px_0px_10px_0px_#0183B31A]">
+              <div className="mx-auto lg:w-40 mb-5 lg:mb-0">
                 <img
                   src={item.image.src}
                   alt={item.image.alt}
                   width={item.image.width}
                   height={item.image.height}
-                  className="w-full h-[160px] rounded-full"
+                  className="w-full h-40 rounded-full"
                 />
               </div>
-              <div className="w-full lg:w-[calc(100%-160px)] lg:pl-[40px] text-center lg:text-left">
+              <div className="w-full lg:w-[calc(100%-160px)] lg:pl-10 text-center lg:text-left">
                 <h4 className="text-common-clr font-medium">{item.clinicName}</h4>
                 <ul>
-                  <li className="flex flex-col md:flex-row p2 md:gap-[12px] justify-center lg:justify-start items-center text-common-clr mb-[3px] last:mb-0">
+                  <li className="flex flex-col md:flex-row p2 md:gap-3 justify-center lg:justify-start items-center text-common-clr mb-[3px] last:mb-0">
                     {item.address && (
                       <span>{item.address}</span>
                     )}
                   </li>
-                  <li className="flex flex-col md:flex-row p2 md:gap-[12px] justify-center lg:justify-start items-center text-common-clr mb-[3px] last:mb-0">
+                  <li className="flex flex-col md:flex-row p2 md:gap-3 justify-center lg:justify-start items-center text-common-clr mb-[3px] last:mb-0">
                     <strong>Phone:</strong>
                     {item.phone && (
                       <span>{item.phone}</span>

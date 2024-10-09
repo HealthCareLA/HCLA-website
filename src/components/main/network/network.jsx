@@ -38,12 +38,12 @@ export default function MainNetwork(block) {
                     </div>
                     <div className="w-full lg:max-w-1/2">
                         <h2
-                            className="font-[500] leading-[40px] md:leading-[54px] text-blue mb-[32px] text-center lg:text-left"
+                            className="font-medium leading-10 md:leading-[54px] text-blue mb-8 text-center lg:text-left"
                         >
                             {block?.title}
                         </h2>
                         <p
-                            className="p1 text-dark-blue mb-[28px] text-center lg:text-left whitespace-pre-line"
+                            className="p1 text-dark-blue mb-7 text-center lg:text-left whitespace-pre-line"
                         >
                             {block?.description}
                         </p>
@@ -51,8 +51,8 @@ export default function MainNetwork(block) {
                             {
                                 block?.points?.map((point, index) => {
                                     return (
-                                        <div key={"network_" + index} className="flex gap-[8px]">
-                                            <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[6px] md:mt-[8px]" />
+                                        <div key={"network_" + index} className="flex gap-2">
+                                            <i className="fa-solid fa-circle-check h-7 md:h-10 text-med-blue mt-[6px] md:mt-2" />
                                             <p>{point}</p>
                                         </div>
                                     );
@@ -60,7 +60,7 @@ export default function MainNetwork(block) {
                             }
                         </div>
                         <p
-                            className="p1 text-dark-blue my-[28px] text-center lg:text-left whitespace-pre-line"
+                            className="p1 text-dark-blue my-7 text-center lg:text-left whitespace-pre-line"
                         >
                             {block?.description2}
                         </p>

@@ -11,7 +11,7 @@ export default function ProviderPart(block) {
 
     return (
         <>
-            <div className="bg-white relative py-[50px] md:py-[100px] lg:pt-[40px] lg:pb-[200px]">
+            <div className="bg-white relative py-[50px] md:py-[100px] lg:pt-10 lg:pb-[200px]">
                 <img
                     src="/images/quick-links-shape.svg"
                     alt="shape"
@@ -20,7 +20,7 @@ export default function ProviderPart(block) {
             </div>
             <section className="relative" style={{ background: '#EEFCFF', paddingBottom: '200px' }}>
                 <div className="max-container">
-                    <h2 className="text-center font-[500] text-blue max-w-[980px] mx-auto mb-[50px] xl:mb-[80px] xxl:mb-[110px]">
+                    <h2 className="text-center font-medium text-blue max-w-[980px] mx-auto mb-[50px] xl:mb-20 xxl:mb-[110px]">
                         {block.title}
                     </h2>
                     <div className="flex flex-wrap">
@@ -51,7 +51,7 @@ export default function ProviderPart(block) {
                                     }
                                     {
                                         section.pointsTitle && (
-                                            <h4 className="p2 font-medium text-[#003041] w-full max-w-[500px] mt-[30px] mb-[20px]">{section.pointsTitle}</h4>
+                                            <h4 className="p2 font-medium text-[#003041] w-full max-w-[500px] mt-[30px] mb-5">{section.pointsTitle}</h4>
                                         )
                                     }
                                     {
@@ -59,8 +59,8 @@ export default function ProviderPart(block) {
                                             <div className="flex flex-wrap w-full max-w-[500px] gap-[10px] p1 font-medium text-[#003041]">
                                                 {
                                                     section.points.map((point, index) => (
-                                                        <div key={"m2_point_" + index} className="flex gap-[8px] items-start w-full">
-                                                            <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[4px] md:mt-[6px]" aria-hidden="true" />
+                                                        <div key={"m2_point_" + index} className="flex gap-2 items-start w-full">
+                                                            <i className="fa-solid fa-circle-check h-7 md:h-[40px] text-med-blue mt-1 md:mt-[6px]" aria-hidden="true" />
                                                             <p>{point}</p>
                                                         </div>
                                                     ))
@@ -71,7 +71,7 @@ export default function ProviderPart(block) {
                                     {
                                         section.link.text && (
                                             <a href={section.link.href} style={{ width: '100%' }}>
-                                                <p className="mt-[10px] sm:mt-[20px] xl:mt-[30px] p2 font-[500] text-blue whitespace-pre-line w-full max-w-[500px]">
+                                                <p className="mt-[10px] sm:mt-5 xl:mt-[30px] p2 font-medium text-blue whitespace-pre-line w-full max-w-[500px]">
                                                     {section.link.text}
                                                     <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden="true"></i>
                                                 </p>

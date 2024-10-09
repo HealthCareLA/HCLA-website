@@ -77,7 +77,7 @@ export default function Navigation({ n_type }) {
       <nav className="fixed top-0 w-full z-[100]">
         <div className="bg-green py-[10px]">
           <div
-            className="flex items-center justify-end gap-[30px] max-container mx-auto font-[500] text-[15px]"
+            className="flex items-center justify-end gap-[30px] max-container mx-auto font-medium text-[15px]"
           >
             <a
               href='#'
@@ -101,9 +101,9 @@ export default function Navigation({ n_type }) {
             }
           </div>
         </div>
-        <div className="navbar py-[16px] shadow-sm ">
+        <div className="navbar py-4 shadow-sm ">
           <div
-            className="flex items-center justify-between gap-[20px] max-container mx-auto"
+            className="flex items-center justify-between gap-5 max-container mx-auto"
           >
             <div>
               <a href="/">
@@ -117,7 +117,7 @@ export default function Navigation({ n_type }) {
               </a>
             </div>
 
-            <div className="items-center gap-5 text-[17px] font-[500] hidden lg:flex">
+            <div className="items-center gap-5 text-[17px] font-medium hidden lg:flex">
               {
                 navBarData?.links?.map((item, index) => {
                   return (
@@ -166,7 +166,7 @@ export default function Navigation({ n_type }) {
 
             <button
               onClick={handleMenuOpen}
-              className={`lg:hidden ${n_type == 1 ? 'text-white' : 'text-blue'} text-[24px] menu-open`}
+              className={`lg:hidden ${n_type == 1 ? 'text-white' : 'text-blue'} text-2xl menu-open`}
             >
               <i className="fa-solid fa-bars" aria-hidden="true"></i>
             </button>
@@ -177,7 +177,7 @@ export default function Navigation({ n_type }) {
         {isMenuOpen && (
           <div className="menu bg-[rgba(0,0,0,0.7)] fixed top-0 right-0 max-h-screen h-screen w-full">
             <div className="menu-body bg-white absolute top-0 right-0 z-10 h-full w-3/4 p-5 overflow-y-auto hide-scrollbar flex flex-col gap-3 md:gap-5 p4 font-[500]">
-              <button onClick={handleMenuClose} className="w-max ml-auto text-[24px] md:text-[30px]">
+              <button onClick={handleMenuClose} className="w-max ml-auto text-2xl md:text-[30px]">
                 <i className="fa-solid fa-xmark"></i>
               </button>
               {navBarData?.links?.map((item, index) => (

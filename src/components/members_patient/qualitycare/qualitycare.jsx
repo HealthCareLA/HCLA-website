@@ -9,7 +9,7 @@ export default function OurImpactHealthcare(block) {
   return (
     <section id="Quality_Care_Network" className="relative bg-trans-blue w-full relative z-1 pt-[50px] lg:pt-[85px] pb-[50px] lg:pb-[200px] xl:pb-[350px]" suppressHydrationWarning  style={{ scrollMarginTop: '100px' }}>
       <div className="max-container">
-        <h2 className="text-center font-[500] text-blue max-w-[980px] mx-auto mb-[50px] xl:mb-[80px] xxl:mb-[110px]">
+        <h2 className="text-center font-medium text-blue max-w-[980px] mx-auto mb-[50px] xl:mb-20 xxl:mb-[110px]">
           {block.title}
         </h2>
         <div className="flex flex-wrap">
@@ -40,7 +40,7 @@ export default function OurImpactHealthcare(block) {
                 }
                 {
                   section.pointsTitle && (
-                    <h4 className="p2 font-medium text-[#003041] w-full max-w-[550px] mt-[30px] mb-[20px]">{section.pointsTitle}</h4>
+                    <h4 className="p2 font-medium text-[#003041] w-full max-w-[550px] mt-[30px] mb-5">{section.pointsTitle}</h4>
                   )
                 }
                 {
@@ -48,8 +48,8 @@ export default function OurImpactHealthcare(block) {
                     <div className="flex flex-wrap w-full max-w-[550px] gap-[10px] p1 font-medium text-[#003041]">
                       {
                         section.points.map((point) => (
-                          <div className="flex gap-[8px] items-start w-full">
-                            <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[4px] md:mt-[6px]" />
+                          <div className="flex gap-2 items-start w-full">
+                            <i className="fa-solid fa-circle-check h-7 md:h-[40px] text-med-blue mt-1 md:mt-[6px]" />
                             <p>{point}</p>
                           </div>
                         ))
@@ -59,7 +59,7 @@ export default function OurImpactHealthcare(block) {
                 }
                 {
                   section.link.text && (
-                    <p className="mt-[10px] sm:mt-[20px] xl:mt-[30px] p2 font-[500] text-blue whitespace-pre-line w-full max-w-[550px]">
+                    <p className="mt-[10px] sm:mt-5 xl:mt-[30px] p2 font-medium text-blue whitespace-pre-line w-full max-w-[550px]">
                       {section.link.text}
                       <i className="fa-solid fa-circle-chevron-right text-green ml-1"></i>
                     </p>

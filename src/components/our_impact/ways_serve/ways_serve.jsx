@@ -14,7 +14,7 @@ export default function OurImpactWaysServe({
     <section className="" suppressHydrationWarning
       id="Ways_We_Serve">
       <div
-        className="bg-trans-blue relative py-[50px] pb-[50px] lg:pb-[80px] xl:pb-[100px] xxl:pb-[200px]"
+        className="bg-trans-blue relative py-[50px] pb-[50px] lg:pb-20 xl:pb-[100px] xxl:pb-[200px]"
       >
         <img
           className="hidden lg:block"
@@ -35,7 +35,7 @@ export default function OurImpactWaysServe({
           <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-[50px] xxl:gap-[100px]">
             <div className="w-full lg:max-w-1/2 text-center lg:text-left mb-[30px] lg:mb-0">
               {title && (
-                <h2 className="font-[500] text-blue mb-[20px] lg:mb-[40px]">
+                <h2 className="font-medium text-blue mb-5 lg:mb-10">
                   {title}
                 </h2>
               )}
@@ -45,8 +45,8 @@ export default function OurImpactWaysServe({
               )}
               <div className="flex flex-col gap-2 text-dark-blue p1 my-[30px]">
                 {points?.map((point, index) => (
-                  <div key={'ws-' + index} className="flex gap-[8px]">
-                    <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[6px] md:mt-[8px]" aria-hidden="true"/>
+                  <div key={'ws-' + index} className="flex gap-2">
+                    <i className="fa-solid fa-circle-check h-7 md:h-10 text-med-blue mt-[6px] md:mt-2" aria-hidden="true"/>
                     <p>{point}</p>
                   </div>
                 ))}

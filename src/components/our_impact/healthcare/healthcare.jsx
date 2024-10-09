@@ -13,7 +13,7 @@ export default function OurImpactHealthcare({
   icondescriptions
 }) {
   return (
-    <section className={isMatch ? " bg-sky-blue text-blue py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-[80px] md:py-[80px] lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning
+    <section className={isMatch ? " bg-sky-blue text-blue py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning
       id="Why_HCLA" >
       <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[50px]">
 
@@ -35,21 +35,21 @@ export default function OurImpactHealthcare({
             />
           </div>
           <div className="w-full lg:w-1/2">
-            <h2 className="font-[500] leading-[40px] md:leading-[54px] text-blue mb-[32px] text-center lg:text-left">
+            <h2 className="font-[500] leading-10 md:leading-[54px] text-blue mb-8 text-center lg:text-left">
               {title}
             </h2>
-            <p className="p1 text-common-clr mb-[28px] text-center lg:text-left whitespace-pre-line">
+            <p className="p1 text-common-clr mb-7 text-center lg:text-left whitespace-pre-line">
               {description}
             </p>
             <div className="flex flex-col gap-2 text-common-clr p1">
               {points?.map((point, index) => (
-                <div className="flex gap-[8px]" key={index}>
-                  <i className="fa-solid fa-circle-check h-[28px] md:h-[40px] text-med-blue mt-[6px] md:mt-[8px]" aria-hidden="true"/>
+                <div className="flex gap-2" key={index}>
+                  <i className="fa-solid fa-circle-check h-7 md:h-[40px] text-med-blue mt-[6px] md:mt-2" aria-hidden="true"/>
                   <p>{point}</p>
                 </div>
               ))}
             </div>
-            <p className="p1 text-common-clr my-[28px] text-center lg:text-left whitespace-pre-line">
+            <p className="p1 text-common-clr my-7 text-center lg:text-left whitespace-pre-line">
               {description2}
             </p>
             {buttonText && (
@@ -58,7 +58,7 @@ export default function OurImpactHealthcare({
               </button>
             )}
             {icondescriptions && (
-              <div className="bg-white py-[30px] px-[35px] rounded-[18px] flex flex-wrap gap-[20px] sm:gap-[30px] mt-[50px]">
+              <div className="bg-white py-[30px] px-[35px] rounded-[18px] flex flex-wrap gap-5 sm:gap-[30px] mt-[50px]">
                 <div className="w-full sm:w-[90px]">
                   <img
                     src={icondescriptions.image.src}

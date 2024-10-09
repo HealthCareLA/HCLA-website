@@ -8,7 +8,7 @@ const JoinNetworkSection = (block) => {
     setExpandedFaqIndex(expandedFaqIndex === index ? null : index);
   };
   return (
-    <section className="pt-[50px] md:pt-[80px] lg:pt-[100px] pb-[50px] md:pb-[80px] lg:pb-[150px] bg-trans-blue"
+    <section className="pt-[50px] md:pt-20 lg:pt-[100px] pb-[50px] md:pb-20 lg:pb-[150px] bg-trans-blue"
       suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
       <div className="max-container">
       <div className="faq-section text-left">
@@ -29,7 +29,7 @@ const JoinNetworkSection = (block) => {
               <label htmlFor="">Health Center or Practice Name(Required)</label>
               <input className="p-[10px] border-[1px]" type='text' placeholder='' required />
             </div>
-            <div className="flex flex-col mt-[20px]">
+            <div className="flex flex-col mt-5">
               <label htmlFor="">Name of Person Submitting this Request(Required)</label>
               <div className="flex flex-row">
                 <div className="flex flex-col w-full">
@@ -42,35 +42,35 @@ const JoinNetworkSection = (block) => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col mt-[20px]">
+            <div className="flex flex-col mt-5">
               <label htmlFor="">Your Title(Required)</label>
               <input className="p-[10px] border-[1px]" type='text' placeholder='' required />
             </div>
-            <div className="flex flex-col mt-[20px]">
+            <div className="flex flex-col mt-5">
               <label htmlFor="">Your Email Address(Required)</label>
               <div className="flex flex-row">
                 <div className="flex flex-col w-full">
                   <label htmlFor="">Enter Email</label>
                   <input className="p-[10px] border-[1px]" type='text' placeholder='' required />
                 </div>
-                <div className="flex flex-col w-full ml-[20px]">
+                <div className="flex flex-col w-full ml-5">
                   <label htmlFor="">Confirm Email</label>
                   <input className="p-[10px] border-[1px]" type='text' placeholder='' required />
                 </div>
               </div>
             </div>
-            <div className="flex flex-col mt-[20px]">
+            <div className="flex flex-col mt-5">
               <label htmlFor="">Your Phone Number(Required)</label>
               <input className="p-[10px] border-[1px]" type='text' placeholder='' required />
             </div>
-            <div className="flex flex-col mt-[20px]">
+            <div className="flex flex-col mt-5">
               <label htmlFor="">Quesioins or Comments</label>
               <textarea className="p-[10px] border-[1px]" rows="5">
 
               </textarea>
             </div>
 
-            <div className="flex flex-col mt-[20px]">
+            <div className="flex flex-col mt-5">
               <input className="p-[10px] border-[1px] bg-blue" type='submit' value="Submit" />
             </div>
 

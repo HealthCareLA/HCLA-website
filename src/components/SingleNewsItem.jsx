@@ -5,16 +5,16 @@ const SingleNewsItem = (block) => {
   return (
     <>
       <div className="max-container">
-        <a href="/news-events" className="mt-[150px] p2 font-[500] text-blue hover:text-green whitespace-pre-line block">
+        <a href="/news-events" className="mt-[150px] p2 font-medium text-blue hover:text-green whitespace-pre-line block">
           <i className="fa-solid fa-circle-chevron-left text-green ml-1"></i> Back to News and Events
         </a>
       </div>
 
-      <article className="single-news-item pt-[40px] lg:pt-[60px] pb-[50px] lg:pb-[80px] xl:pb-[120px] max-container">
+      <article className="single-news-item pt-10 lg:pt-[60px] pb-[50px] lg:pb-20 xl:pb-[120px] max-container">
         <div className="max-w-[775px] mx-auto">
           <div className="text-left mb-[50px]">
             <h1 className="font-medium text-blue h3">{block.data.title}</h1>
-            <div className="flex align-middle gap-[5px] mt-[20px] mb-[30px] text-common-clr font-normal p2">
+            <div className="flex align-middle gap-[5px] mt-5 mb-[30px] text-common-clr font-normal p2">
               <p>{block.data.category}</p> / <p>{block.data.date}</p>
             </div>
             <img
