@@ -17,7 +17,7 @@ const JobListSection = (block) => {
               {block.title}
             </h2>
           )}
-          <div className="space-y-5 md:space-y-[35px]">
+          <div className="space-y-8 md:space-y-12">
             {block.job_list?.map((job_item, index) => (
               <div
                 key={index}
@@ -74,7 +74,7 @@ const JobListSection = (block) => {
           </div>
         </div>
 
-        <hr style={{ margin: '20px' }} />
+        <hr className="mx-6 my-10" />
 
         <div className='w-full'>
           <h4 className='text-center'>Apply Now</h4>

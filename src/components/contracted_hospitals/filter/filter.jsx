@@ -5,7 +5,7 @@ const ContractedHospitalsFilter = (block) => {
 
   return (
     <section>
-      <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px]" style={{ marginTop: '55px' }} suppressHydrationWarning>
+      <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px] mt-14" suppressHydrationWarning>
         <img
           src="/images/circle-shape-top.svg"
           alt="circle-shape"
@@ -20,7 +20,7 @@ const ContractedHospitalsFilter = (block) => {
             objectPosition: '0px 5px'
           }}
         />
-        <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative">
+        <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative pt-16">
           {block.items.map((item, index) => (
             <div key={'ch_' + index} className="w-full flex flex-wrap bg-white rounded-[18px] mb-10 overflow-hidden p-[30px] lg:p-10 shadow-[0px_0px_10px_0px_#0183B31A]">
               <div className="mx-auto lg:w-40 mb-5 lg:mb-0">

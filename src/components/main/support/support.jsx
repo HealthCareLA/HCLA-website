@@ -4,7 +4,7 @@ const md = new MarkdownIt({ html: true });
 export default function MainSupport(block) {
     return (
         <div className="bg-white lg:py-[150px]">
-            <div className="max-container pt-[70px] md:pt-[120px] pb-[50px] md:pb-[100px]">
+            <div className="max-container pt-[70px] md:pt-[90px] pb-[50px] md:pb-[150px]">
                 <h2
                 className="text-blue font-medium leading-10 md:leading-[64px] mb-[33px] text-center max-w-[900px] mx-auto"
                 >

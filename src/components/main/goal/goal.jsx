@@ -18,7 +18,7 @@ export default function MainGoal(block) {
             alt="shape"
             className="absolute left-1/2 -translate-x-1/2 w-full z-[1] bottom-[-8%] hidden lg:block"
             />
-            <div className="max-container py-[50px] relative z-[1]">
+            <div className="max-container pt-[80px] pb-[50px] relative z-[1]">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-[50px]">
                     <div className="w-full lg:max-w-1/2 text-center lg:text-left">
                         <h3 className="font-medium text-blue mb-[35px] md:mb-[54px]">

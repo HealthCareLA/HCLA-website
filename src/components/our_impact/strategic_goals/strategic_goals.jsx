@@ -4,7 +4,7 @@ const isMatch = true;
 
 export default function OurImpactStrategicGoals(block) {
   return (
-    <section className="strategic-goals-section bg-blue text-white py-[50px] lg:pt-20  xl:pt-[100px] xxl:pt-[130px] lg:pb-[250px] xxl:pb-[350px]" suppressHydrationWarning>
+    <section className="strategic-goals-section bg-blue text-white py-[50px] lg:pt-10  xl:pt-12 xxl:pt-14 lg:pb-[250px] xxl:pb-[350px]" suppressHydrationWarning>
       <div id="Strategic_Goals" style={{paddingTop: '100px'}}>
         <div className="max-container">
           {

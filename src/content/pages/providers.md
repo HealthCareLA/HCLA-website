@@ -69,9 +69,7 @@ content_blocks:
           width: 200
       - title: Health Plans
         description: >-
-          We hold agreements with most government and commercial plans and
-          products and regularly expand our plan offerings to provide physicians
-          and patients with the most competitive choices.
+          We hold agreements with most government and commercial plans, regularly expanding our plan and product offerings to provide physicians and patients with the most competitive choices.
         pointsTitle: 'Our HMO Product Lines Include:'
         points:
           - Medi-Cal Managed Care
@@ -117,7 +115,7 @@ content_blocks:
         title: Better Selection
         description: >-
           HCLA IPA contracts with most major managed care health plans serving
-          Medi-Cal, Medicare Advantage, Covered California, Cal MediConnect, and
+          Medi-Cal, Medicare Advantage, Covered California, and
           commercial members. Our range of health plan choices makes it easier
           for your patients and their families to stay within their chosen
           health center if their insurance ever changes
@@ -152,7 +150,7 @@ content_blocks:
         description: >-
           HCLA IPA is consistently ranked above the competition by providers and
           industry leaders for our white-glove approach and dedication to
-          supporting quality, accessible health care to the patients and
+          supporting quality, accessible health care for the patients and
           communities who need it most.
   - _bookshop_name: provider/contact
     detailSection1:

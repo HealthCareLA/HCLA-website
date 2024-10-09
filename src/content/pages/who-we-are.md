@@ -37,19 +37,8 @@ content_blocks:
       Qualified Health Centers (FQHCs) and Community Health Centers (CHCs)
       serving Los Angeles County. Together, our network represents a significant
       segment of the community's healthcare delivery safety net.
-    description2: >-
-      This leaves health centers administratively and financially overburdened,
-      struggling to maintain quality patient care, meet community needs, and
-      remain solvent.
+    description2: 
     points:
-      - >-
-        Increasingly intricate requirements, including regulatory,
-        technological, and administrative.
-      - More restrictive reporting and reimbursement structures.
-      - >-
-        More stringent focus on patient health status, particularly those with
-        chronic conditions like diabetes, COPD, heart or kidney disease, and
-        cancer
     icondescriptions:
       image:
         src: /images/icon-founded.svg

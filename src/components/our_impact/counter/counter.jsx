@@ -45,7 +45,7 @@ export default function OurImpactCounter(block) {
   }, []);
 
   return (
-    <section className={isMatch ? "bg-sky-blue text-blue py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
+    <section className={isMatch ? "bg-sky-blue text-blue py-20 md:py-20 lg:pt-[120px] lg:pb-14" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
       <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative">
         <div className="counter-section" id="counterSection">
           <h2 className="font-medium leading-10 md:leading-[54px] text-blue text-center mb-[30px] lg:mb-[50px] xl:mb-20">

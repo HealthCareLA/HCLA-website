@@ -16,7 +16,7 @@ export default function MainNetwork(block) {
                 alt="shape"
                 className="absolute left-1/2 -translate-x-1/2 w-full z-[1] bottom-[-8%] hidden lg:block"
             />
-            <div className="max-container py-[50px] relative z-[1]">
+            <div className="max-container pb-[80px] pt-[50px] relative z-[1]">
                 <div
                     className="mt-[50px] md:mt-[120px] flex flex-col-reverse lg:flex-row items-center justify-between gap-[50px]"
                 >
