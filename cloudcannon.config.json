@@ -8,11 +8,13 @@
   "collections_config": {
     "data": {
       "path": "data",
-      "name": "Data",
-      "icon": "notes",
-      "disable_url": false,
+      "name": "Global Site Data",
+      "icon": "bubble_chart",
+      "disable_url": true,
       "description": "",
-      "_enabled_editors": null,
+      "_enabled_editors": [
+        "data"
+      ],
       "disable_add": true,
       "disable_add_folder": true,
       "disable_file_actions": false
@@ -141,7 +143,7 @@
       ]
     },
     {
-      "heading": "Data",
+      "heading": "Configuration",
       "collections": [
         "data"
       ]
