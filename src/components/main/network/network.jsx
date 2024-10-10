@@ -7,14 +7,9 @@ export default function MainNetwork(block) {
             className="bg-trans-blue relative md:pt-[50px] pb-[50px] md:pb-[100px] lg:py-0"
         >
             <img
-                src="/images/circle-shape-top.png"
-                alt="shape"
-                className="absolute left-1/2 -translate-x-1/2 w-full z-[1] hidden lg:block"
-            />
-            <img
                 src="/images/circle-shape-bottom.png"
                 alt="shape"
-                className="absolute left-1/2 -translate-x-1/2 w-full z-[1] bottom-[-8%] hidden lg:block"
+                className="absolute left-0 w-full z-[1] bottom-[-130px] h-[445px] hidden lg:block"
             />
             <div className="max-container pb-[80px] pt-[50px] relative z-[1]">
                 <div

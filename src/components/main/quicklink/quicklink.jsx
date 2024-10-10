@@ -11,7 +11,7 @@ export default function MainQuicklink(block) {
                     alt="shape"
                     className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
                 />
-                <div className="max-container relative z-[1]">
+                <div className="max-container relative z-[1] pb-8">
                     <p className="text-center text-blue p4 leading-7 md:leading-10 mb-[25px] md:mb-[35px] font-medium">
                         {block?.title}
                     </p>

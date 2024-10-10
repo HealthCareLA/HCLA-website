@@ -23,7 +23,7 @@ export default function ProviderOurValue(block) {
             objectPosition: '0px 5px'
           }}
         />
-        <div className="max-container relative z-[1]" style={{ paddingTop: '50px' }}>
+        <div className="max-container relative z-[1] pt-1">
           {block?.title && (
             <h2 className={`text-center text-blue font-medium mb-[30px] xl:mb-20 ${block?.isLargeTitle ? '' : 'text-[32px] lg:text-[42px]'}`}>
               {block.title}

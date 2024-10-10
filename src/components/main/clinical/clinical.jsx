@@ -7,7 +7,7 @@ export default function MainClinical(block) {
             <img
                 src="/images/circle-shape-top.png"
                 alt="circle-shape"
-                className="absolute left-1/2 -translate-x-1/2 w-full z-[1] top-[-25%] hidden lg:block"
+                className="absolute left-0 w-full z-[1] top-[-130px] h-[445px] hidden lg:block"
             />
             <div className="max-container text-center relative z-[1]">
                 <h3 className="font-[500] font-outfit text-blue">

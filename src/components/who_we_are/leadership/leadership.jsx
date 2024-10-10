@@ -34,11 +34,12 @@ export default function WhoWeAreLeadership(block) {
                     </div>
                 </div>
             </section>
-            <div className="relative py-[50px]">
+            <div className="relative py-[40px]">
                 <img
                     src="/images/health-centers-curve.png"
                     alt="shape"
-                    className="absolute left-[0px] bottom-[-165%] z-[1] w-full hidden lg:block" />
+                    className="absolute left-[0px] bottom-[-130px] z-[1] w-full h-[445px] hidden lg:block" 
+                />
             </div>
         </>
     );

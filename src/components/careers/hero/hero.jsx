@@ -4,7 +4,7 @@ const isMatch = true;
 
 export default function CareersHero(block) {
   return (
-    <section className={isMatch ? " bg-white text-blue py-20 md:py-20 lg:pt-[120px] lg:pb-6" : "bg-blue text-white py-20 md:py-[80px] lg:pt-[120px] lg:pb-6"} suppressHydrationWarning style={{overflow:'hidden'}}>
+    <section className={isMatch ? " bg-white md:pt-20 text-blue lg:pt-[120px]" : "bg-blue text-white py-20 md:py-[80px] lg:pt-[120px] lg:pb-6"} suppressHydrationWarning style={{overflow:'hidden'}}>
       <div className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10">
         <div className="text-center lg:text-left w-full lg:w-1/2 lg:min-w-1/2">
           {block.title && (
@@ -47,11 +47,11 @@ export default function CareersHero(block) {
           </div>
         )}
       </div>
-      <div className="bg-white relative" style={{ height: '250px', marginTop: '-125px'}}>
+      <div className="bg-white relative py-[40px]">
         <img
-          src="/images/quick-links-shape.svg"
+          src="/images/quick-links-shape.png"
           alt="shape"
-          className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
+          className="absolute left-[0px] top-[-200px] w-screen h-[350px] hidden lg:block" 
         />
       </div>
     </section>

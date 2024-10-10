@@ -4,13 +4,13 @@ const md = new MarkdownIt({ html: true });
 export default function MainWecoverla(block) {
 
     return (
-        <div className="bg-white relative pt-[50px] md:pt-[70px] lg:pb-[150px]">
+        <div className="bg-white relative lg:pb-[150px]">
             <img
                 src="/images/quick-links-shape-bottom.png"
                 alt="shape"
-                className="absolute left-1/2 -translate-x-1/2 w-full z-[1] top-[-6%] hidden lg:block"
+                className="absolute left-0 w-full z-[1] top-[-130px] h-[445px] hidden lg:block"
             />
-            <div className="max-container relative z-[2]">
+            <div className="max-container relative z-[2] -top-8">
                 <h2 className="font-medium leading-[120%] md:leading-[140%] text-blue text-center">
                     {block?.title}
                 </h2>
