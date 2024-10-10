@@ -1,13 +1,13 @@
 {
-	"site_name": "Sendit",
-	"site_title": "Sendit Template Astro",
-	"description": "A polished, marketing website template built with Astro.",
+	"site_name": "HCLA",
+	"site_title": "Health Care LA | Caring for Los Angeles",
+	"description": "HCLA IPA’s network of health centers provides a quality, healthcare safety-net delivery system for those who need it most.",
 	"author": "",
 	"author_email": "",
 	"images": [
 		{
-			"image": "/images/_screenshot.png",
-			"description": "Screenshot for Sendit Template",
+			"image": "/images/logo.svg",
+			"description": "",
 			"height": 0,
 			"width": 0
 		}
