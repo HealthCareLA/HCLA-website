@@ -13,6 +13,7 @@
     "posts": {
       "path": "src/content/news-events",
       "output": true,
+      "url": "/news-events/[slug]/",
       "_enabled_editors": ["content", "visual"],
       "add_options": [
         {
@@ -49,6 +50,7 @@
     },
     "pages": {
       "path": "src/content/pages",
+      "url": "/[slug]/",
       "output": true,
       "icon": "wysiwyg",
       "_enabled_editors": ["visual"],
