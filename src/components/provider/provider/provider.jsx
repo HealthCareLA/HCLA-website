@@ -11,11 +11,11 @@ export default function ProviderPart(block) {
 
     return (
         <>
-            <div className="bg-white relative py-[50px] md:py-[100px] lg:pt-10 lg:pb-[200px]">
+            <div className="bg-white relative py-[60px]">
                 <img
-                    src="/images/quick-links-shape.svg"
+                    src="/images/quick-links-shape.png"
                     alt="shape"
-                    className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
+                    className="absolute left-[0px] top-[-220px] w-screen h-[350px] hidden lg:block" 
                 />
             </div>
             <section className="relative" style={{ background: '#EEFCFF', paddingBottom: '200px' }}>

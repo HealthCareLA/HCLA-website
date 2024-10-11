@@ -4,7 +4,7 @@ const isMatch = true;
 
 export default function OurImpactOurValueData({ title, isLargeTitle, points }) {
   return (
-    <section className="bg-trans-blue py-[130px]" suppressHydrationWarning>
+    <section className="bg-trans-blue pt-20 pb-32" suppressHydrationWarning>
       <div className="max-container relative z-[1]">
         {title && (
           <h2

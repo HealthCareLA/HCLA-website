@@ -1,8 +1,20 @@
 import MarkdownIt from "markdown-it";
+import { useEffect } from "react";
 export default function HelpfulResourceNurseAdvice(block) {
+    useEffect(() => {
+        var params = window.location.href.split("#");
+        if(params.length > 1 && params[1] === 'nurse_advice_section') {
+            const targetRef = document.getElementById('nurse_advice_section');
+            window.scrollTo({
+                top: targetRef.offsetTop - 280,
+                behavior: 'smooth',
+            });
+        }
+    }, [])
+
     return (
         <section suppressHydrationWarning>
-            <div id="" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-20" style={{'marginTop' : '100px'}}>
+            <div id="nurse_advice_section" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-20" style={{'marginTop' : '100px'}}>
                 <img
                     src="/images/quick-links-shape-bottom.png"
                     alt="shape"

@@ -17,21 +17,11 @@ export default function OurImpactWaysServe({
         className="bg-trans-blue relative py-[50px] pb-[50px] lg:pb-20 xl:pb-[100px] xxl:pb-[200px]"
       >
         <img
-          className="hidden lg:block"
           src="/images/circle-shape-top.svg"
           alt="circle-shape"
-          // className="absolute left-1/2 -translate-x-1/2 w-full z-[0] top-[-80px] hidden lg:block"
-          style={{
-            position: 'absolute',
-            top: '-170px',
-            width: '100%',
-            height: 'auto',
-            background: 'transparent',
-            objectFit: 'cover',
-            objectPosition: '0px 5px'
-          }}
+          className="absolute left-[0px] top-[-170px] w-full h-auto hidden lg:block" 
         />
-        <div className="max-container relative z-[1]" style={{ paddingTop: '50px' }}>
+        <div className="max-container relative z-[1] -top-12">
           <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-[50px] xxl:gap-[100px]">
             <div className="w-full lg:max-w-1/2 text-center lg:text-left mb-[30px] lg:mb-0">
               {title && (
@@ -43,14 +33,17 @@ export default function OurImpactWaysServe({
                 <p className="max-w-full lg:max-w-[480px] p2 whitespace-pre-line text-common-clr" dangerouslySetInnerHTML={{ __html: description }}>
                 </p>
               )}
-              <div className="flex flex-col gap-2 text-dark-blue p1 my-[30px]">
-                {points?.map((point, index) => (
-                  <div key={'ws-' + index} className="flex gap-2">
-                    <i className="fa-solid fa-circle-check h-7 md:h-10 text-med-blue mt-[6px] md:mt-2" aria-hidden="true"/>
-                    <p>{point}</p>
-                  </div>
-                ))}
-              </div>
+              {
+                points && points?.length > 0 &&
+                <div className="flex flex-col gap-2 text-dark-blue p1 my-[30px]">
+                  {points?.map((point, index) => (
+                    <div key={'ws-' + index} className="flex gap-2">
+                      <i className="fa-solid fa-circle-check h-7 md:h-10 text-med-blue mt-[6px] md:mt-2" aria-hidden="true"/>
+                      <p>{point}</p>
+                    </div>
+                  ))}
+                </div>
+              }
               {button && (
                 <a
                   href={button.link}

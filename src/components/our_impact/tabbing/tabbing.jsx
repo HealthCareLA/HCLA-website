@@ -13,7 +13,7 @@ export default function OurImpactTabbing(block) {
 
   return (
     <section className="tabbing-section" suppressHydrationWarning>
-      <div id="Strength_Stability" className="bg-white py-[50px] lg:pt-20 xl:pt-[100px] xxl:pt-[170px] lg:pb-[250px] xl:pb-[300px] xxl:pb-[350px]">
+      <div id="Strength_Stability" className="bg-white pt-24 lg:pb-56 md:pb-20">
         <div className="max-container">
           {
             block.title && (

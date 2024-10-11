@@ -8,10 +8,10 @@ export default function OurImpactHero(block) {
       <div className="max-container flex flex-col lg:flex-row items-start justify-between gap-x-5 gap-y-10">
         <div className="text-center lg:text-left w-full lg:w-1/2 lg:min-w-1/2">
           {block.title && (
-            <h1 className="font-medium mt-24">{block.title}</h1>
+            <h1 className="font-medium mt-28 text-[58px] leading-[62px]">{block.title}</h1>
           )}
           {block.content && (
-            <p className="p4 leading-7 md:leading-[34px] font-medium max-w-[400px] my-5 md:my-10 mx-auto lg:mx-0 whitespace-pre-line">
+            <p className="p4 leading-7 md:leading-[34px] font-medium max-w-[400px] my-5 md:my-8 mx-auto lg:mx-0 whitespace-pre-line">
               {block.content.trim()}
             </p>
           )}
