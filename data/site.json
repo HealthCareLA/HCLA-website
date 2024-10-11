@@ -1,9 +1,9 @@
 {
-  "site_title": "Sendit",
-  "description": "A polished, marketing website template built with Astro",
+  "site_title": "Health Care LA | Caring for Los Angeles",
+  "description": "HCLA IPA’s network of health centers provides a quality, healthcare safety-net delivery system for those who need it most.",
   "favicon_icon": "/images/favicon.ico",
   "favicon_image": "/images/favicon.png",
   "twitter_site": "@twitter_site",
-  "image": "/images/feature/feature-hero.png",
+  "image": "/images/logo.svg",
   "image_alt": "/images/feature/feature-hero.png"
 }
