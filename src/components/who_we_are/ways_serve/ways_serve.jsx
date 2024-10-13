@@ -13,25 +13,13 @@ export default function WhoWeAreWaysServe({
   return (
     <section className="" suppressHydrationWarning
       id="Ways_We_Serve">
-      <div
-        className="bg-white relative py-[50px] pb-[50px] lg:pb-20 xl:pb-[100px] xxl:pb-[200px]"
-      >
-        <img
-          className="hidden lg:block"
-          src="/images/circle-shape-top-2.svg"
-          alt="circle-shape"
-          // className="absolute left-1/2 -translate-x-1/2 w-full z-[0] top-[-80px] hidden lg:block"
-          style={{
-            position: 'absolute',
-            top: '-170px',
-            width: '100%',
-            height: 'auto',
-            background: 'transparent',
-            objectFit: 'cover',
-            objectPosition: '0px 5px'
-          }}
-        />
-        <div className="max-container relative z-[1]" style={{ paddingTop: '50px' }}>
+      <div className="bg-white relative py-[50px] pb-[50px] lg:pb-20 xl:pb-[100px] xxl:pb-[200px]">
+        <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-165px] hidden lg:block">
+          <svg className="w-full h-full" width="1440" height="447" viewBox="0 0 1440 447" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1440 123.895C1216.36 44.4551 973.9 0.975098 720.63 0.975098C467.36 0.975098 223.99 44.6251 0 124.345V446.065H1440V123.895Z" fill="white"/>
+          </svg>
+        </div>
+        <div className="max-container relative z-[1] lg:-top-4" style={{ paddingTop: '50px' }}>
           <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-[50px] xxl:gap-[100px]">
             <div className="w-full lg:max-w-1/2 text-center lg:text-left mb-[30px] lg:mb-0">
               {title && (

@@ -8,7 +8,7 @@ const JobListSection = (block) => {
     setExpandedFaqIndex(expandedFaqIndex === index ? null : index);
   };
   return (
-    <section className="pt-[50px] md:pt-20 lg:pt-[100px] pb-[50px] md:pb-20 lg:pb-[150px] bg-trans-blue"
+    <section className="pt-[50px] md:pt-20 lg:pt-[30px] pb-[50px] md:pb-20 lg:pb-[150px] bg-trans-blue"
       suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
       <div className="max-container">
         <div className="faq-section text-left">

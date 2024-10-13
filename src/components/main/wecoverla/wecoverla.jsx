@@ -5,12 +5,12 @@ export default function MainWecoverla(block) {
 
     return (
         <div className="bg-white relative lg:pb-[150px]">
-            <img
-                src="/images/quick-links-shape-bottom.png"
-                alt="shape"
-                className="absolute left-0 w-full z-[1] top-[-130px] h-[445px] hidden lg:block"
-            />
-            <div className="max-container relative z-[2] -top-8">
+            <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-165px] hidden lg:block">
+                <svg className="w-full h-full" width="1440" height="447" viewBox="0 0 1440 447" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1440 123.895C1216.36 44.4551 973.9 0.975098 720.63 0.975098C467.36 0.975098 223.99 44.6251 0 124.345V446.065H1440V123.895Z" fill="white"/>
+                </svg>
+            </div>
+            <div className="max-container relative z-[2] -top-12">
                 <h2 className="font-medium leading-[120%] md:leading-[140%] text-blue text-center">
                     {block?.title}
                 </h2>

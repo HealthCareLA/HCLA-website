@@ -30,34 +30,21 @@ export default function NewEventList({ page, posts }) {
 
   return (
     <section suppressHydrationWarning>
-      <section
-        className="bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px] min-h-[350px]"
-
-      >
-        <div
-          className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10"
-        >
+      <section className="bg-blue text-white py-20 md:pt-40 lg:pt-[120px] lg:pb-[250px]">
+        <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10">
           <h1 className="font-medium mt-10 w-full text-center">
             {page.title}
           </h1>
         </div>
       </section>
       <section>
-        <div className="relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px]" style={{ marginTop: '55px' }}>
-          <img
-            src="/images/quick-links-shape-bottom.png"
-            alt="circle-shape"
-            style={{
-              position: 'absolute',
-              top: '-100px',
-              width: '100%',
-              height: 'auto',
-              background: 'rgb(1 131 179)',
-              objectFit: 'cover',
-              objectPosition: '0px 5px'
-            }}
-          />
-          <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative" style={{ 'paddingTop': '50px' }}>
+        <div className="relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px]">
+          <div className="absolute left-0 w-full top-[-164px] hidden lg:block">
+            <svg className='w-full h-full' width="1440" height="446" viewBox="0 0 1440 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915527 123.37V445.09H1440.92V122.92Z" fill="#eefcff"/>
+            </svg>
+          </div>
+          <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative">
             <div className="blog-hero-content">
 
               {featuredNews && featuredNews.data.image ? (

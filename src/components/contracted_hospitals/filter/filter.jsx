@@ -5,22 +5,13 @@ const ContractedHospitalsFilter = (block) => {
 
   return (
     <section>
-      <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px] mt-14" suppressHydrationWarning>
-        <img
-          src="/images/circle-shape-top.svg"
-          alt="circle-shape"
-          // className="absolute left-1/2 -translate-x-1/2 w-full z-[0] top-[-80px] hidden lg:block"
-          style={{
-            position: 'absolute',
-            top: '-100px',
-            width: '100%',
-            height: 'auto',
-            background: '#0183B3',
-            objectFit: 'cover',
-            objectPosition: '0px 5px'
-          }}
-        />
-        <div className="max-container flex flex-col items-start justify-between gap-x-5 relative pt-16">
+      <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px]" suppressHydrationWarning>
+        <div className="absolute left-0 w-full top-[-164px] hidden lg:block">
+          <svg className='w-full h-full' width="1440" height="446" viewBox="0 0 1440 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915527 123.37V445.09H1440.92V122.92Z" fill="#eefcff"/>
+          </svg>
+        </div>
+        <div className="max-container flex flex-col items-start justify-between gap-x-5 relative pt-16 -top-10">
           {block.items.map((item, index) => (
             <div key={'ch_' + index} className="w-full flex flex-wrap bg-white rounded-[18px] mb-9 overflow-hidden p-[30px] lg:p-10 shadow-[0px_0px_10px_0px_#0183B31A]">
               <div className="mx-auto lg:w-40 mb-5 lg:mb-0">

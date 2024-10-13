@@ -3,8 +3,8 @@ const md = new MarkdownIt({ html: true });
 
 export default function MainSupport(block) {
     return (
-        <div className="bg-white lg:pt-[150px] lg:pb-[100px]">
-            <div className="max-container pt-[70px] md:pt-[90px] pb-[50px] md:pb-[150px]">
+        <div className="bg-white lg:pt-[180px] lg:pb-[100px]">
+            <div className="max-container pt-[70px] md:pt-[90px] pb-[50px] md:pb-[180px]">
                 <h2
                     className="text-blue font-medium leading-10 md:leading-[64px] mb-[33px] text-center max-w-[900px] mx-auto"
                 >

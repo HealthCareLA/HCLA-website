@@ -3,7 +3,7 @@ export default function HealthPlansHero(block) {
   return (
 
     <section
-      className="bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px] min-h-[350px]"
+      className="bg-blue text-white py-20 md:pt-40 lg:pt-[120px] lg:pb-[250px]"
       suppressHydrationWarning
     >
       <div

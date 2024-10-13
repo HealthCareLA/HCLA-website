@@ -5,15 +5,13 @@ export default function MainGoal(block) {
 
     return (
 
-        <div
-            className="bg-trans-blue relative md:pt-[50px] pb-[50px] md:pb-[100px] lg:py-0"
-        >
-            <img
-                src="/images/circle-shape-top.png"
-                alt="shape"
-                className="absolute left-[0px] top-[-130px] z-[1] w-full h-[445px] hidden lg:block" 
-            />
-            <div className="max-container pt-[80px] pb-[50px] relative z-[1]">
+        <div className="bg-trans-blue relative md:pt-[50px] pb-[50px] md:pb-[100px] lg:py-0">
+            <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-165px] hidden lg:block">
+                <svg className="w-full h-full" width="1440" height="446" viewBox="0 0 1440 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915649 123.37V445.09H1440.92V122.92Z" fill="#EEFCFF"/>
+                </svg>
+            </div>
+            <div className="max-container pt-[40px] pb-[50px] relative z-[1]">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-[50px]">
                     <div className="w-full lg:max-w-1/2 text-center lg:text-left">
                         <h3 className="font-medium text-blue mb-[35px] md:mb-[54px]">

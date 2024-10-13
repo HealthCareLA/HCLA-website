@@ -18,7 +18,7 @@ export default function ProviderPart(block) {
                     className="absolute left-[0px] top-[-220px] w-screen h-[350px] hidden lg:block" 
                 />
             </div>
-            <section className="relative" style={{ background: '#EEFCFF', paddingBottom: '200px' }}>
+            <section className="relative bg-[#EEFCFF] pb-12 lg:pb-[300px]">
                 <div className="max-container">
                     <h2 className="text-center font-medium text-blue max-w-[980px] mx-auto mb-[50px] xl:mb-20 xxl:mb-[110px]">
                         {block.title}

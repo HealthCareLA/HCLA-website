@@ -70,12 +70,13 @@ const CounterSection = ({ title, gridCols = 3, counters }) => {
   return (
     <section id="Finding_Care" suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
       <div className="relative pt-[50px] pb-[50px] md:pb-20 lg:pb-[100px]">
-        <img
-          src="/images/quick-links-shape-bottom.png"
-          alt="shape"
-          className="absolute left-1/2 -translate-x-1/2 w-full z-[1] top-[-8%] lg:top-[-26%] hidden lg:block"
-        />
-        <div className="max-container relative z-[2]">
+        <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-165px] hidden lg:block">
+          <svg className="w-full h-full" width="1440" height="447" viewBox="0 0 1440 447" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1440 123.895C1216.36 44.4551 973.9 0.975098 720.63 0.975098C467.36 0.975098 223.99 44.6251 0 124.345V446.065H1440V123.895Z" fill="white"/>
+          </svg>
+        </div>
+
+        <div className="max-container relative z-[2] lg:-top-12">
           <div className="counter-section" id="counterSection">
             <h2 className="font-[500] leading-10 md:leading-[54px] text-blue text-center mb-[30px] lg:mb-[50px] xl:mb-20">
               {title}

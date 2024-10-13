@@ -47,12 +47,12 @@ export default function ContactHero(block) {
           </div>
         )}
       </div>
-      <div className="bg-white relative" style={{ height: '250px', marginTop: '-125px'}}>
-        <img
-          src="/images/quick-links-shape.png"
-          alt="shape"
-          className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
-        />
+      <div className="bg-white relative h-[250px] -mt-[130px]">
+        <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-130px] hidden lg:block">
+          <svg className="w-full h-full" width="1440" height="360" viewBox="0 0 1440 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1033.77 0.777344C725.72 0.777344 674.08 190.046 373.99 197.96C205.43 197.96 117.5 162.062 0 134.344V359.03H1440V172.431C1294.84 98.5833 1165.95 0.777344 1033.77 0.777344Z" fill="#e1f9ff"/>
+          </svg>
+        </div>
       </div>
     </section>
 

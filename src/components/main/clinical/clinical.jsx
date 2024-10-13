@@ -4,12 +4,12 @@ const md = new MarkdownIt({ html: true });
 export default function MainClinical(block) {
     return (
         <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0">
-            <img
-                src="/images/circle-shape-top.png"
-                alt="circle-shape"
-                className="absolute left-0 w-full z-[1] top-[-130px] h-[445px] hidden lg:block"
-            />
-            <div className="max-container text-center relative z-[1]">
+            <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-165px] hidden lg:block">
+                <svg className="w-full h-full" width="1440" height="446" viewBox="0 0 1440 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915649 123.37V445.09H1440.92V122.92Z" fill="#EEFCFF"/>
+                </svg>
+            </div>
+            <div className="max-container text-center relative -top-10 z-[1]">
                 <h3 className="font-[500] font-outfit text-blue">
                     {block?.title}
                 </h3>

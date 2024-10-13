@@ -14,13 +14,12 @@ export default function HelpfulResourceNurseAdvice(block) {
 
     return (
         <section suppressHydrationWarning>
-            <div id="nurse_advice_section" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-20" style={{'marginTop' : '100px'}}>
-                <img
-                    src="/images/quick-links-shape-bottom.png"
-                    alt="shape"
-                    className="absolute left-1/2 -translate-x-1/2 w-full z-[1] top-[-8%] lg:top-[-14%] hidden lg:block"
-                    style={{background: 'rgb(238 252 255)'}}
-                />
+            <div id="nurse_advice_section" className="relative pt-[50px] lg:pt-0 pb-[50px] md:pb-20" >
+                <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-165px] hidden lg:block">
+                    <svg className="w-full h-full" width="1440" height="447" viewBox="0 0 1440 447" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1440 123.895C1216.36 44.4551 973.9 0.975098 720.63 0.975098C467.36 0.975098 223.99 44.6251 0 124.345V446.065H1440V123.895Z" fill="white"/>
+                    </svg>
+                </div>
                 <div className="max-container relative z-[2]">
                     <div className="text-center">
                         <h2 className="text-center font-medium text-blue mb-[30px] md:mb-[50px] xl:mb-20">

@@ -6,12 +6,12 @@ export default function MainQuicklink(block) {
     return (
         <section suppressHydrationWarning>
             <div className="bg-sky-blue relative py-[50px] md:py-[100px] lg:pt-10 lg:pb-40">
-                <img
-                    src="/images/quick-links-shape.svg"
-                    alt="shape"
-                    className="absolute left-1/2 -translate-x-1/2 w-full quick-links-shape hidden lg:block"
-                />
-                <div className="max-container relative z-[1] pb-8">
+                <div className="absolute left-1/2 -translate-x-1/2 w-full top-[-270px] hidden lg:block">
+                    <svg className="w-full h-full" width="1440" height="360" viewBox="0 0 1440 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1033.77 0.777344C725.72 0.777344 674.08 190.046 373.99 197.96C205.43 197.96 117.5 162.062 0 134.344V359.03H1440V172.431C1294.84 98.5833 1165.95 0.777344 1033.77 0.777344Z" fill="#e1f9ff"/>
+                    </svg>
+                </div>
+                <div className="max-container relative z-[1] pb-20">
                     <p className="text-center text-blue p4 leading-7 md:leading-10 mb-[25px] md:mb-[35px] font-medium">
                         {block?.title}
                     </p>
