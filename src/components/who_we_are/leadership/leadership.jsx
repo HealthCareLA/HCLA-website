@@ -36,7 +36,7 @@ export default function WhoWeAreLeadership(block) {
             </section>
             <div className="relative py-[40px]">
                 <div className="absolute left-1/2 -translate-x-1/2 w-full bottom-[-165px] hidden lg:block">
-                    <svg className="w-full h-full" width="1440" height="446" viewBox="0 0 1440 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-full h-[446px]" viewBox="0 0 1440 446" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1440.92 322.17C1217.28 401.61 974.816 445.09 721.546 445.09C468.276 445.09 224.906 401.44 0.915527 321.72V-0.000152588H1440.92V322.17Z" fill="white"/>
                     </svg>
                 </div>

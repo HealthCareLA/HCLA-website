@@ -468,7 +468,7 @@ const ResourceFilter = (block) => {
     <section>
       <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px]" suppressHydrationWarning >
         <div className="absolute left-0 w-full top-[-164px] hidden lg:block">
-          <svg className='w-full h-full' width="1440" height="446" viewBox="0 0 1440 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className='w-full h-[446px]' viewBox="0 0 1440 446" preserveAspectRatio='none' fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915527 123.37V445.09H1440.92V122.92Z" fill="#eefcff"/>
           </svg>
         </div>
