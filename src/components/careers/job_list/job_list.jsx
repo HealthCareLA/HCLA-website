@@ -8,9 +8,14 @@ const JobListSection = (block) => {
     setExpandedFaqIndex(expandedFaqIndex === index ? null : index);
   };
   return (
-    <section className="pt-[50px] md:pt-20 lg:pt-[30px] pb-[50px] md:pb-20 lg:pb-[150px] bg-trans-blue"
+    <section className="relative pt-[50px] md:pt-20 lg:pt-[30px] pb-[50px] md:pb-20 lg:pb-[150px] bg-trans-blue"
       suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
-      <div className="max-container">
+      <div className="absolute left-0 w-full top-[-164px] hidden lg:block">
+          <svg className='w-full h-[446px]' viewBox="0 0 1440 446" preserveAspectRatio='none' fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915527 123.37V445.09H1440.92V122.92Z" fill="#eefcff"/>
+          </svg>
+        </div>
+      <div className="max-container relative z-1 -top-10">
         <div className="faq-section text-left">
           {block.title && (
             <h2 className="text-blue mb-[30px] md:mb-[50px] lg:mb-20 font-medium">
@@ -127,6 +132,7 @@ const JobListSection = (block) => {
           </form>
         </div>
       </div>
+
     </section>
   );
 };
