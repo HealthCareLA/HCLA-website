@@ -1,6 +1,7 @@
 ---
 _schema: default
 title: Join Network
+n_type: '2'
 seo:
   page_description:
   canonical_url:
