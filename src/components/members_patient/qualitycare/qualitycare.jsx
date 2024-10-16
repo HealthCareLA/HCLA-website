@@ -7,7 +7,7 @@ export default function OurImpactHealthcare(block) {
     'bottom-[-40px] left-[160px] md:left-[80px]'
   ];
   return (
-    <section id="Quality_Care_Network" className="relative bg-trans-blue w-full relative z-1 pt-[50px] lg:pt-[85px] pb-[50px] lg:pb-[200px] xl:pb-[350px]" suppressHydrationWarning  style={{ scrollMarginTop: '100px' }}>
+    <section id="Quality_Care_Network" className="relative bg-trans-blue w-full relative z-1 pt-[50px] lg:pt-[85px] pb-[50px] lg:pb-72" suppressHydrationWarning  style={{ scrollMarginTop: '100px' }}>
       <div className="max-container">
         <h2 className="text-center font-medium text-blue max-w-[980px] mx-auto mb-[50px] xl:mb-20 xxl:mb-[110px]">
           {block.title}

@@ -1,7 +1,6 @@
 ---
 _schema: default
 title: Providers-Secure | Health Care LA
-n_type: "2"
 seo:
   page_description:
   canonical_url:

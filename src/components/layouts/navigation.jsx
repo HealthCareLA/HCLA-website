@@ -56,7 +56,9 @@ export default function Navigation({ n_type }) {
     const updateNavbarBackground = () => {
       if (window.scrollY > 45) {
         invokeFunctionOnScrollDown();
+        navbar.classList.add('shadow-md');
       } else {
+        navbar.classList.remove('shadow-md');
         if(n_type == '2') {
           invokeFunctionOnScrollTop();
         }
@@ -101,7 +103,7 @@ export default function Navigation({ n_type }) {
             }
           </div>
         </div>
-        <div className="navbar py-4 shadow-sm ">
+        <div className="navbar py-4">
           <div
             className="flex items-center justify-between gap-5 max-container mx-auto"
           >

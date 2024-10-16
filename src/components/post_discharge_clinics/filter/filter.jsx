@@ -5,21 +5,12 @@ const PostDischargeClinicsFilter = (block) => {
 
   return (
     <section>
-      <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px]" style={{ marginTop: '55px' }} suppressHydrationWarning>
-        <img
-          src="/images/circle-shape-top.svg"
-          alt="circle-shape"
-          // className="absolute left-1/2 -translate-x-1/2 w-full z-[0] top-[-80px] hidden lg:block"
-          style={{
-            position: 'absolute',
-            top: '-100px',
-            width: '100%',
-            height: 'auto',
-            background: '#0183B3',
-            objectFit: 'cover',
-            objectPosition: '0px 5px'
-          }}
-        />
+      <div className="bg-trans-blue relative py-[50px] md:py-[120px] lg:pt-0 min-h-[550px]" suppressHydrationWarning>
+        <div className="absolute left-0 w-full top-[-164px] hidden lg:block">
+          <svg className='w-full h-[446px]' viewBox="0 0 1440 446" preserveAspectRatio='none' fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915527 123.37V445.09H1440.92V122.92Z" fill="#eefcff"/>
+          </svg>
+        </div>
         <p className="text-common-clr note p3">{block.titleNote}</p>
         <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative">
           {block.items.map((item, index) => (

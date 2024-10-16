@@ -14,7 +14,7 @@ export default function UrgencyUrgentCare({
 }) {
   return (
     <section suppressHydrationWarning>
-      <div className={isMatch ? "bg-sky-blue text-blue py-20 md:py-20 lg:pb-[100px]" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"}>
+      <div className={isMatch ? "bg-[#eefcff] text-blue py-20 md:py-20 lg:pb-[100px]" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"}>
         <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[50px]">
 
           <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-[50px]">

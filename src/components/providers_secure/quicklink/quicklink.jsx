@@ -8,11 +8,11 @@ export default function ProvidersSecureQuicklink(block) {
 
     useEffect(() => {
         const stickyLinks = document.getElementById('sticky-links');
-        const stickyOffset = stickyLinks.getBoundingClientRect().top + window.pageYOffset;
+        const stickyOffset = stickyLinks.getBoundingClientRect().top;
 
         const handleScroll = () => {
             const windowpos = window.scrollY || document.documentElement.scrollTop;
-            if (windowpos >= stickyOffset) {
+            if (windowpos+115 >= stickyOffset) {
                 setIsFixed(true);
             } else {
                 setIsFixed(false);
@@ -26,6 +26,20 @@ export default function ProvidersSecureQuicklink(block) {
         };
     }, []);
 
+    const moveToPage = (e, id) => {
+        e.preventDefault();
+        const targetRef = document.getElementById(id.substr(1, id.length));
+        if (targetRef) {
+            const top = targetRef.offsetTop;
+            const idIsAuthorization = id === '#Authorizations';
+            const fixedOffset = isFixed ? (idIsAuthorization ? 115 : 215) : (idIsAuthorization ? 215 : 315);
+        
+            window.scrollTo({
+                top: top - fixedOffset,
+                behavior: 'smooth',
+            });
+        }
+    }
 
     return (
         <section id="sticky-links" suppressHydrationWarning>
@@ -35,7 +49,7 @@ export default function ProvidersSecureQuicklink(block) {
                     <ul className="w-full flex justify-center gap-[30px] xl:gap-[50px] xxl:gap-[90px]">
                         {block.links?.map((item, index) => (
                             <li key={index} className="p2 text-blue font-medium hover:text-green whitespace-nowrap">
-                                <a href={item.link} target={item.target}>
+                                <a href={item.link} target={item.target} onClick={(e) => moveToPage(e, item.link)}>
                                     {item.text}
                                 </a>
                             </li>

@@ -16,7 +16,7 @@ export default function OurImpactCollaborataction(block) {
 
           <div className="flex flex-wrap">
             {block?.newsData?.map((item, index) => (
-              <div key={'im-ca-' + index} className=" text-blue w-full sm:w-[50%]  xl:w-[33.33%] px-5 mb-[30px] xl:mb-0">
+              <div key={'im-ca-' + index} className=" text-blue w-full sm:w-[50%]  xl:w-[33.33%] px-5 py-7 mb-[30px] xl:mb-0">
                 <img
                   src={item.image.src}
                   alt={item.image.alt}
@@ -30,7 +30,7 @@ export default function OurImpactCollaborataction(block) {
                   )
                 }
                 <p className="p2 font-medium text-[#003041]">{item.title}</p>
-                <p className="p2 text-[#003041]" style={{ fontWeight: 300 }}>{item.titleNote}</p>
+                <p className="p2 text-[#003041] font-[300] pt-3">{item.titleNote}</p>
               </div>
             ))}
           </div>

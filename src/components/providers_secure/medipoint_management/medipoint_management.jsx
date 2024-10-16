@@ -13,7 +13,7 @@ export default function MediPointManagement({
   icondescriptions
 }) {
   return (
-    <section className={isMatch ? " bg-sky-blue text-blue" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
+    <section className={isMatch ? " bg-trans-blue text-blue" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
       <div id="Authorizations" className="py-[50px]">
       </div>
       <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[120px]">
