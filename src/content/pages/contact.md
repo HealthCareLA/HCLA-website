@@ -13,7 +13,7 @@ content_blocks:
   - _bookshop_name: contact/hero
     title: Contact US
     image:
-      src: /images/ways-we-serve.png
+      src: /images/contact-us-hero.jpeg
       alt: banner-image
       width: 550
       height: 550

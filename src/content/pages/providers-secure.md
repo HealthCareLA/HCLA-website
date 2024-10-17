@@ -16,7 +16,7 @@ content_blocks:
       Look below for tools and resources to help you help your patients.
     button:
     image:
-      src: /images/our-impact-hero.png
+      src: /images/provider-secure-hero.jpeg
       alt: banner-image
       width: 550
       height: 550
@@ -42,7 +42,7 @@ content_blocks:
         target: _self
   - _bookshop_name: providers_secure/medipoint_management
     image:
-      src: /images/photo-medpoint.png
+      src: /images/photo-medpoint.jpeg
       alt: image
       width: 474
       height: 465
@@ -55,20 +55,10 @@ content_blocks:
     description: >-
       Registered providers may use the login button below for access to our Provider Portal System, courtesy of our management company, MPM. Non-registered providers may use the “Register” button below to submit a request for system access or contact MedPoint Management’s Network Management Department at 818-702-0100.
     buttonText: LOGIN/REGISTER
-  - _bookshop_name: providers_secure/latest_news_events
+  - _bookshop_name: our_impact/collaborataction
     title: Latest News & Events
     learnMoreText: View More News
     newsData:
-      - image:
-          src: /images/providers-secure/img1.jpg
-          alt: news image
-          width: 315
-          height: 210
-        category: Latest News
-        title: >-
-          HCLA Celebrates Successful Samaritan Collaboration
-        titleNote: >-
-          Digital outreach improves lives of those most in need.
       - image:
           src: /images/news3.png
           alt: news image
@@ -76,45 +66,25 @@ content_blocks:
           height: 210
         category: Latest News
         title: >-
-          HCLA Recognized in America’s Physician Groups’ 2023 Case Studies in Excellence
-        titleNote: >-
-          APG profiles HCLA’s positive impact on improving care access
+          HCLA Recognized in America’s Physician Groups’ 2023 Case Studies in
+          Excellence
+        link: news-events/hcla-recognized-in-americas-physician-groups-2023-case-studies-in-excellence
       - image:
           src: /images/news2.png
           alt: news image
           width: 315
           height: 210
         category: Latest News
-        title: HCLA Receives Grant from Cedars-SinaiHCLA Receives Grant from Cedars-Sinai
-        titleNote: >-
-          Grant funds will help improve care access and quality.
+        title: HCLA Receives Grant from Cedars-Sinai
+        link: news-events/hcla-receives-grant-from-cedars-sinai
       - image:
-          src: /images/providers-secure/img4.png
+          src: /images/news-event1.png
           alt: news image
           width: 315
           height: 210
         category: Latest News
-        title: Leveraging Data to Improve Care Strategies
-        titleNote: >-
-          Using systems to improve operations, access, and care.
-      - image:
-          src: /images/news1.png
-          alt: news image
-          width: 315
-          height: 210
-        category: Latest News
-        title: Gaining Ground and Supporting the Homeless
-        titleNote: >-
-          Update to HCLA efforts to reduce member homelessness
-      - image:
-          src: /images/providers-secure/img6.jpg
-          alt: news image
-          width: 315
-          height: 210
-        category: Latest News
-        title: California Hospital and HCLA IPA Partner to Overcome Housing Barriers
-        titleNote: >-
-          Helping patients on their journey toward self-determination.
+        title: HCLA Newsletter March 2019
+        link: news-events/hcla-newsletter-march-2019
   - _bookshop_name: providers_secure/clinical
     title: Featured Clinical Resources
     description: >-
@@ -133,13 +103,13 @@ content_blocks:
         link: https://healthcarela.org/wp-content/uploads/2016/12/HCLA-Direct-Referral-Form.doc
   - _bookshop_name: providers_secure/epi_source
     image1:
-      src: /images/providers-secure/img_epi_1.jpg
+      src: /images/providers-secure/img_epi_1.jpeg
       alt: image
       width: 420
       height: 305
       borderRadius: '50px'
     image2:
-      src: /images/providers-secure/img_epi_2.jpg
+      src: /images/providers-secure/img_epi_2.jpeg
       alt: image
       width: 355
       height: 305

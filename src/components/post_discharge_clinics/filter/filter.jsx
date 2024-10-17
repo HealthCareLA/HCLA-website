@@ -12,9 +12,9 @@ const PostDischargeClinicsFilter = (block) => {
           </svg>
         </div>
         <p className="text-common-clr note p3">{block.titleNote}</p>
-        <div className="max-container flex flex-col items-start justify-between gap-x-5 gap-y-10 relative">
+        <div className="max-container flex flex-col items-start justify-between gap-x-5 relative">
           {block.items.map((item, index) => (
-            <div key={'ch_' + index} className="w-full flex flex-wrap bg-white rounded-[18px] mb-10 overflow-hidden p-[30px] lg:p-10 shadow-[0px_0px_10px_0px_#0183B31A]">
+            <div key={'ch_' + index} className="w-full flex flex-wrap bg-white rounded-[18px] mb-9 overflow-hidden p-[30px] lg:p-10 shadow-[0px_0px_10px_0px_#0183B31A]">
               <div className="mx-auto lg:w-40 mb-5 lg:mb-0">
                 <img
                   src={item.image.src}

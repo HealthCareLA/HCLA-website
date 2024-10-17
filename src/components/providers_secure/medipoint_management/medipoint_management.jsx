@@ -16,7 +16,7 @@ export default function MediPointManagement({
     <section className={isMatch ? " bg-trans-blue text-blue" : "bg-blue text-white py-20 md:py-20 lg:pt-[120px] lg:pb-[25px]"} suppressHydrationWarning>
       <div id="Authorizations" className="py-[50px]">
       </div>
-      <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:pt-[120px]">
+      <div className="max-container flex flex-col justify-between gap-x-5 gap-y-10 relative lg:py-[120px]">
         <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-[50px]">
           <div className="mx-auto lg:w-1/2 relative">
             <img

@@ -61,8 +61,9 @@ export default function ProviderSecureEpiSource(block) {
                                 }}
                             />
                             <img
-                                width={block?.image2?.width - 50}
-                                height={block?.image2?.height - 50}
+                                width='305'
+                                height='305'
+                                className='hidden lg:block'
                                 style={{
                                     position: 'absolute',
                                     top: '350px',

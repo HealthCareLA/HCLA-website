@@ -9,7 +9,7 @@ export default function UrgencyEmergencyCare(block) {
                 <h3 className="font-[500] font-outfit text-blue mt-20">
                 <i className="fa-solid fa-phone"></i> {block?.title}
                 </h3>
-                <p className="p1 text-dark-blue my-[22px] text-left md:text-left whitespace-pre-line" dangerouslySetInnerHTML={{ __html: block?.description }}>{ }</p>
+                <p className="p1 text-dark-blue my-[22px] text-center whitespace-pre-line" dangerouslySetInnerHTML={{ __html: block?.description }}>{ }</p>
                 <div className="bg-trans-blue p-[50px]">
                     <p className="p1 text-dark-blue my-[22px] text-left md:text-left whitespace-pre-line" dangerouslySetInnerHTML={{ __html: block?.detailSection1?.detailed_title + ':' }}>{ }</p>
 
@@ -48,10 +48,10 @@ export default function UrgencyEmergencyCare(block) {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-[30px] lg:gap-10 xl:gap-[70px] mt-20">
                         {block?.points2?.map((point, index) => (
-                            <div key={index} className="text-common-clr">
+                            <div key={index} className="text-common-clr text-left flex gap-3">
                                 {point.icon && (
                                     <div
-                                        className={`mb-5 ${point.icon.hasBackground
+                                        className={`min-w-10 ${point.icon.hasBackground
                                             ? 'mb-[10px] bg-[#EEFCFF] w-[90px] h-[90px] p-[15px] rounded-full flex justify-center items-center'
                                             : ''
                                             }`}
