@@ -53,9 +53,11 @@ export default function MediPointManagement({
               {description2}
             </p>
             {buttonText && (
-              <button className="mt-[30px] bg-green hover:bg-highlight-green text-white p3 btn1">
-                {buttonText}
-              </button>
+              <a href="https://portal.medpointmanagement.com/sign-in">
+                <button className="mt-[30px] bg-green hover:bg-highlight-green text-white p3 btn1">
+                  {buttonText}
+                </button>
+              </a>
             )}
             {icondescriptions && (
               <div className="bg-white py-[30px] px-[35px] rounded-[18px] flex flex-wrap gap-5 sm:gap-[30px] mt-[50px]">

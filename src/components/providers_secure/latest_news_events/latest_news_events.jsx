@@ -37,8 +37,10 @@ export default function OurImpactCollaborataction(block) {
           {
             block.learnMoreText && (
               <p className="mt-[10px] sm:mt-5 xl:mt-[50px] p2 max-w-[575px] mx-auto font-medium text-blue whitespace-pre-line text-center">
-                {block?.learnMoreText}
-                <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden='true'></i>
+                <a href="/news-events">
+                  {block?.learnMoreText}
+                  <i className="fa-solid fa-circle-chevron-right text-green ml-1" aria-hidden='true'></i>
+                </a>
               </p>
             )
           }

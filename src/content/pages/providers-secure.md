@@ -162,9 +162,4 @@ content_blocks:
         boldText: "Our Mission:"
         description: >-
           The EpiSource web portal helps you to achieve quality benchmarks required by health plans. By meeting these benchmarks health centers may benefit from additional incentives provided by the IPA and certain health plans.
-  - _bookshop_name: providers_secure/meeting
-    title: Upcoming Meeting Calendar
-    description: >-
-      Open communication and transparency help to keep our network inclusive and connected.
-      We invite you to join us at various upcoming board and IPA meetings, and to be an active voice in the HCLA IPA family.
 ---

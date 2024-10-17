@@ -7,7 +7,7 @@ const ResourceFilter = (block) => {
   const [groupList, setGroupList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [processCategoryStep, setProcessCategoryStep] = useState(0);
+  const [processCategoryStep, setProcessCategoryStep] = useState(1);
   const [selectedCategoriesTitle, setSelectedCategoriesTitle] = useState("");
 
   // 0 init
