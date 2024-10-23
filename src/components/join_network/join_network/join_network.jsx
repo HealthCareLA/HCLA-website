@@ -10,20 +10,20 @@ const JoinNetworkSection = (block) => {
   return (
     <section className="relative pt-[50px] md:pt-20 lg:pt-[30px] pb-[50px] md:pb-20 lg:pb-[150px] bg-trans-blue"
       suppressHydrationWarning style={{ scrollMarginTop: '100px' }}>
-      <div className="absolute left-0 w-full top-[-164px] hidden lg:block">
+      <div className="absolute left-0 w-full top-[-164px] hidden lg:block z-0">
         <svg className='w-full h-[446px]' viewBox="0 0 1440 446" preserveAspectRatio='none' fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1440.92 122.92C1217.28 43.48 974.816 0 721.546 0C468.276 0 224.906 43.65 0.915527 123.37V445.09H1440.92V122.92Z" fill="#eefcff"/>
         </svg>
       </div>
-      <div className="max-container">
+      <div className="max-container relative z-10">
       <div className="faq-section text-left">
           {block.title && (
-            <h2 className="text-blue font-medium">
+            <h2 className="text-blue font-medium text-center">
               {block.title}
             </h2>
           )}
           {block.description && (
-            <p className="text-blue">
+            <p className="text-blue text-center max-w-3xl mx-auto">
               {block.description}
             </p>
           )}

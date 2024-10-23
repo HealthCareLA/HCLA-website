@@ -5,18 +5,59 @@
     "width": 212,
     "height": 40
   },
-  "sitemapTitle": "Sitemap",
-  "sitemaplinks": [
+  "colOneTitle": "About",
+  "colOneLinks": [
     {
       "text": "About Us",
       "link": "/who-we-are",
       "target": "_self"
     },
     {
+      "text": "Our Impact",
+      "link": "/our-impact",
+      "target": "_self"
+    },
+    {
+      "text": "Careers",
+      "link": "/careers",
+      "target": "_self"
+    },
+    {
+      "text": "News",
+      "link": "/news-events",
+      "target": "_self"
+    },
+    {
+      "text": "Contact",
+      "link": "/contact",
+      "target": "_self"
+    }
+  ],
+  "colTwoTitle": "Providers",
+  "colTwoLinks": [
+    {
       "text": "For Providers",
       "link": "/providers-secure",
       "target": "_self"
     },
+    {
+      "text": "Provider Resources",
+      "link": "/resource-provider",
+      "target": "_self"
+    },
+    {
+      "text": "Provider Login",
+      "link": "https://portal.medpointmanagement.com/sign-in",
+      "target": "_blank"
+    },
+    {
+      "text": "MedPOINT",
+      "link": "https://medpointmanagement.com",
+      "target": "_blank"
+    }
+  ],
+  "colThreeTitle": "Patients",
+  "colThreeLinks": [
     {
       "text": "For Patients",
       "link": "/members-patient",
@@ -28,26 +69,21 @@
       "target": "_self"
     },
     {
-      "text": "Provider Login",
-      "link": "https://portal.medpointmanagement.com/sign-in",
+      "text": "Helpful Resources",
+      "link": "/helpful-resources",
       "target": "_self"
     },
     {
-      "text": "Contact Us",
-      "link": "/contact",
+      "text": "Urgency & Emergency",
+      "link": "/urgency-emergency",
       "target": "_self"
     }
   ],
-  "quicklinksTitle": "Quick Links",
-  "quicklinks": [
+  "colFourTitle": "Find Care",
+  "colFourLinks": [
     {
       "text": "Find a Clinic",
       "link": "/health-care",
-      "target": "_self"
-    },
-    {
-      "text": "Urgent Care",
-      "link": "/urgent-care",
       "target": "_self"
     },
     {
@@ -56,18 +92,28 @@
       "target": "_self"
     },
     {
+      "text": "Find Health Plans",
+      "link": "/our-health-plans",
+      "target": "_self"
+    },
+    {
       "text": "Nurse Advice Lines",
       "link": "/helpful-resources",
       "target": "_self"
     },
     {
-      "text": "Provider Resources",
-      "link": "/resource-provider",
+      "text": "Urgent Care",
+      "link": "/urgent-care",
       "target": "_self"
     },
     {
-      "text": "Find Health Plans",
-      "link": "/our-health-plans",
+      "text": "Post Discharge Clinics",
+      "link": "/post-discharge-clinics",
+      "target": "_self"
+    },
+    {
+      "text": "Patient Centered Medical Homes",
+      "link": "/patient-centered-medical-homes",
       "target": "_self"
     }
   ]

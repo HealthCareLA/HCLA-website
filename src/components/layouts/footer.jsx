@@ -18,14 +18,14 @@ export default function Footer() {
             />
           </div>
           <div
-            className="flex flex-col md:flex-row items-start justify-between lg:justify-start w-full gap-[25px] md:gap-10 lg:gap-[90px] p3 leading-9"
+            className="flex flex-col sm:flex-row items-start justify-between lg:justify-start w-full gap-[25px] md:gap-10 lg:gap-[90px] p3 leading-9"
           >
             <div className="flex flex-col w-full">
-              <p className="text-green font-bold">{footer?.sitemapTitle}</p>
+              <p className="text-green font-bold">{footer?.colOneTitle}</p>
               {
-                footer?.sitemaplinks?.map((item) => {
+                footer?.colOneLinks?.map((item) => {
                   return (
-                    <a href={item?.link} target={item?.target} className="text-white">
+                    <a href={item?.link} target={item?.target} className="text-white hover:text-green">
                       {item?.text}
                     </a>
                   );
@@ -33,11 +33,35 @@ export default function Footer() {
               }
             </div>
             <div className="flex flex-col w-full">
-              <p className="text-green font-bold">{footer?.quicklinksTitle}</p>
+              <p className="text-green font-bold">{footer?.colTwoTitle}</p>
               {
-                footer?.quicklinks?.map((item) => {
+                footer?.colTwoLinks?.map((item) => {
                   return (
-                    <a href={item?.link} target={item?.target} className="text-white">
+                    <a href={item?.link} target={item?.target} className="text-white hover:text-green">
+                      {item?.text}
+                    </a>
+                  );
+                })
+              }
+            </div>
+            <div className="flex flex-col w-full">
+              <p className="text-green font-bold">{footer?.colThreeTitle}</p>
+              {
+                footer?.colThreeLinks?.map((item) => {
+                  return (
+                    <a href={item?.link} target={item?.target} className="text-white hover:text-green">
+                      {item?.text}
+                    </a>
+                  );
+                })
+              }
+            </div>
+            <div className="flex flex-col w-full">
+              <p className="text-green font-bold">{footer?.colFourTitle}</p>
+              {
+                footer?.colFourLinks?.map((item) => {
+                  return (
+                    <a href={item?.link} target={item?.target} className="text-white hover:text-green">
                       {item?.text}
                     </a>
                   );
@@ -45,16 +69,6 @@ export default function Footer() {
               }
             </div>
           </div>
-        </div>
-        <div
-          className="bg-transparent border-[1px] border-white rounded-[4px] py-[7px] px-[15px] flex items-center gap-[5px]"
-        >
-          <input
-            type="text"
-            className="bg-transparent border-none outline-none text-white footer-input"
-            placeholder="Search"
-          /><button
-            ><i className="fa-solid fa-circle-chevron-right text-green"></i></button>
         </div>
       </div>
     </footer>

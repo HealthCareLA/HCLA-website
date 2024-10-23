@@ -157,10 +157,10 @@ content_blocks:
       description: >-
         If you are interested in joining the HCLA network as a health center provider, please click the button below.
       buttonText: PROVIDER NETWORK INQUIRY
-      buttonLink: https://healthcarela.org/join-network
+      buttonLink: /join-network
     detailSection2:
       description: >-
         Login here for access to resources and content exclusive to contracted providers.
       buttonText: PROVIDER LOGIN
-      buttonLink: https://healthcarela.org/providers-secure
+      buttonLink: /providers-secure
 ---
