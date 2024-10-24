@@ -92,15 +92,15 @@ content_blocks:
       <strong>Browse the list of the most commonly requested resources to the left, or <a class="text-blue" href="/resource-provider">Click Here</a> to enter the full Resource Center.</strong>
     points:
       - name: HEDIS Measure Information
-        link: https://healthcarela.org/wp-content/uploads/2016/12/Heidis-Tip-Sheet-Flyer-_2-pages.pdf
+        link: /docs/Heidis Tip Sheet Flyer 2 pages.pdf
       - name: STARs Program
-        link: https://healthcarela.org/wp-content/uploads/2016/12/CMS-STARS-Rating-System-Overview-3.doc
+        link: /docs/CMS STARS Rating Overview.doc
       - name: ICD 10
-        link: https://healthcarela.org/wp-content/uploads/2016/12/Resources-ICD101.docx
+        link: /docs/ICD101 Resources.docx
       - name: Authorizations
-        link: https://healthcarela.org/wp-content/uploads/2016/12/HCLA-Full-Auth-Requests-Form.doc
+        link: /docs/HCLA Full Auth Requests Form.doc
       - name: Direct Referrals
-        link: https://healthcarela.org/wp-content/uploads/2016/12/HCLA-Direct-Referral-Form.doc
+        link: /docs/HCLA Direct Referral Form.doc
   - _bookshop_name: providers_secure/epi_source
     image1:
       src: /images/providers-secure/img_epi_1.jpeg
